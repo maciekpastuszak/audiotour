@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<title>Audioprzewodnik Pszczyna - spacer szlakiem żydowskim | Audiotour.pl</title><meta name="description" content="Kuczka, macewa, menora…">	<link rel="stylesheet" type="text/css" href="main.css">
+	<style>
+		/* devanagari */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/Vb88BBmXXgbpZxolKzz6dw.woff2) format('woff2');
+			unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/eND698DA6CUFWomaRdrTiw.woff2) format('woff2');
+			unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/xLdg5JI0N_C2fvyu9XVzXg.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+		/* devanagari */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 700;
+			src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/AFoPIhbuX_gBhSszntNC0_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+			unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 700;
+			src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/503ks6dbq2nVdfUL61JyAfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+			unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+			font-family: 'Hind';
+			font-style: normal;
+			font-weight: 700;
+			src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/PQuIEfcr_wdF_zOSNjqWKQ.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0">
+</head>
+<body>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-22532TT6Y0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-22532TT6Y0');
+</script>		<div class="leftborder"></div>
+	<div class="rightborder"></div>
+	<div class="bottomborder"></div>
+
+	<nav id="main">
+	<a id="logo" class="desktop" href="/" onClick="ga('send', 'event', 'Menu', 'Click', 'Logo');"><img src="img/logo.png" alt="Audioprzewodniki Audio Tour - logo"></a>
+	<div class="nav-wrapper">
+		<ul class="nav-main">
+			<li><a href="/"><span id="homepage-link">Strona główna</span><span id="homepage-link-mobile"><img src="img/logo.png"></span></a></li>
+			<li class="has-children"><a href="aplikacja">Aplikacja</a>
+				<ul id="aplikacja" class="desktop-dropdown">
+					<li><a href="aplikacja#app-ar-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja muzealna');">&bull; Aplikacja Audioprzewodnik muzealny</a></li>
+					<li><a href="aplikacja#app-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja miejska');">&bull; Aplikacja Audioprzewodnik miejski</a></li>
+				</ul>
+			<li id="technology-parent" class="has-children"><a href="technologia">Technologia</a>
+				<ul id="technology" class="desktop-dropdown">
+					<li><a href="aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Aplikacja');">&bull; Aplikacja mobilna</a></li>
+					<li><a href="technologia#hengda" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Hegda');">&bull; Audioprzewodnik G7</a></li>
+					<li><a href="technologia#mgpro" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pro');">&bull; Audioprzewodnik AG-600</a></li>
+					<li><a href="technologia#mgkeypad" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Keypad');">&bull; Audioprzewodnik AG-600c</a></li>
+					<li><a href="technologia#technology-02" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pen');">&bull; Synchronizator ATV-6</a></li>
+					<!-- <li><a href="technologia#mgmini" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Mini');">&bull; Audioprzewodnik AG-600c</a></li> -->
+					<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Tour Guide');">&bull; Tour Guide</a></li>
+				</ul>
+			</li>
+			<li><a href="nagrania">Nagrania</a></li>
+			<li><a href="bankglosow">Bank głosów</a></li>
+			<li><a href="tlumaczenia">Tłumaczenia</a></li>
+			<li id="writing-parent" class="has-children"><a href="redakcja">Redakcja</a>
+				<ul id="writing" class="desktop-dropdown">
+					<li><a href="redakcja#basic" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Podstawowe');">&bull; Wycieczki podstawowe</a></li>
+					<li><a href="redakcja#extended" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Rozszerzone');">&bull; Wycieczki dla dociekliwych</a></li>
+					<li><a href="redakcja#children" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Dzieci');">&bull; Wycieczki dla najmłodszych</a></li>
+					<li><a href="redakcja#multilanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Obcojęzyczne');">&bull; Wycieczki obcojęzyczne</a></li>
+					<li><a href="redakcja#esl" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja ESL');">&bull; Wycieczki ESL</a></li>
+					<li><a href="redakcja#signlanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niesłyszących');">&bull; Wycieczki dla osób niesłyszących</a></li>
+					<li><a href="redakcja#blind" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niewidomych');">&bull; Wycieczki dla osób niewidomych</a></li>
+				</ul>
+			</li>
+			<li id="portfolio-parent" class="has-children"><a href="realizacje">Realizacje</a>
+			<ul id="portfolio" class="desktop-dropdown">
+					<li><a href="realizacje#aplikacjamobilna" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Aplikacje');">&bull; Aplikacje mobilne</a></li>
+					<li><a href="realizacje#muzea" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Muzea');">&bull; Muzea i Galerie</a></li>
+					<li><a href="realizacje#zamkiipalace" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Zamki');">&bull; Zamki i pałace</a></li>
+					<li><a href="realizacje#wycieczkimiejskie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Miejskie');">&bull; Wycieczki miejskie</a></li>
+					<li><a href="realizacje#obiektysakralne" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Sakralne');">&bull; Obiekty sakralne</a></li>
+					<li><a href="realizacje#parks" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Parki Narodowe i Krajobrazowe');">&bull; Parki Narodowe</a></li>
+					<li><a href="realizacje#skanseny" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Skanseny');">&bull; Skanseny</a></li>
+					<li><a href="realizacje#bunkryifortyfikacje" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Forty');">&bull; Bunkry i fortyfikacje</a></li>
+				
+					<!-- <li><a href="realizacje#galerie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Galerie');">&bull; Galerie</a></li> -->
+					<!-- <li><a href="realizacje#judaika" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Judaika');">&bull; Judaika</a></li> -->
+				</ul>
+			</li>
+			<li><a href="zwiedzaniegrupowe">Tour Guide</a></li>
+			<li><a href="kontakt">Kontakt</a></li>
+		</ul>
+	</div>
+	<div id="lang" class="desktop">
+		<a rel="nofollow" target="_blank" href="http://audiotour.ca" onClick="ga('send', 'event', 'Menu', 'Click', 'EN Button');"><img src="img/flags/united-kingdom.png"></a>
+	</div>
+	<div id="lang" class="desktop">
+
+	</div>
+	</nav>
+
+	<div id="mobile-menu-toggle">
+		<a id="logo" alt="Audioprzewodniki Audio Tour - logo" href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Logo');"><img src="img/logo.png"></a>
+		<a href="#" id="mobile-menu-toggle-button" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Toggle Click');"><img id="mobile-menu-icon" src="img/menu-icon.png"> Menu ▾</a>
+	</div>
+	<nav id="mobile">
+		<ul class="nav-mobile-main">
+			<li><a href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Strona główna');">Strona główna</a></li>
+			<li><a href="aplikacja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Aplikacja');">Aplikacja</a></li>
+			<li><a href="technologia" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Technologia');">Technologia</a></li>
+			<li><a href="nagrania" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Nagrania');">Nagrania</a></li>
+			<li><a href="redakcja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Redakcja');">Redakcja</a></li>
+			<li><a href="realizacje" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Realizacje');">Realizacje</a></li>
+			<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Zwiedzanie grupowe');">Tour Guide</a></li>
+			<li><a href="kontakt" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Kontakt');">Kontakt</a></li>
+		</ul>
+	</nav>
+	<div id="mobile-menu-dark-bg"></div>
+
+
+
+	<div class="content centered navigation-padded">
+		<div class="content-wrapper">
+
+			<h1>Pszczyna - spacer szlakiem żydowskim</h1><p><img class="sub-hero" src="img/portfolio/heroes/141a.jpg"></p><h2>Kuczka, macewa, menora…</h2><p>Kiedyś społeczność żydowska była częścią wielokulturowej Pszczyny.</p><p>Dziś śladami pszczyńskich Żydów oprowadza audioprzewodnik, który nie tylko przedstawia dzieje ich obecności w mieście, ale również pokazuje miejsca związane z żydowską tradycją czy religią. Na końcu spaceru odwiedzamy cmentarz z charakterystycznymi nagrobkami – macewami.</p><img class="sub-hero" src="img/portfolio/heroes/141b.jpg">
+
+
+
+
+					
+				
+				<h2>Wersje językowe:</h2>
+
+				<div class="flag-list-container">
+
+					<div class="flag-item">
+	<div class="flag-image"><img src="img/flags/poland.png"></div>
+	<div class="flag-description">Język polski</div>
+</div>
+				</div>
+
+				
+				<h2>Audioprzewodnik i użyte technologie:</h2>
+
+				<div class="audioguide-block"><h4>Audioprzewodnik MG602</h4>
+<p><img class="audioguide-image" src="img/devices/400/MG602-Audioguides.png"></p>
+
+<p>MG602 to przenośny audio przewodnik przeznaczony do multimedialnego zwiedzania obiektów zamkniętych oraz przestrzeni otwartych.</p>
+<p>W trakcie zwiedzania odbiornik lokalizuje aktualne położenie zwiedzającego względem wcześniej ustalonych obiektów i obszarów.  W zależności od tego rozpoczyna odtwarzanie wcześniej przygotowanych nagrań. W zależności od wersji urządzenia istnieje możliwość wyświetlania na kolorowym wyświetlaczu  map, obrazów oraz zdjęć.</p></div><div class="audioguide-block"><h4>Audioprzewodnik w formacie MP3</h4>
+<p><img class="audioguide-image" src="img/devices/400/iOS-Phone-MP3.png"></p>
+
+<p>Zwiedzający do odsłuchiwania nagrań używa własnego urządzenia - telefonu lub dedykowanego odtwarzacza MP3.</p>
+<p>Nagrania do pobrania zamieszczone są na witrynie obiektu.</p></div>
+				<div class="feature-container">
+
+					<div class="feature-box">
+	<div class="feature-icon"><img src="img/feature-icons/gps.png"></div>
+	<div class="feature-text-container">
+		<div class="feature-header">Lokalizacja GPS</div>
+		<div class="feature-description">Audioprzewodnik używając technologii GPS uruchamia nagrania automatycznie w odpowiednim miejscu.</div>
+	</div>
+</div>
+				</div>
+
+				<div class="object-info">
+
+				<h2>Gdzie wypożyczyć:</h2><p>Brama Wybrańców 1<br> Pszczyna<br>woj. Śląskie<br><span class="location"><a rel="nofollow" target="_blank" href="http://www.google.com/maps/place/49.977760,18.942120"><img class="location-pin" src="img/location-pin.png"> 49.977760, 18.942120</a></span>					</p>
+					<p>
+						<p><b>Link do pobrania:</b> <a rel="nofollow" target="_blank" href="http://slaskie.travel/Audiowycieczki/Pokaz/123950/pszczyna-sladami-pszczynskich-zydow">http://slaskie.travel/Audiowycieczki/Pokaz/123950/pszczyna-sladami-pszczynskich-zydow</a></p>					</p>
+
+
+				</div>
+			</div>
+		</div>
+
+		
+
+	<footer>
+	<div class="wrapper">
+		<div id="copyright-notices"><a rel="nofollow" target="_blank" href="rodo" onClick="ga('send', 'event', 'Copyright RODO', 'Click', 'RODO');">RODO</a>
+		</div>
+		<div id="copyright"></div>
+	</div>
+	</footer>
+
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+
+</body>
+</html>

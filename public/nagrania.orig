@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="Najlepsze nagrania lektorskie w Polsce! Sprawdź swoje możliwości i przyjdź do nas na nagrania lektorskie. Rozpocznij karierę jako lektor. Gwarantujemy profesjonalne nagrania lektorskie najwyżej jakości. Zajmujemy się udźwiękowieniem i produkcją muzyki. Poznaj nasze zrealizowane projekty. Posłuchaj wyjątkowych nagrań lektorskich.">
+	<meta charset="UTF-8">
+	<title>Nagrania lektorskie w wielu językach, udźwiękowienie | Audiotour.pl</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style>
+		/* devanagari */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/Vb88BBmXXgbpZxolKzz6dw.woff2) format('woff2');
+		  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/eND698DA6CUFWomaRdrTiw.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/xLdg5JI0N_C2fvyu9XVzXg.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+		/* devanagari */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/AFoPIhbuX_gBhSszntNC0_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+		  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/503ks6dbq2nVdfUL61JyAfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/PQuIEfcr_wdF_zOSNjqWKQ.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0">
+</head>
+<body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-22532TT6Y0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-22532TT6Y0');
+</script>	<div class="leftborder"></div>
+	<div class="rightborder"></div>
+	<div class="bottomborder"></div>
+
+	<nav id="main">
+	<a id="logo" class="desktop" href="/" onClick="ga('send', 'event', 'Menu', 'Click', 'Logo');"><img src="img/logo.png" alt="Audioprzewodniki Audio Tour - logo"></a>
+	<div class="nav-wrapper">
+		<ul class="nav-main">
+			<li><a href="/"><span id="homepage-link">Strona główna</span><span id="homepage-link-mobile"><img src="img/logo.png"></span></a></li>
+			<li class="has-children"><a href="aplikacja">Aplikacja</a>
+				<ul id="aplikacja" class="desktop-dropdown">
+					<li><a href="aplikacja#app-ar-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja muzealna');">&bull; Aplikacja Audioprzewodnik muzealny</a></li>
+					<li><a href="aplikacja#app-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja miejska');">&bull; Aplikacja Audioprzewodnik miejski</a></li>
+				</ul>
+			<li id="technology-parent" class="has-children"><a href="technologia">Technologia</a>
+				<ul id="technology" class="desktop-dropdown">
+					<li><a href="aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Aplikacja');">&bull; Aplikacja mobilna</a></li>
+					<li><a href="technologia#hengda" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Hegda');">&bull; Audioprzewodnik G7</a></li>
+					<li><a href="technologia#mgpro" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pro');">&bull; Audioprzewodnik AG-600</a></li>
+					<li><a href="technologia#mgkeypad" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Keypad');">&bull; Audioprzewodnik AG-600c</a></li>
+					<li><a href="technologia#technology-02" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pen');">&bull; Synchronizator ATV-6</a></li>
+					<!-- <li><a href="technologia#mgmini" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Mini');">&bull; Audioprzewodnik AG-600c</a></li> -->
+					<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Tour Guide');">&bull; Tour Guide</a></li>
+				</ul>
+			</li>
+			<li><a href="nagrania">Nagrania</a></li>
+			<li><a href="bankglosow">Bank głosów</a></li>
+			<li><a href="tlumaczenia">Tłumaczenia</a></li>
+			<li id="writing-parent" class="has-children"><a href="redakcja">Redakcja</a>
+				<ul id="writing" class="desktop-dropdown">
+					<li><a href="redakcja#basic" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Podstawowe');">&bull; Wycieczki podstawowe</a></li>
+					<li><a href="redakcja#extended" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Rozszerzone');">&bull; Wycieczki dla dociekliwych</a></li>
+					<li><a href="redakcja#children" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Dzieci');">&bull; Wycieczki dla najmłodszych</a></li>
+					<li><a href="redakcja#multilanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Obcojęzyczne');">&bull; Wycieczki obcojęzyczne</a></li>
+					<li><a href="redakcja#esl" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja ESL');">&bull; Wycieczki ESL</a></li>
+					<li><a href="redakcja#signlanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niesłyszących');">&bull; Wycieczki dla osób niesłyszących</a></li>
+					<li><a href="redakcja#blind" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niewidomych');">&bull; Wycieczki dla osób niewidomych</a></li>
+				</ul>
+			</li>
+			<li id="portfolio-parent" class="has-children"><a href="realizacje">Realizacje</a>
+			<ul id="portfolio" class="desktop-dropdown">
+					<li><a href="realizacje#aplikacjamobilna" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Aplikacje');">&bull; Aplikacje mobilne</a></li>
+					<li><a href="realizacje#muzea" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Muzea');">&bull; Muzea i Galerie</a></li>
+					<li><a href="realizacje#zamkiipalace" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Zamki');">&bull; Zamki i pałace</a></li>
+					<li><a href="realizacje#wycieczkimiejskie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Miejskie');">&bull; Wycieczki miejskie</a></li>
+					<li><a href="realizacje#obiektysakralne" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Sakralne');">&bull; Obiekty sakralne</a></li>
+					<li><a href="realizacje#parks" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Parki Narodowe i Krajobrazowe');">&bull; Parki Narodowe</a></li>
+					<li><a href="realizacje#skanseny" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Skanseny');">&bull; Skanseny</a></li>
+					<li><a href="realizacje#bunkryifortyfikacje" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Forty');">&bull; Bunkry i fortyfikacje</a></li>
+				
+					<!-- <li><a href="realizacje#galerie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Galerie');">&bull; Galerie</a></li> -->
+					<!-- <li><a href="realizacje#judaika" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Judaika');">&bull; Judaika</a></li> -->
+				</ul>
+			</li>
+			<li><a href="zwiedzaniegrupowe">Tour Guide</a></li>
+			<li><a href="kontakt">Kontakt</a></li>
+		</ul>
+	</div>
+	<div id="lang" class="desktop">
+		<a rel="nofollow" target="_blank" href="http://audiotour.ca" onClick="ga('send', 'event', 'Menu', 'Click', 'EN Button');"><img src="img/flags/united-kingdom.png"></a>
+	</div>
+	<div id="lang" class="desktop">
+
+	</div>
+	</nav>
+
+	<div id="mobile-menu-toggle">
+		<a id="logo" alt="Audioprzewodniki Audio Tour - logo" href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Logo');"><img src="img/logo.png"></a>
+		<a href="#" id="mobile-menu-toggle-button" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Toggle Click');"><img id="mobile-menu-icon" src="img/menu-icon.png"> Menu ▾</a>
+	</div>
+	<nav id="mobile">
+		<ul class="nav-mobile-main">
+			<li><a href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Strona główna');">Strona główna</a></li>
+			<li><a href="aplikacja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Aplikacja');">Aplikacja</a></li>
+			<li><a href="technologia" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Technologia');">Technologia</a></li>
+			<li><a href="nagrania" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Nagrania');">Nagrania</a></li>
+			<li><a href="redakcja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Redakcja');">Redakcja</a></li>
+			<li><a href="realizacje" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Realizacje');">Realizacje</a></li>
+			<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Zwiedzanie grupowe');">Tour Guide</a></li>
+			<li><a href="kontakt" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Kontakt');">Kontakt</a></li>
+		</ul>
+	</nav>
+	<div id="mobile-menu-dark-bg"></div>
+
+	<div id="recordings-secondary" class="hero align-center">
+		<div class="hero-wrapper">
+			<h1>Nagrania lektorskie i&nbsp;udźwiękowienie</h1>
+			<p>Produkcją nagrań lektorskich zajmujemy się od lat. Jednak nagranie zawarte w naszym audio guide może być znacznie bogatszym doświadczeniem niż sam głos lektora.</p>
+			<p>Uruchamiamy wehikuły czasu, wprawiamy w ruch miejsca dzisiaj opustoszałe. Wiedzę historyczną "podajemy" na rozmaite sposoby. Nasze audioprzewodniki zabiorą Cię w podróż o jakiej nie śniłeś. Produkcja wzbogacona o stosowne głosy lektorów, muzykę czy efekty specjalne wciągnie w wir wiedzy każdego zwiedzającego.
+			<h2>Nasze <em>wybrane produkcje</em></h2>
+			<p>Poniżej przedstawiamy swoje najlepsze realizacje.</p>
+			<!--<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/151170429&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" onClick="ga('send', 'event', 'CTA', 'Click Nagrania', 'Soundcloud Player');"></iframe>-->
+			<div id="recordings">
+			<div class="va-container"><div class="voice-actor recording-entry"><div><h4>Muzeum II Wojny Światowej</h4></div><p class='description'>Muzeum II Wojny Światowej <br></p><div class="actions"><div class="player"><audio id="rec_muzeumwojnyswiatowej"><source src="audio/recordings/muzeumwojnyswiatowej.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_muzeumwojnyswiatowej"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_muzeumwojnyswiatowej" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/muzeumwojnyswiatowej.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Katowice Nikiszowiec</h4></div><p class='description'>Katowice Nikiszowiec <br><br>w kooperacji z panią Anną Dudzińską (Radio Katowice) </p><div class="actions"><div class="player"><audio id="rec_nikiszowiec"><source src="audio/recordings/nikiszowiec.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_nikiszowiec"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_nikiszowiec" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/nikiszowiec.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Wycieczka rodzinna po Bełchatowie</h4></div><p class='description'>Wycieczka rodzinna po Bełchatowie</p><div class="actions"><div class="player"><audio id="rec_belchatow_miasto_rodzinna"><source src="audio/recordings/belchatow_miasto_rodzinna.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_belchatow_miasto_rodzinna"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_belchatow_miasto_rodzinna" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/belchatow_miasto_rodzinna.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Dzwon Zygmunta</h4></div><p class='description'>Dzwon Zygmunta</p><div class="actions"><div class="player"><audio id="rec_dzwonzygmunta"><source src="audio/recordings/dzwonzygmunta.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_dzwonzygmunta"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_dzwonzygmunta" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/dzwonzygmunta.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Brama Poznania - Śródka</h4></div><p class='description'>Brama Poznania - Śródka</p><div class="actions"><div class="player"><audio id="rec_bramapoznaniasrodka"><source src="audio/recordings/bramapoznaniasrodka.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_bramapoznaniasrodka"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_bramapoznaniasrodka" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/bramapoznaniasrodka.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Sierakowice - Język kaszubski</h4></div><p class='description'>Sierakowice - Język kaszubski</p><div class="actions"><div class="player"><audio id="rec_sierakowicejezykkaszubski"><source src="audio/recordings/sierakowicejezykkaszubski.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_sierakowicejezykkaszubski"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_sierakowicejezykkaszubski" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/sierakowicejezykkaszubski.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Muzeum Lasu i Drewna w Rogowie</h4></div><p class='description'></p><div class="actions"><div class="player"><audio id="rec_rogowMuzeumLasu"><source src="audio/recordings/rogowMuzeumLasu.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_rogowMuzeumLasu"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_rogowMuzeumLasu" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/rogowMuzeumLasu.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Arboretum w Rogowie - dla dorosłych</h4></div><p class='description'></p><div class="actions"><div class="player"><audio id="rec_arboretumDorosli"><source src="audio/recordings/arboretumDorosli.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_arboretumDorosli"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_arboretumDorosli" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/arboretumDorosli.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Arboretum w Rogowie - Wycieczka rodzinna </h4></div><p class='description'></p><div class="actions"><div class="player"><audio id="rec_arboretumRodzinna"><source src="audio/recordings/arboretumRodzinna.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_arboretumRodzinna"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_arboretumRodzinna" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/arboretumRodzinna.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Brama Poznania - Ostrów Tumski</h4></div><p class='description'>Brama Poznania - Ostrów Tumski</p><div class="actions"><div class="player"><audio id="rec_bramapoznaniaostrówtumski"><source src="audio/recordings/bramapoznaniaostrówtumski.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_bramapoznaniaostrówtumski"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_bramapoznaniaostrówtumski" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/bramapoznaniaostrówtumski.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Muzeum - Zamek w Łańcucie - Jakub</h4></div><p class='description'>Muzeum - Zamek w Łańcucie - Jakub</p><div class="actions"><div class="player"><audio id="rec_muzeumzamekwlańcuciejakub"><source src="audio/recordings/muzeumzamekwlańcuciejakub.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_muzeumzamekwlańcuciejakub"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_muzeumzamekwlańcuciejakub" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/muzeumzamekwlańcuciejakub.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div><div class="va-container"><div class="voice-actor recording-entry"><div><h4>Muzeum Katyńskie - Wiersz</h4></div><p class='description'>Muzeum Katyńskie - Wiersz</p><div class="actions"><div class="player"><audio id="rec_muzeumkatyńskiwiersz"><source src="audio/recordings/muzeumkatyńskiwiersz.mp3" type="audio/mpeg"></audio><div class="audioplayer voice"><div class="play-pause voice" id="rec_muzeumkatyńskiwiersz"></div><div class="seekbar-container voice"><div class="seekbar-bg voice"><div class="seekbar voice" id="rec_muzeumkatyńskiwiersz" style="width:0%;"></div></div></div></div></div></div><div class="buttons"><a href="audio/recordings/muzeumkatyńskiwiersz.mp3"><img src="img/voices/icons/dl.png"> Pobierz próbkę</a></div></div></div>			</div>
+		</div>
+	</div>
+
+	<footer>
+	<div class="wrapper">
+		<div id="copyright-notices"><a target="_blank" href="rodo" onClick="ga('send', 'event', 'Copyright RODO', 'Click', 'RODO');">RODO</a>
+		</div>
+		<div id="copyright"></div>
+	</div>
+	</footer>
+
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.play-pause').click(function(){
+				var playerID = $(this).attr('id');
+				if($(this).hasClass('playing')){
+					$('audio#'+playerID).trigger('pause');
+					$(this).removeClass('playing');
+					$('.play-pause#'+playerID).css('background-image', 'url("img/play.png")');
+				}
+				else{
+					$('audio').each(function(){
+						$(this).trigger('pause');
+						$('.play-pause#'+$(this).attr('id')).css('background-image', 'url("img/play.png")').removeClass('playing');
+					});
+
+					$('audio#'+playerID).trigger('play');
+					$('.play-pause#'+playerID).css('background-image', 'url("img/pause.png")').addClass("playing");
+				}
+			});
+			$('audio').each(function(){
+				$(this).trigger('load');
+				var player = document.querySelector('audio#' + $(this).attr('id'));
+				player.addEventListener("timeupdate", function() {
+					var currentTime = player.currentTime;
+					var duration = player.duration;
+					$('.seekbar#'+player.id).stop().animate({width: currentTime/duration*100+'%'}, 500);
+				});
+			});
+		});
+
+	</script>
+
+</body>
+</html>

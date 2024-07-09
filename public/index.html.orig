@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta name="description" content="Audioprzewodniki do Twojej dyspozycji. Najlepsze wycieczki audioguide w Polsce. Posłuchaj przykładowych ścieżek i przenieś się w świat historii z systemem audioprzewodników od Audiotour.pl.">
+	<title>Audioprzewodniki - multimedialny system audioprzewodników Audio Guide - Cena | Audiotour.pl</title>	<link rel="stylesheet" type="text/css" href="main.css">
+	<style>
+		/* devanagari */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/Vb88BBmXXgbpZxolKzz6dw.woff2) format('woff2');
+		  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/eND698DA6CUFWomaRdrTiw.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Hind'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v6/xLdg5JI0N_C2fvyu9XVzXg.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+		/* devanagari */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/AFoPIhbuX_gBhSszntNC0_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+		  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		/* latin-ext */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/503ks6dbq2nVdfUL61JyAfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+		  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+		}
+		/* latin */
+		@font-face {
+		  font-family: 'Hind';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v6/PQuIEfcr_wdF_zOSNjqWKQ.woff2) format('woff2');
+		  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+		}
+	</style>
+	<script type='application/ld+json'>
+		{
+		  "@context": "http://www.schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Audiotour.pl",
+		  "url": "https://audiotour.pl",
+		  "logo": "https://audiotour.pl/img/logo.png",
+		  "address": {
+		    "@type": "PostalAddress",
+		    "streetAddress": "ul. Adama Prażmowskiego 19E",
+		    "addressLocality": "Kraków",
+		    "addressRegion": "Małopolskie",
+		    "postalCode": "30-399",
+		    "addressCountry": "Polska"
+		  },
+		  "geo": {
+		    "@type": "GeoCoordinates",
+		    "latitude": "50.001007",
+		    "longitude": "19.899837"
+		  },
+		  "hasMap": "true",
+		  "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+		  "contactPoint": {
+		    "@type": "ContactPoint",
+		    "telephone": "+48122682247",
+		    "contactType": "Sales, Technical support"
+		  }
+		}
+	</script>
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0">
+</head>
+<body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-22532TT6Y0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-22532TT6Y0');
+</script>	<div class="leftborder"></div>
+	<div class="rightborder"></div>
+	<div class="bottomborder"></div>
+
+	<nav id="main">
+	<a id="logo" class="desktop" href="/" onClick="ga('send', 'event', 'Menu', 'Click', 'Logo');"><img src="img/logo.png" alt="Audioprzewodniki Audio Tour - logo"></a>
+	<div class="nav-wrapper">
+		<ul class="nav-main">
+			<li><a href="/"><span id="homepage-link">Strona główna</span><span id="homepage-link-mobile"><img src="img/logo.png"></span></a></li>
+			<li class="has-children"><a href="aplikacja">Aplikacja</a>
+				<ul id="aplikacja" class="desktop-dropdown">
+					<li><a href="aplikacja#app-ar-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja muzealna');">&bull; Aplikacja Audioprzewodnik muzealny</a></li>
+					<li><a href="aplikacja#app-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja miejska');">&bull; Aplikacja Audioprzewodnik miejski</a></li>
+				</ul>
+			<li id="technology-parent" class="has-children"><a href="technologia">Technologia</a>
+				<ul id="technology" class="desktop-dropdown">
+					<li><a href="aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Aplikacja');">&bull; Aplikacja mobilna</a></li>
+					<li><a href="technologia#hengda" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Hegda');">&bull; Audioprzewodnik G7</a></li>
+					<li><a href="technologia#mgpro" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pro');">&bull; Audioprzewodnik AG-600</a></li>
+					<li><a href="technologia#mgkeypad" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Keypad');">&bull; Audioprzewodnik AG-600c</a></li>
+					<li><a href="technologia#technology-02" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pen');">&bull; Synchronizator ATV-6</a></li>
+					<!-- <li><a href="technologia#mgmini" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Mini');">&bull; Audioprzewodnik AG-600c</a></li> -->
+					<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Tour Guide');">&bull; Tour Guide</a></li>
+				</ul>
+			</li>
+			<li><a href="nagrania">Nagrania</a></li>
+			<li><a href="bankglosow">Bank głosów</a></li>
+			<li><a href="tlumaczenia">Tłumaczenia</a></li>
+			<li id="writing-parent" class="has-children"><a href="redakcja">Redakcja</a>
+				<ul id="writing" class="desktop-dropdown">
+					<li><a href="redakcja#basic" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Podstawowe');">&bull; Wycieczki podstawowe</a></li>
+					<li><a href="redakcja#extended" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Rozszerzone');">&bull; Wycieczki dla dociekliwych</a></li>
+					<li><a href="redakcja#children" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Dzieci');">&bull; Wycieczki dla najmłodszych</a></li>
+					<li><a href="redakcja#multilanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Obcojęzyczne');">&bull; Wycieczki obcojęzyczne</a></li>
+					<li><a href="redakcja#esl" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja ESL');">&bull; Wycieczki ESL</a></li>
+					<li><a href="redakcja#signlanguage" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niesłyszących');">&bull; Wycieczki dla osób niesłyszących</a></li>
+					<li><a href="redakcja#blind" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niewidomych');">&bull; Wycieczki dla osób niewidomych</a></li>
+				</ul>
+			</li>
+			<li id="portfolio-parent" class="has-children"><a href="realizacje">Realizacje</a>
+			<ul id="portfolio" class="desktop-dropdown">
+					<li><a href="realizacje#aplikacjamobilna" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Aplikacje');">&bull; Aplikacje mobilne</a></li>
+					<li><a href="realizacje#muzea" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Muzea');">&bull; Muzea i Galerie</a></li>
+					<li><a href="realizacje#zamkiipalace" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Zamki');">&bull; Zamki i pałace</a></li>
+					<li><a href="realizacje#wycieczkimiejskie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Miejskie');">&bull; Wycieczki miejskie</a></li>
+					<li><a href="realizacje#obiektysakralne" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Sakralne');">&bull; Obiekty sakralne</a></li>
+					<li><a href="realizacje#parks" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Parki Narodowe i Krajobrazowe');">&bull; Parki Narodowe</a></li>
+					<li><a href="realizacje#skanseny" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Skanseny');">&bull; Skanseny</a></li>
+					<li><a href="realizacje#bunkryifortyfikacje" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Forty');">&bull; Bunkry i fortyfikacje</a></li>
+				
+					<!-- <li><a href="realizacje#galerie" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Galerie');">&bull; Galerie</a></li> -->
+					<!-- <li><a href="realizacje#judaika" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Judaika');">&bull; Judaika</a></li> -->
+				</ul>
+			</li>
+			<li><a href="zwiedzaniegrupowe">Tour Guide</a></li>
+			<li><a href="kontakt">Kontakt</a></li>
+		</ul>
+	</div>
+	<div id="lang" class="desktop">
+		<a rel="nofollow" target="_blank" href="http://audiotour.ca" onClick="ga('send', 'event', 'Menu', 'Click', 'EN Button');"><img src="img/flags/united-kingdom.png"></a>
+	</div>
+	<div id="lang" class="desktop">
+
+	</div>
+	</nav>
+
+	<div id="mobile-menu-toggle">
+		<a id="logo" alt="Audioprzewodniki Audio Tour - logo" href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Logo');"><img src="img/logo.png"></a>
+		<a href="#" id="mobile-menu-toggle-button" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Toggle Click');"><img id="mobile-menu-icon" src="img/menu-icon.png"> Menu ▾</a>
+	</div>
+	<nav id="mobile">
+		<ul class="nav-mobile-main">
+			<li><a href="/" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Strona główna');">Strona główna</a></li>
+			<li><a href="aplikacja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Aplikacja');">Aplikacja</a></li>
+			<li><a href="technologia" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Technologia');">Technologia</a></li>
+			<li><a href="nagrania" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Nagrania');">Nagrania</a></li>
+			<li><a href="redakcja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Redakcja');">Redakcja</a></li>
+			<li><a href="realizacje" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Realizacje');">Realizacje</a></li>
+			<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Zwiedzanie grupowe');">Tour Guide</a></li>
+			<li><a href="kontakt" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Kontakt');">Kontakt</a></li>
+		</ul>
+	</nav>
+	<div id="mobile-menu-dark-bg"></div>
+
+	<div class="youtube-overlay">
+		<iframe id="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/aft-HSA2W48?enablejsapi=1&rel=0" frameborder="0" allowfullscreen ></iframe>
+	</div>
+
+	<div id="homepage-main" class="hero background-right">
+	<div class="scroll-indicator"><a href="#more" onClick="ga('send', 'event', 'More Indicator', 'Click', 'Strona Główna');"><img class="scroll-indicator-image" src="img/scroll-down.png"></a></div>
+		<div class="hero-wrapper">
+			<h1>Audioprzewodniki - z nami zwiedzanie <br>staje się przygodą</h1>
+			<img class="yt-intro-image" src="img/yt.jpg">
+			<div style="width:75%;">
+			<p style="text-align:justify;">W jaki sposób można uatrakcyjnić zwiedzanie danego miejsca? W&nbsp;muzeach czy zabytkowych obiektach standardem od paru lat słały się audioprzewodniki (z&nbsp;ang. audio guide). To rozwiązanie, dzięki któremu poznawanie historii, kultury, sztuki, ciekawostek o&nbsp;danym obiekcie, wystawie lub innym wydarzeniu odbywa się w&nbsp;swobodny sposób. Osoby korzystające z&nbsp;audioguide, mają pełną kontrolę nad odsłuchiwanym materiałem – w&nbsp;każdej chwili mogą zatrzymać odtwarzane nagranie, regulować głośność, ponownie wysłuchać dane komunikaty.</p>
+			<p style="text-align:justify;">Przygotowujemy audioprzewodniki od A&nbsp;do Z&nbsp;od projektu, przez napisanie scenariusza, opracowanie tłumaczeń i&nbsp;dokonanie nagrań, do instalacji u&nbsp;klienta. Wykorzystujemy do tego nowoczesne urządzenia aplikacje mobilne oraz sprawdzonych lektorów.</p>
+			
+			</div>
+			<a href="technologia" onClick="ga('send', 'event', 'CTA', 'Click Strona Główna', 'Technologia');">Technologia &raquo;</a>
+			<a href="nagrania" onClick="ga('send', 'event', 'CTA', 'Click Strona Główna', 'Nagrania');">Nagrania &raquo;</a>
+			<a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'CTA', 'Click Strona Główna', 'Zwiedzaniegrupowe');">Tour Guide system &raquo;</a>
+		</div>
+	</div>	<div id="more"></div>
+
+	<div class="content centered">
+
+	<div class="content-wrapper">
+		<h2>Audiotour. <em>Co robimy?</em></h2>
+		<p style="text-align:justify;">Tworzymy historię audioprzewodników w&nbsp;Polsce. Do tej pory mamy na koncie ponad <em>200&nbsp;realizacji</em>, nasze wycieczki wypożyczyło <em>ponad 1&nbsp;000&nbsp;000 turystów</em>.</p>
+		<p style="text-align:justify;">Pomagamy zwiedzać zarówno największe atrakcje turystyczne Polski, jak i&nbsp;niewielkie muzea regionalne, drewniane kościółki czy skanseny. <em>Każdy klient jest dla nas ważny</em>. Audioprzewodnik, czy w&nbsp;formie urządzenia, czy w&nbsp;formie aplikacji mobilnej, pozwala poznać wiele miejsc na własną rękę, bez podążania za przewodnikiem. Turysta ma szansę samodzielnie nadać sobie tempo zwiedzania i&nbsp;wyznaczyć jego kolejność.</p>
+		<a class="button" href="realizacje" onClick="ga('send', 'event', 'CTA', 'Click Strona Główna', 'Realizacje');">Zobacz nasze realizacje &raquo;</a>
+		<p style="text-align:justify;">Dzięki stałej redakcji oferujemy opracowanie scenariusza przewodnika z&nbsp;ewentualną pomocą historyków, historyków sztuki, archeologów i&nbsp;innych specjalistów. Po pełnej akceptacji finalnego nagrania w&nbsp;języku polskim przygotowujemy nagrania w&nbsp;językach obcych. Dla wszystkich naszych tłumaczy język, w&nbsp;którym opracowują scenariusze jest ich językiem ojczystym. Wszyscy nasi lektorzy to native speakerzy i&nbsp;profesjonalni aktorzy. Własne studio i&nbsp;profesjonalni dźwiękowcy umożliwiają przygotowanie wysokiej jakości nagrań.</p>
+		<p style="text-align:justify;">To kompleksowa oferta w&nbsp;bardzo dobrej cenie.</p>
+	</div>
+	</div>
+
+	<div id="homepage-secondary" class="content centered hero-section white-text">
+	<div class="content-wrapper">
+		<h2>Technologia. <em>Audio guide<br>czy aplikacja na telefon?</em></h2>
+		<p style="text-align:justify;">W XXI wieku świat zmienia się w&nbsp;szybkim tempie. W&nbsp;ostatnich latach byliśmy świadkami pojawienia się smartfonów z&nbsp;szybkim połączeniem do Internetu. Brak kosztu zakupu tradycyjnych audioprzewodników zdecydowanie przemawia za aplikacją na telefon.</p>
+		<p style="text-align:justify;">Ponadto audioguide pozwala zwiększyć liczbę odwiedzających konkretny obiekt, dzięki nagraniom w&nbsp;różnych wersjach językowych czy skierowanych do konkretnego odbiorcy - np. rodzin z&nbsp;dziećmi.</p>
+		<p style="text-align:justify;">Audiotour.pl dostosowuje rozwiązania techniczne do potrzeb klientów. Naszych przewodników można słuchać albo na dedykowanych urządzeniach, albo na telefonach. Pozwalają na to opracowane przez nas aplikacje. I&nbsp;w&nbsp;jednym, i&nbsp;w&nbsp;drugim przypadku, osoba zwiedzająca może wybrać sobie dowolne nagranie do odsłuchania. Jakość nagranego materiału jest bardzo wysoka.</p>
+		<p style="text-align:justify;">Nie wiesz, jaka opcja audioguide będzie dla Ciebie najlepszym wariantem? Chętnie rozwiejemy wszystkie Twoje wątpliwości!</p>
+	</div>
+	</div>
+
+		<div class="content centered">
+
+	<div class="content-wrapper">
+		<h2>Różnorodność. <em>Klasycznie albo WOW!</em></h2>
+		<p style="text-align:justify;">Jedni lubią, kiedy po wystawie lub mieście oprowadza ich tradycyjny przewodnik, który w&nbsp;klasyczny sposób pokazuje najciekawsze zabytki; inni chcą zabawy, wielu głosów, efektów dźwiękowych, czegoś, co przypomina słuchowisko radiowe.</p>
+		<p style="text-align:justify;">Oferujemy każde z&nbsp;tych rozwiązań.</p>
+		<p style="text-align:justify;">Nasz system audioprzewodników pozwala obsłużyć wycieczki dorosłych i&nbsp;dla dzieci oraz zwiedzających z&nbsp;dysfunkcjami. Dla osób niewidomych przygotowujemy wycieczki metodą audiodeskrypcji, a&nbsp;dla niesłyszących w&nbsp;Polskim Języku Migowym. Dowiedz się, jaka jest ich cena!</p>
+		<p style="text-align:justify;">Nowoczesne metody bardzo uatrakcyjniają zwiedzanie. Chcesz zmniejszyć koszt obsługi zwiedzających prowadzoną przez Ciebie placówkę? Przekonaj się sam, że audioprzewodnik lub aplikacja może być tańszym rozwiązaniem!</p>
+	</div>
+	</div>
+
+	<footer>
+	<div class="wrapper">
+		<div id="copyright-notices">fot.: &copy;
+			<a rel="nofollow" target="_blank" href="https://www.flickr.com/people/nico_n/" onClick="ga('send', 'event', 'Copyright Notice', 'Click', 'Nico Nieuwstraten');">Nico Nieuwstraten</a>
+			<br><a rel="nofollow" target="_blank" href="rodo" onClick="ga('send', 'event', 'Copyright RODO', 'Click', 'RODO');">RODO</a>
+		</div>
+		<div id="copyright"></div>
+	</div>
+	</footer>
+
+
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+			$('.youtube-overlay').slideUp(1).fadeTo(1,1);
+			var orgSrc = $('#youtube-player')[0].src;
+
+			$('.youtube-overlay').click(function(){
+				$('.youtube-overlay').slideUp(300);
+				$('#youtube-player')[0].src = "";
+			});
+
+			$('.yt-intro-image').click(function(e){
+				e.preventDefault();
+				$('.youtube-overlay').slideDown(300);
+				$('#youtube-player')[0].src = orgSrc+"&autoplay=1";
+			});
+		})
+	</script>
+</body>
+</html>
