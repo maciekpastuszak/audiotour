@@ -20,6 +20,10 @@ const config: Config = {
         'screen-md': '768px',
         'screen-sm': '640px',
       },
+      fontFamily: {
+        'Halyard': ['halyard-display', 'sans-serif'],
+        'Articulat': ["articulat-cf", 'sans-serif']
+      }
     },
   },
   plugins: [],
