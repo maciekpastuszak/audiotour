@@ -18,8 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
+      </head>
         <body className={inter.className}>
-          {/* <Navbar /> */}
+          <Navbar />
               {children}
           {/* <Footer /> */}
           </body>

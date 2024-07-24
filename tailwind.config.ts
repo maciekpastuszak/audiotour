@@ -21,8 +21,8 @@ const config: Config = {
         'screen-sm': '640px',
       },
       fontFamily: {
-        'Halyard': ['halyard-display', 'sans-serif'],
-        'Articulat': ["articulat-cf", 'sans-serif']
+        'halyard': ['halyard-display', 'sans-serif'],
+        'articulat': ["articulat-cf", 'sans-serif']
       }
     },
   },
