@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md w-full">
-      <div className="container mx-auto px-4 md:px-12 lg:px-24 py-3 flex justify-between items-center">
+      <div className="container md:w-4/5 mx-auto px-5 md:px-0 py-3 flex justify-between items-center">
         <Image src="/img/logo.png" width={130} height={15} alt="logo" />
         <div className="hidden md:flex space-x-8 md:space-x-8 lg:space-x-16 font-halyard">
             <Link href='/audioguide'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
