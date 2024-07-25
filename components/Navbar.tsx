@@ -1,18 +1,41 @@
 "use client"
 
 import Link from 'next/link'
-import {useState} from 'react'
+import {useRef, useState} from 'react'
 import Image from 'next/image'
+import { useDimensions } from './use-dimensions';
+import { motion, useCycle } from 'framer-motion';
+import { MenuToggle } from './MenuToggle';
+import { Navigation } from './Navigation';
+
+const sidebar = {
+  open: (height = 1000) => ({
+    clipPath: `circle(${height * 2 + 200}px at calc(100% - 1px) 1px)`,
+    transition: {
+      type: "spring",
+      stiffness: 20,
+      restDelta: 2
+    }
+  }),
+  closed: {
+    clipPath: "circle(30px at calc(100% - 1px) 1px)",
+    transition: {
+      delay: 0.5,
+      type: "spring",
+      stiffness: 400,
+      damping: 40
+    }
+  }
+};
 
 const Navbar = () => {
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, toggleOpen] = useCycle(false, true);
+  const containerRef = useRef(null);
+  const { height } = useDimensions(containerRef);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
   return (
-    <div className="bg-white shadow-md w-full">
+    <nav className="bg-white shadow-md w-full">
       <div className="container mx-auto px-4 md:px-12 lg:px-24 py-3 flex justify-between items-center">
         <Image src="/img/logo.png" width={130} height={15} alt="logo" />
         <div className="hidden md:flex space-x-8 md:space-x-8 lg:space-x-16 font-halyard">
@@ -22,30 +45,21 @@ const Navbar = () => {
             <Link href='/portfolio'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
-        <div className="md:hidden items-center">
-            <button onClick={toggleMenu} className="text-stone-900 hover:text-gray-500">
-            {isMenuOpen ? (
-              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"></path>
-              </svg>
-            ) : (
-              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7"></path>
-              </svg>
-            )}
-          </button>
+        <div className="md:hidden">
+          <motion.div
+            initial={false}
+            animate={isOpen ? "open" : "closed"}
+            custom={height}
+            ref={containerRef}
+          >
+            <motion.div className="background" variants={sidebar} />
+            <Navigation />
+            <MenuToggle toggle={() => toggleOpen()} />
+          </motion.div>
         </div>
-        {isMenuOpen && (
-          <div className='flex flex-col md:hidden'>
-            <Link href='/audioguide'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
-            <Link href='/przewodnik'><p className="text-stone-900 hover:text-gray-500">Przewodnik</p></Link>
-            <Link href='/oferta'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
-            <Link href='/portfolio'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
-            <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
-          </div>
-        )}
+
       </div>
-    </div>
+    </nav>
   )
 }
 
