@@ -1,10 +1,13 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Aplikacja = () => {
   return (
-    <div className="container md:w-4/5 mx-auto px-4 min-h-screen flex flex-col border border-green-900 bg-indigo-500">
-        <h1 className="border border-x-orange-500 text-center mt-3">Aplikacja - widok główny</h1>
-    </div>
+    <section id='hero' className='w-full mt-10 flex justify-center items-center'>
+
+      <Image src='/app-grid.png' alt='app-grid' width={460} height={924} />
+
+    </section>
   )
 }
 
