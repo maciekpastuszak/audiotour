@@ -1,6 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
+import { navLinks } from "@/constants";
 
 const variants = {
   open: {
@@ -13,8 +14,8 @@ const variants = {
 
 export const Navigation = () => (
   <motion.ul variants={variants}>
-    {itemIds.map(i => (
-      <MenuItem i={i} key={i} />
+    {navLinks.map((link, index) => (
+      <MenuItem key={link.key} index={index} link={link} />
     ))}
   </motion.ul>
 );
