@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
       </head>
-        <body className={inter.className}>
+        <body className="font-halyard">
           <Navbar />
           <main className="w-full md:w-4/5 flex flex-col justify-center items-center mx-auto">
               {children}
