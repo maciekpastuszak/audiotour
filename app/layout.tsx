@@ -23,7 +23,7 @@ export default function RootLayout({
       </head>
         <body className="font-halyard">
           <Navbar />
-          <main className="w-full md:w-4/5 flex flex-col justify-center items-center mx-auto">
+          <main className="w-full md:w-4/5 flex flex-col justify-center items-center px-5 md:p-0 mx-auto">
               {children}
           </main>
           {/* <Footer /> */}
