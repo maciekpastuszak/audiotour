@@ -23,7 +23,9 @@ export default function RootLayout({
       </head>
         <body className={inter.className}>
           <Navbar />
+          <main className="w-full md:w-4/5 flex flex-col justify-center items-center mx-auto">
               {children}
+          </main>
           {/* <Footer /> */}
           </body>
     </html>
