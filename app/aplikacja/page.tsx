@@ -8,7 +8,7 @@ import React from 'react'
 const Aplikacja = () => {
   return (
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
-          <div className='w-3/4 md:w-1/2 mx-auto mt-8 md:mt-12 text-center'>
+          <div className='w-3/4 md:w-1/2 mx-auto my-10 md:mt-12 text-center'>
             <Image src='/app-grid.png' alt='app-grid' layout='responsive' width={1} height={1} />
             <div className='my-6 text-center text-3xl md:text-4xl font-bold font-articulat'>
               <p>Every place an <span className='text-blue-500'>app</span></p>
@@ -17,6 +17,9 @@ const Aplikacja = () => {
             <Button className='bg-blue-500 rounded-full'>Nasze realizacje</Button>
           </div>
         <Carousel />
+        <div>
+            <img src="/img/guides-ag-600.png" alt="" />
+        </div>
       </section>
   )
 }

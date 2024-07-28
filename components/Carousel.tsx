@@ -5,14 +5,14 @@ const Carousel: React.FC = () => {
   const duplicatedIcons = [...appCarouselIcons, ...appCarouselIcons];
 
   return (
-    <div className="relative overflow-hidden">
-      <div className="flex animate-scroll whitespace-nowrap">
+    <div className="carousel-container relative bg-white">
+      <div className="animate-scroll whitespace-nowrap py-2 mt-1">
         {duplicatedIcons.map((icon, index) => (
           <div key={index} className="inline-block px-4">
             <img
               src={`/img/carousel-icons/app-carousel-icon-${icon.id}.png`}
               alt={icon.alt}
-  
+              className="carousel-icon h-6 md:h-8"
             />
           </div>
         ))}
@@ -20,5 +20,6 @@ const Carousel: React.FC = () => {
     </div>
   );
 };
+
 
 export default Carousel;

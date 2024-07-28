@@ -69,7 +69,7 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0;
   margin: 0;
 }
@@ -153,3 +153,31 @@ li {
   align-items: center;
   cursor: pointer;
 }
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container::before,
+.carousel-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.carousel-container::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.carousel-container::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+
+
