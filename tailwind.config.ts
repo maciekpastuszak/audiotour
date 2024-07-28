@@ -23,7 +23,16 @@ const config: Config = {
       fontFamily: {
         'halyard': ['halyard-display', 'sans-serif'],
         'articulat': ["articulat-cf", 'sans-serif']
-      }
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }, // -50% since we have duplicated the icons
+        },
+      },
+      animation: {
+        scroll: 'scroll 20s linear infinite', // Adjust the duration as needed
+      },
     },
   },
   plugins: [],
