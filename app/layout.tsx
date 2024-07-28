@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
       </head>
         <body className="font-halyard">
-          <Navbar />
+          {/* <Navbar /> */}
           <main className="w-full md:w-4/5 flex flex-col justify-center items-center px-5 md:p-0 mx-auto">
               {children}
           </main>
