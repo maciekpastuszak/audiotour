@@ -23,10 +23,11 @@ export default function RootLayout({
       </head>
         <body className="font-halyard">
           <Navbar />
-          <main className="w-full md:w-4/5 flex flex-col justify-center items-center px-5 md:p-0 mx-auto">
+          <main>
               {children}
           </main>
           {/* <Footer /> */}
+          <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
           </body>
     </html>
   );
