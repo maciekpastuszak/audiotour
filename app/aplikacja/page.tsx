@@ -9,7 +9,7 @@ import React from 'react'
 const Aplikacja = () => {
   return (
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
-          <div className='w-3/4 md:w-1/2 mx-auto my-10 md:mt-12 text-center'>
+          <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
             <Image src='/app-grid.png' alt='app-grid' layout='responsive' width={1} height={1} />
             <div className='my-6 text-center text-2xl md:text-3xl lg:text-4xl font-bold font-articulat'>
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
@@ -17,8 +17,10 @@ const Aplikacja = () => {
             </div>
             <Button className='bg-blue-500 rounded-full'>Nasze realizacje</Button>
           </div>
-          <div className='w-4/5'>
+          <div className='flex w-full mx-auto justify-center bg-white'>
+            <div className='w-4/5'>
             <Carousel />
+            </div>
           </div>
         <ApplicationCard />
 

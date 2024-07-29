@@ -156,6 +156,7 @@ li {
 
 .carousel-container {
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-container::before,
