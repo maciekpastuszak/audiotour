@@ -4,9 +4,9 @@ import { Button } from './ui/button'
 
 const ApplicationCard = () => {
   return (
-    <div className='items-start w-5/6 my-5 bg-white min-w-[450px]'>
+    <div className='items-start w-5/6 my-5 bg-white min-w-[375px]'>
         <div className='flex ms-5 my-5'>
-            <Image src="/img/app-icons/Icon Audioprzewodniki.svg" width={50} height={50 }alt="Ikona - Audioprzewodniki" />
+            <Image src="/img/app-icons/Icon Audioprzewodniki.svg" width={55} height={55}alt="Ikona - Audioprzewodniki" />
             <div className='font-articulat leading-3'>
                 <h3 className='text-lg font-bold font-articulat'>Audioprzewodniki</h3>
                 <p className='text-sm md:text-noraml'>Prosta obsługa, <span className='text-blue-500'>szybka realizacja</span></p>
@@ -19,7 +19,7 @@ const ApplicationCard = () => {
                 <img src='/img/app-phone-mockups/Banner Audioprzewodniki Tel.png' alt='Smartphone - Audioprzewodniki' />
             </div>
         </div>
-        <div className='w-3/5 m-8'>
+        <div className='md:w-3/5 m-8 pt-4 text-justify'>
             <p className='pb-4'>Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
             <p>Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!</p>
         </div>
