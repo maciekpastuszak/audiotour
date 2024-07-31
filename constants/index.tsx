@@ -17,3 +17,10 @@ export const navLinks = [
     {id: '08', alt: "Instytu Kultury Willa Decjusza" },
     {id: '09', alt: "Zachęta" },
   ];
+
+  export const featureCards = [
+    {id: '01', iconSrc:'/img/app-icons/Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
+    {id: '02', iconSrc:'/img/app-icons/Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Beacony', content: 'Pozwala automatycznie uruchamiać nagrania na podstawie położenia zwiedzającego', isBig: false},
+    {id: '03', iconSrc:'/img/app-icons/Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
+    {id: '04', iconSrc:'/img/app-icons/Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', isBig: false},
+  ]
