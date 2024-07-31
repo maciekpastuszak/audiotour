@@ -3,7 +3,7 @@ import ApplicationCard from '@/components/ApplicationCard'
 import Carousel from '@/components/Carousel'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
-import { appCarouselIcons } from '@/constants'
+import { appCarouselIcons, featureCards } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 
@@ -30,19 +30,26 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              iconSrc='/img/app-icons/Feature Icon Map.svg' 
+              iconSrc='/img/app-icons/Feature_Icon_Map.svg' 
               iconAlt='Ikona mapy' 
               title='Interaktywna mapa' 
-              content='Ułatwia zwiedzającym nawigację w terenie. <br /> Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu. <br /> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie' 
+              content='' 
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
-            {/* <AppFunctionCard isBig={false}/>
-            <AppFunctionCard isBig={false}/>
-            <AppFunctionCard isBig={false}/>
-            <AppFunctionCard isBig={false}/> */}
+            {featureCards.map((i) => (
+              <AppFunctionCard 
+              iconSrc={i.iconSrc}
+              iconAlt={i.iconAlt}
+              title={i.title}
+              content={i.content}
+              isBig={i.isBig}
+              />
+            ))}
           </div>
         </div>
+        <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
+        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
       </section>
   )
 }

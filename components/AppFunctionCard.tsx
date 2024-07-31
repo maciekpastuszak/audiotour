@@ -10,14 +10,21 @@ type appFunctionPros = {
 }
 const AppFunctionCard = ({ iconSrc, iconAlt, title, content, isBig }: appFunctionPros) => {
   return (
-    <div className={`${isBig ? 'w-full' : 'w-full md:w-[calc(50%-0.4rem)]'} rounded-lg`}>
-        <div className={`bg-[url(/img/app-features/Feature_Audioprzewodniki_1.png)] p-5`}>
+    <div className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] min-h-[200px'} bg-white`}>
+        <div className={`${isBig ? 'p-5' : 'p-1'} bg-[url(/img/app-features/Feature_Audioprzewodniki_1.png)] bg-cover rounded-t-lg`}>
             <Image src={iconSrc} width={55} height={55} alt={iconAlt}/>
         </div>
-        <div className='p-5 bg-white'>
-            <h3 className='text-xl font-semibold'>{title}</h3>
-            <p className='w-2/3'>{content}</p>
+        <div className={`${isBig ? 'p-5 h-72' : 'p-3'}  rounded-b-lg`}>
+            <h3 className='text-l font-semibold'>{title}</h3>
+            <p className={`${isBig ? 'lg:w-2/3' : 'w-full'} text-sm py-2`}>
+            {isBig ? <div><p className='mb-3'>Ułatwia zwiedzającym nawigację w terenie. </p><p className='mb-3'>Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu.</p><p> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie</p></div> : content}
+            </p>
         </div>
+        {isBig && (
+            <div className='hidden lg:block md:absolute max-w-40 h-full top-16 right-5'>
+                <img src='/img/app-features/Feature_Audioprzewodniki_SS1.png' alt='Smartphone - Interakltywna mapa' />
+            </div>
+        )}
     </div>
   )
 }
