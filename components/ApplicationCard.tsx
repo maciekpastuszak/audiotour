@@ -12,7 +12,7 @@ const ApplicationCard = () => {
                 <p className='text-sm md:text-noraml'>Prosta obsługa, <span className='text-blue-500'>szybka realizacja</span></p>
             </div>
         </div>
-        <div className='relative bg-application-banner bg-cover h-80'>
+        <div className={`relative bg-[url('/img/app-banners/Banner_Audioprzewodniki_Wide.png')] bg-cover h-80`}>
             <h2 className='text-xl md:text-3xl text-white font-semibold mx-5 px-2 py-5 md:py-8 text-nowrap'>Idealne rozwiązanie dla <br />muzeów oraz w przestrzeni <br /> miejskiej</h2>
             <Button className='absolute bg-white rounded-full text-black right-10 md:left-0 md:w-[320px] bottom-10 md:bottom-24 px-10 md:mx-7'>Więcej</Button>
             <div className='absolute max-w-48 md:max-w-80 lg:max-w-96 h-full top-28 md:-top-16 left-5 md:left-auto md:-right-10'>

@@ -28,13 +28,19 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         <div className="flex flex-wrap md:flex-nowrap justify-center w-5/6 gap-3">
           <div className="w-full h-full md:w-1/2">
-            <AppFunctionCard isBig={true} />
+            <AppFunctionCard 
+              isBig={true} 
+              iconSrc='/img/app-icons/Feature Icon Map.svg' 
+              iconAlt='Ikona mapy' 
+              title='Interaktywna mapa' 
+              content='Ułatwia zwiedzającym nawigację w terenie. <br /> Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu. <br /> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie' 
+            />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
+            {/* <AppFunctionCard isBig={false}/>
             <AppFunctionCard isBig={false}/>
             <AppFunctionCard isBig={false}/>
-            <AppFunctionCard isBig={false}/>
-            <AppFunctionCard isBig={false}/>
+            <AppFunctionCard isBig={false}/> */}
           </div>
         </div>
       </section>
