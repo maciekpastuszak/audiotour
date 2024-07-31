@@ -32,7 +32,7 @@ const Aplikacja = () => {
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         
-        <div className="flex flex-wrap md:flex-nowrap justify-center w-5/6 gap-3">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -44,7 +44,8 @@ const Aplikacja = () => {
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {featureCards.map((i) => (
-              <AppFunctionCard 
+              <AppFunctionCard
+              key={i.id} 
               iconSrc={i.iconSrc}
               iconAlt={i.iconAlt}
               title={i.title}
