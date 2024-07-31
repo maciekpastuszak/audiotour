@@ -8,7 +8,7 @@ const ApplicationCard = () => {
         <div className='flex ms-5 my-3'>
             <Image src="/img/app-icons/Icon Audioprzewodniki.svg" width={55} height={55}alt="Ikona - Audioprzewodniki" />
             <div className='font-articulat leading-3'>
-                <h3 className='text-lg font-bold font-articulat'>Audioprzewodniki</h3>
+                <h3 className='text-lg font-bold'>Audioprzewodniki</h3>
                 <p className='text-sm md:text-noraml'>Prosta obsługa, <span className='text-blue-500'>szybka realizacja</span></p>
             </div>
         </div>
