@@ -28,13 +28,13 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         <div className="flex flex-wrap md:flex-nowrap justify-center w-5/6 gap-3">
           <div className="w-full h-full md:w-1/2">
-            <AppFunctionCard color={'bg-blue-500'} isBig={true} />
+            <AppFunctionCard isBig={true} />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
-            <AppFunctionCard color={'bg-yellow-500'} isBig={false}/>
-            <AppFunctionCard color={'bg-green-500'} isBig={false}/>
-            <AppFunctionCard color={'bg-red-500'} isBig={false}/>
-            <AppFunctionCard color={'bg-purple-500'} isBig={false}/>
+            <AppFunctionCard isBig={false}/>
+            <AppFunctionCard isBig={false}/>
+            <AppFunctionCard isBig={false}/>
+            <AppFunctionCard isBig={false}/>
           </div>
         </div>
       </section>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <filter id="Feature_Icon_Localization" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Feature_Icon_Localization)">
+    <path id="Feature_Icon_Localization-2" data-name="Feature Icon Localization" d="M14.825,75.775H61.882q6.195,0,9.333-3.1t3.138-9.216V16.131q0-6.116-3.138-9.236t-9.333-3.12H14.825q-6.154,0-9.313,3.1T2.354,16.131v47.33q0,6.157,3.159,9.236T14.825,75.775Zm.287-6.937a5.775,5.775,0,0,1-4.267-1.478,5.962,5.962,0,0,1-1.477-4.392V16.624a5.962,5.962,0,0,1,1.477-4.392,5.775,5.775,0,0,1,4.267-1.478H61.595a5.861,5.861,0,0,1,4.267,1.478,5.864,5.864,0,0,1,1.518,4.392V62.968a5.241,5.241,0,0,1-5.785,5.87ZM25.779,58q2.421,0,3.282-2.791l2.585-7.594H45.02L47.6,55.21Q48.466,58,50.928,58A3.12,3.12,0,0,0,53.2,57.18,2.9,2.9,0,0,0,54.046,55a6.993,6.993,0,0,0-.451-2.176L43.215,24.587A4.839,4.839,0,0,0,38.292,21.1a4.719,4.719,0,0,0-4.8,3.489L23.071,52.829A6.993,6.993,0,0,0,22.62,55a2.866,2.866,0,0,0,.862,2.176A3.192,3.192,0,0,0,25.779,58Zm7.467-15.475,4.882-14.49h.41l4.882,14.49Z" transform="translate(6.65 2.22)" fill="#fff"/>
+  </g>
+</svg>
