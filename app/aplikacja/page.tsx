@@ -1,7 +1,7 @@
 import AppFunctionCard from '@/components/AppFunctionCard'
 import ApplicationCard from '@/components/ApplicationCard'
 import IconCarousel from '@/components/IconCarousel'
-import FavouriteApp from '@/components/FavouriteApp'
+import FavouriteAppCard from '@/components/FavouriteAppCard'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import { featureCards } from '@/constants'
@@ -68,9 +68,9 @@ const Aplikacja = () => {
         <h2 className='text-lg font-bold'>Wasze ulubione:</h2>
         <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
       
-        <div className='flex flex-col md:flex-row'>
-          <FavouriteApp />
-          <FavouriteApp />
+        <div className='flex flex-col md:flex-row gap-2'>
+          <FavouriteAppCard />
+          <FavouriteAppCard />
         </div>
       </section>
   )
