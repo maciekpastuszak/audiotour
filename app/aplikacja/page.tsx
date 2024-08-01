@@ -1,5 +1,7 @@
 import AppFunctionCard from '@/components/AppFunctionCard'
-import ApplicationCard from '@/components/ApplicationCard'
+import AppBannerBlue from '@/components/AppBannerBlue'
+import AppBannerGreen from '@/components/AppBannerGreen'
+import AppBannerOrange from '@/components/AppBannerOrange'
 import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
 import Navbar from '@/components/Navbar'
@@ -28,7 +30,7 @@ const Aplikacja = () => {
             </div>
           </div>
 
-        <ApplicationCard />
+        <AppBannerBlue />
         
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
@@ -80,6 +82,9 @@ const Aplikacja = () => {
           }
           
         </div>
+
+        <AppBannerGreen />
+
       </section>
   )
 }
