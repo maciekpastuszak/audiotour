@@ -4,7 +4,7 @@ import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
-import { featureCards } from '@/constants'
+import { featureCards, favouriteAppsCard } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
@@ -69,8 +69,16 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
       
         <div className='flex flex-col md:flex-row gap-2'>
-          <FavouriteAppCard />
-          <FavouriteAppCard />
+          {favouriteAppsCard.map((i) => (
+              <FavouriteAppCard 
+                key={i.id}
+                fileName={i.fileName}
+                alt={i.alt}
+                rating={i.rating}
+              />
+            ))
+          }
+          
         </div>
       </section>
   )

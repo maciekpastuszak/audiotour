@@ -24,3 +24,8 @@ export const navLinks = [
     {id: '03', iconSrc:'/img/app-icons/Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
     {id: '04', iconSrc:'/img/app-icons/Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', isBig: false},
   ]
+
+  export const favouriteAppsCard = [
+    {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6'},
+    {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8'}
+  ]
