@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const ApplicationCard = () => {
   return (
-    <div className='items-start w-5/6 my-5 bg-white min-w-[375px]'>
+    <div className='items-start w-5/6 my-5 bg-white min-w-[375px] drop-shadow-md'>
         <div className='flex ms-5 my-3'>
             <Image src="/img/app-icons/Icon Audioprzewodniki.svg" width={55} height={55}alt="Ikona - Audioprzewodniki" />
             <div className='font-articulat leading-3'>
