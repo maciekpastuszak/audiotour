@@ -16,9 +16,9 @@ const AppFunctionCard = ({ iconSrc, iconAlt, title, content, isBig }: appFunctio
         </div>
         <div className={`${isBig ? 'p-5 h-72' : 'p-3'}  rounded-b-lg`}>
             <h3 className='text-l font-semibold'>{title}</h3>
-            <p className={`${isBig ? 'lg:w-2/3' : 'w-full'} text-sm py-2`}>
+            <div className={`${isBig ? 'lg:w-2/3' : 'w-full'} text-sm py-2`}>
             {isBig ? <div><p className='mb-3'>Ułatwia zwiedzającym nawigację w terenie. </p><p className='mb-3'>Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu.</p><p> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie</p></div> : content}
-            </p>
+            </div>
         </div>
         {isBig && (
             <div className='hidden lg:block md:absolute max-w-40 h-full top-16 right-5'>

@@ -1,12 +1,13 @@
 import AppFunctionCard from '@/components/AppFunctionCard'
 import ApplicationCard from '@/components/ApplicationCard'
-import Carousel from '@/components/Carousel'
+import IconCarousel from '@/components/IconCarousel'
 import FavouriteApp from '@/components/FavouriteApp'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
-import { appCarouselIcons, featureCards } from '@/constants'
+import { featureCards } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
+import CardCarousel from '@/components/CardCarousel'
 
 const Aplikacja = () => {
   return (
@@ -23,7 +24,7 @@ const Aplikacja = () => {
           
           <div className='flex w-full mx-auto justify-center bg-white'>
             <div className='w-4/5'>
-            <Carousel />
+            <IconCarousel />
             </div>
           </div>
 
@@ -54,6 +55,10 @@ const Aplikacja = () => {
               />
             ))}
           </div>
+        </div>
+
+        <div className='md:hidden'>
+            <CardCarousel />
         </div>
 
         <div className='my-10'>
