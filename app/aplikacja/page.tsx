@@ -65,7 +65,7 @@ const Aplikacja = () => {
           <Button className='bg-blue-500 rounded-full'>Zobacz wszystkie funcje</Button>
         </div>
 
-        <h2 className='text-lg font-bold'>Wasze ulubione:</h2>
+        <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
         <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
       
         <div className='flex flex-col md:flex-row gap-2'>
