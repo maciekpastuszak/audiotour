@@ -25,7 +25,7 @@ const FavouriteAppCard = ({fileName, alt, rating}: FavouriteAppsCardProps) => {
           App Store
           <img src="/img/app-icons/External_Link_Icon.svg" alt="External link Icon" />
         </Button>
-        <Button className='bg-blue-500 rounded-full w-full h-5 text-[0.6rem] gap-1 flex justify-center'>
+        <Button className='bg-black rounded-full w-full h-5 text-[0.6rem] gap-1 flex justify-center'>
           <img src="/img/app-icons/Google_Play_Icon.svg" alt="AppStore Icon" />
           Google Play
           <img src="/img/app-icons/External_Link_Icon.svg" alt="External link Icon" />

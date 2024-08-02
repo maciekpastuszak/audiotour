@@ -6,7 +6,7 @@ import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
-import { featureCardsBlue, featureCardsGreen, favouriteAppsCard } from '@/constants'
+import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2 } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
@@ -75,7 +75,7 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
       
         <div className='flex flex-col md:flex-row gap-2 mb-8'>
-          {favouriteAppsCard.map((i) => (
+          {favouriteAppsCard1.map((i) => (
               <FavouriteAppCard 
                 key={i.id}
                 fileName={i.fileName}
@@ -122,6 +122,26 @@ const Aplikacja = () => {
         {/* mobile */}
         <div className='md:hidden flex justify-center align-middle '>
             <CardCarousel color="green" />
+        </div>
+
+        <div className='mt-6 mb-6'>
+          <Button className='bg-[rgb(69,150,41)] rounded-full px-10 font-bold'>Zobacz wszystkie funcje</Button>
+        </div>
+
+        <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
+        <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
+      
+        <div className='flex flex-col md:flex-row gap-2 mb-8'>
+          {favouriteAppsCard2.map((i) => (
+              <FavouriteAppCard 
+                key={i.id}
+                fileName={i.fileName}
+                alt={i.alt}
+                rating={i.rating}
+              />
+            ))
+          }
+          
         </div>
 
       </section>

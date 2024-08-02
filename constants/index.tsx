@@ -32,7 +32,12 @@ export const navLinks = [
     {id: '04', cardBg: 'Feature_Przewodniki_4.png', iconSrc:'Feature_Icon_Modules.svg', iconAlt: 'Ikona puzzle', title: 'Dodatkowe moduły', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
   ]
 
-  export const favouriteAppsCard = [
+  export const favouriteAppsCard1 = [
     {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6'},
     {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8'}
+  ]
+
+  export const favouriteAppsCard2 = [
+    {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Śląskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9'},
+    {id: '02', fileName: "Szlak_Marianny_Orańskiej.png", alt: 'Szlak Marianny Orańskiej', rating: '4,8'}
   ]
