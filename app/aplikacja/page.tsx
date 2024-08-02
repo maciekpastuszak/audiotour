@@ -40,7 +40,7 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              cardBg="Banner_Audioprzewodniki_Wide.png"
+              cardBg="Feature_Audioprzewodniki_1.png"
               iconSrc='Feature_Icon_Map.svg' 
               iconAlt='Ikona mapy' 
               title='Interaktywna mapa' 
@@ -97,7 +97,7 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              cardBg="Banner_Przewodniki_Wide.png"
+              cardBg="Feature_Przewodniki_1.png"
               iconSrc='Feature_Icon_Map.svg' 
               iconAlt='Ikona mapy' 
               title='Interaktywna mapa' 
