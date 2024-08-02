@@ -143,6 +143,8 @@ const Aplikacja = () => {
           }
           
         </div>
+        
+        <AppBannerOrange />
 
       </section>
   )
