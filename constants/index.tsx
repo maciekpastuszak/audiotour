@@ -18,11 +18,18 @@ export const navLinks = [
     {id: '09', alt: "Zachęta" },
   ];
 
-  export const featureCards = [
-    {id: '01', iconSrc:'/img/app-icons/Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
-    {id: '02', iconSrc:'/img/app-icons/Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Beacony', content: 'Pozwala automatycznie uruchamiać nagrania na podstawie położenia zwiedzającego', isBig: false},
-    {id: '03', iconSrc:'/img/app-icons/Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
-    {id: '04', iconSrc:'/img/app-icons/Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', isBig: false},
+  export const featureCardsBlue = [
+    {id: '01', cardBg: 'Feature_Audioprzewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
+    {id: '02', cardBg: 'Feature_Audioprzewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Beacony', content: 'Pozwala automatycznie uruchamiać nagrania na podstawie położenia zwiedzającego', isBig: false},
+    {id: '03', cardBg: 'Feature_Audioprzewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
+    {id: '04', cardBg: 'Feature_Audioprzewodniki_4.png', iconSrc:'Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', isBig: false},
+  ]
+
+  export const featureCardsGreen = [
+    {id: '01', cardBg: 'Feature_Przewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
+    {id: '02', cardBg: 'Feature_Przewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Nawigacja', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', isBig: false},
+    {id: '03', cardBg: 'Feature_Przewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
+    {id: '04', cardBg: 'Feature_Przewodniki_4.png', iconSrc:'Feature_Icon_Modules.svg', iconAlt: 'Ikona puzzle', title: 'Dodatkowe moduły', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
   ]
 
   export const favouriteAppsCard = [
