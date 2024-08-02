@@ -18,9 +18,8 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
             {color === "blue"  && (
             <CarouselContent>
                 {featureCardsBlue.map((i) => (
-                                <div className="flex-shrink-0 w-full pl-4">
+                                <div className="flex-shrink-0 w-full pl-4" key={i.id}>
                                     <AppFunctionCard 
-                                        key={i.id}
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
                                         iconAlt={i.iconAlt} 
@@ -36,9 +35,8 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
            {color === "green"  && (
             <CarouselContent>
                 {featureCardsGreen.map((i) => (
-                                <div className="flex-shrink-0 w-full pl-4">
+                                <div className="flex-shrink-0 w-full pl-4" key={i.id}>
                                     <AppFunctionCard 
-                                        key={i.id}
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
                                         iconAlt={i.iconAlt} 

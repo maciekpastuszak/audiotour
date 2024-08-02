@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import {useRef, useState} from 'react'
+import {useRef} from 'react'
 import Image from 'next/image'
 import { useDimensions } from './use-dimensions';
 import { motion, useCycle } from 'framer-motion';
