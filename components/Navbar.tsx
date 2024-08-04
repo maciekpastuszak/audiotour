@@ -52,7 +52,7 @@ const Navbar = () => {
             custom={height}
             ref={containerRef}
           >
-            <motion.div className="mobileNavBg" variants={sidebar} />
+            <motion.div className="mobileNavBg absolute top-0 right-0 w-full h-full bg-white z-40" variants={sidebar} />
             <Navigation />
             <MenuToggle toggle={() => toggleOpen()} />
           </motion.div>

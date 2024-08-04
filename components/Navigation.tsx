@@ -13,7 +13,7 @@ const variants = {
 };
 
 export const Navigation = () => (
-  <motion.ul variants={variants} className="navbarUl">
+  <motion.ul variants={variants} className="navbarUl relative z-50">
     {navLinks.map((link, index) => (
       <MenuItem key={link.key} index={index} link={link} />
     ))}
