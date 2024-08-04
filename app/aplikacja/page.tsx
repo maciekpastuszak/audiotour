@@ -63,12 +63,12 @@ const Aplikacja = () => {
         </div>
             
         {/* mobile */}
-        <div className='md:hidden flex justify-center align-middle '>
+        <div className='md:hidden flex justify-center align-middle'>
             <CardCarousel color="blue" />
         </div>
 
         <div className='mt-6 mb-6'>
-          <Button className='bg-blue-500 rounded-full px-10'>Zobacz wszystkie funcje</Button>
+          <Button className='bg-blue-500 rounded-full px-10'>Poznaj wszystkie funkcje</Button>
         </div>
 
         <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
@@ -125,7 +125,7 @@ const Aplikacja = () => {
         </div>
 
         <div className='mt-6 mb-6'>
-          <Button className='bg-[rgb(69,150,41)] rounded-full px-10 font-bold'>Zobacz wszystkie funcje</Button>
+          <Button className='bg-[rgb(69,150,41)] rounded-full px-10 font-bold'>Poznaj wszystkie funkcje</Button>
         </div>
 
         <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>

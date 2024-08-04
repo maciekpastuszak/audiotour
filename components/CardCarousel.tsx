@@ -13,7 +13,7 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
             opts={{
                 align: "start",
             }}
-        className="w-full max-w-sm"
+        className="w-full max-w-sm min-h-72 bg-white rounded-xl"
         >
             {color === "blue"  && (
             <CarouselContent>
@@ -48,8 +48,8 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                             ))}
             </CarouselContent>
             )}
-            {/* <CarouselPrevious />
-            <CarouselNext /> */}
+            <CarouselPrevious />
+            <CarouselNext />
         </Carousel>
     </div>
   )
