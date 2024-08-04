@@ -29,6 +29,7 @@ export const MenuItem = ({ index, link }: any) => {
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
+      className='navbarItem'
     >
       <a href={link.href} style={style}>
         <div className="icon-placeholder" />

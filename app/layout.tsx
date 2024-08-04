@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
       </head>
         <body className="font-articulat">
-          <Navbar />
+          {/* <Navbar /> */}
           <main>
               {children}
           </main>

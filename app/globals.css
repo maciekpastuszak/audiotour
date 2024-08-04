@@ -74,7 +74,7 @@ body {
   margin: 0;
 }
 
-.background {
+.mobileNavBg {
   position: absolute;
   top: 0;
   right: 0;
@@ -83,7 +83,7 @@ body {
   background: #fff;
 }
 
-#toggleButton {
+#hamburgerBtn {
   outline: none;
   border: none;
   cursor: pointer;
@@ -101,13 +101,9 @@ body {
   padding-left: 2px;
 }
 
-ul,
-li {
+.navbarUl {
   margin: 0;
   padding: 0;
-}
-
-ul {
   /* border: 5px solid green; */
   padding: 25px;
   position: absolute;
@@ -116,7 +112,9 @@ ul {
   width: 230px;
 }
 
-li {
+.navbarItem {
+  margin: 0;
+  padding: 0;
   list-style: none;
   margin-bottom: 20px;
   display: flex;

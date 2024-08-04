@@ -38,8 +38,8 @@ h1 > a:hover{
     text-decoration: underline;
 }
 
-h1 + h4{
-}
+/* h1 + h4{
+} */
 
 h3 {
     margin: 0;
@@ -960,7 +960,7 @@ div.hero-wrapper > h1.huge{
     margin-bottom: 0.75em;
 }
 
-}
+
 @media (max-width:680px) {
 
     div.hero-wrapper {

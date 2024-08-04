@@ -8,11 +8,13 @@ import { Button } from '@/components/ui/button'
 import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2 } from '@/constants'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
+import Navbar from '@/components/Navbar'
 
 const Aplikacja = () => {
   return (
+    <div>
+      <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
-          
           <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
             <img src='/app-grid.png' alt='app-grid' />
             <div className='my-6 text-center text-2xl md:text-3xl lg:text-4xl font-bold font-articulat'>
@@ -145,6 +147,8 @@ const Aplikacja = () => {
         <AppBannerOrange />
 
       </section>
+    </div>
+     
   )
 }
 
