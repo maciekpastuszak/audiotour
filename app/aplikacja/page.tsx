@@ -9,6 +9,7 @@ import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsC
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const Aplikacja = () => {
   return (
@@ -147,6 +148,8 @@ const Aplikacja = () => {
         <AppBannerOrange />
 
       </section>
+
+      <Footer />
     </div>
      
   )

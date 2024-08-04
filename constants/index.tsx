@@ -41,3 +41,12 @@ export const navLinks = [
     {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Śląskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9'},
     {id: '02', fileName: "Szlak_Marianny_Orańskiej.png", alt: 'Szlak Marianny Orańskiej', rating: '4,8'}
   ]
+
+  export const contactCard = [
+    {id: '01', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '02', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '03', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '04', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '05', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '06', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+  ]
