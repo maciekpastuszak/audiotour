@@ -6,7 +6,7 @@ const Footer = () => {
     <section className='w-full flex flex-col md:flex-row bg-zinc-700 text-stone-300 text-sm' id='footer'>
 
         <div className='w-full md:w-1/3 p-7'>
-        <Image src="/img/app-logo/logo_mono.svg" width={130} height={15} alt="logo" />
+        <Image src="/img/app-logo/Logo_mono.svg" width={130} height={15} alt="logo" />
         <h4 className='mt-5'>Siedziba:</h4>
           <p>Plac Jana Kilińskiego 2</p>
           <p>35-005 Rzeszów</p>

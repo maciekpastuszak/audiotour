@@ -38,8 +38,8 @@ export const navLinks = [
   ]
 
   export const favouriteAppsCard2 = [
-    {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Śląskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9'},
-    {id: '02', fileName: "Szlak_Marianny_Orańskiej.png", alt: 'Szlak Marianny Orańskiej', rating: '4,8'}
+    {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Slaskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9'},
+    {id: '02', fileName: "Szlak_Marianny_Oranskiej.png", alt: 'Szlak Marianny Orańskiej', rating: '4,8'}
   ]
 
   export const contactCard = [
