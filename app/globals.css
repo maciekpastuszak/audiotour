@@ -179,5 +179,14 @@ body {
   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
+#footer h4 {
+  font-weight: bold;
+}
+
+#footer h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 
 

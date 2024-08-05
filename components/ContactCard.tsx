@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 type ContactCardProps = {
     fullName: string,
     mail: string,
