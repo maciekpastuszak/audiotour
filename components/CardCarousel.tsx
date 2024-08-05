@@ -48,8 +48,8 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                             ))}
             </CarouselContent>
             )}
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className='hidden' />
+            <CarouselNext className='hidden' />
         </Carousel>
     </div>
   )
