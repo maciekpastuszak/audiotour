@@ -1,7 +1,4 @@
 import React from 'react'
-import { Button } from './ui/button'
-import { contactCard } from '@/constants'
-import ContactCard from './ContactCard'
 import Image from 'next/image'
 
 const Footer = () => {

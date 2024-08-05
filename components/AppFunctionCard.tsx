@@ -11,7 +11,7 @@ type appFunctionPros = {
 }
 const AppFunctionCard = ({ cardBg, iconSrc, iconAlt, title, content, isBig }: appFunctionPros) => {
   return (
-    <div className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] min-h-[200px'}`}>
+    <div className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] min-h-[200px'} bg-white`}>
         <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
             <img src={`/img/app-icons/${iconSrc}`} className='w-28 md:w-14 h-28 md:h-14' alt={iconAlt} />
         </div>
