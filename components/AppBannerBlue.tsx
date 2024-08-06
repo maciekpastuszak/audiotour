@@ -1,6 +1,9 @@
+"use client"
+
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
+import { motion } from 'framer-motion'
 
 const AppBannerBlue = () => {
   return (
@@ -15,9 +18,14 @@ const AppBannerBlue = () => {
         <div className={`relative bg-[url('/img/app-banners/Banner_Audioprzewodniki_Wide.png')] bg-cover h-80`}>
             <h2 className='text-xl md:text-3xl text-white font-semibold mx-5 px-2 py-5 md:py-8 text-nowrap'>Idealne rozwiązanie dla <br />muzeów oraz w przestrzeni <br /> miejskiej</h2>
             <Button className='absolute bg-white rounded-full text-black right-10 md:left-0 md:w-[320px] bottom-10 md:bottom-24 px-10 md:mx-7'>Więcej</Button>
-            <div className='absolute max-w-48 md:max-w-80 lg:max-w-96 h-full top-28 md:-top-16 left-5 md:left-auto md:-right-10'>
-                <img src='/img/app-phone-mockups/Banner Audioprzewodniki Tel.png' alt='Smartphone - Audioprzewodniki' />
-            </div>
+            <motion.div 
+                className='absolute max-w-48 md:max-w-80 lg:max-w-96 h-full top-28 md:-top-16 left-5 md:left-auto md:-right-10'
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.7 }}
+            >
+                <img src='/img/app-phone-mockups/Banner_Audioprzewodniki_Tel.png' alt='Smartphone - Audioprzewodniki' />
+            </motion.div>
         </div>
         <div className='md:w-3/5 m-8 pt-4 text-justify md:text-left'>
             <p className='pb-4'>Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.</p>

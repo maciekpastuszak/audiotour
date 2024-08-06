@@ -1,3 +1,5 @@
+"use client"
+
 import AppFunctionCard from '@/components/AppFunctionCard'
 import AppBannerBlue from '@/components/AppBannerBlue'
 import AppBannerGreen from '@/components/AppBannerGreen'
@@ -10,6 +12,9 @@ import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
+
 
 const Aplikacja = () => {
   return (
@@ -17,7 +22,14 @@ const Aplikacja = () => {
       <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
           <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
-            <img src='/app-grid.png' alt='app-grid' />
+            <motion.div 
+              className='relative h-1/2 w-full pt-[50%]'
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.7 }}
+              >
+              <Image src='/img/app-icon-grid.png' alt='Siatka ikon' fill />
+            </motion.div>
             <div className='my-6 text-center text-2xl md:text-3xl lg:text-4xl font-bold font-articulat'>
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
               <h2>200 <span className='text-xl font-normal'>wdrożeń w całej Polsce</span></h2>
