@@ -22,7 +22,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
   return (
     <motion.div 
     className='items-start w-5/6 my-5 bg-white min-w-[375px] drop-shadow-md'
-    variants={fadeIn('right', 'tween', 0.2, 1)}
+    variants={fadeIn('right', 'tween', 0.2, 0.7)}
     initial="hidden"
     whileInView="show">
         <div className='flex ms-5 my-3'>
@@ -32,15 +32,15 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
                 <p className='text-sm md:text-noraml'>{subtitle1} <span className={subtitle2Color}>{subtitle2}</span></p>
             </div>
         </div>
-        <div className={`relative w-full md:w-4/5 bg-[url('/img/app-banners/${bannerBgSrc}')] bg-cover h-80`}>
+        <div className={`relative w-full md:w-4/5 bg-[url('/img/app-banners/${bannerBgSrc}')] bg-cover h-64`}>
             <div className='w-full md:w-2/3 mx-5 px-2 py-5 md:py-8'>
                 <h2 className='text-xl md:text-3xl text-white font-semibold'>Idealne rozwiązanie dla muzeów oraz w przestrzeni miejskiej</h2>
             </div>
-            <Button className='absolute bg-white rounded-full text-black right-10 md:left-0 md:w-[320px] bottom-10 md:bottom-24 px-10 md:mx-7'>Więcej</Button>
+            <Button className='absolute bg-white rounded-full text-black right-10 md:left-0 md:w-[320px] bottom-10 md:bottom-12 px-10 md:mx-7'>Więcej</Button>
         </div>
             <motion.div 
-                className='absolute w-48 md:w-80 lg:w-[400px] h-full top-48 md:top-5 left-5 md:left-auto md:-right-20'
-                variants={fadeIn('left', 'tween', 0.4, 1)}
+                className='absolute w-48 md:w-80 lg:w-[400px] h-full top-48 md:top-5 left-5 md:left-auto md:-right-10'
+                variants={fadeIn('left', 'tween', 0.4, 0.7)}
                 initial="hidden"
                 whileInView="show"
             >
