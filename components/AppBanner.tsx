@@ -21,8 +21,8 @@ type AppBannerProps = {
 const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, text1, text2  }: AppBannerProps) => {
   return (
     <motion.div 
-    className='items-start w-5/6 my-5 bg-white min-w-[375px] drop-shadow-md'
-    variants={fadeIn('right', 'tween', 0.2, 0.7)}
+    className='items-start w-5/6 my-5 bg-white min-w-[375px] drop-shadow-md rounded-md'
+    variants={fadeIn('right', 'tween', 0.2, 0.5)}
     initial="hidden"
     whileInView="show">
         <div className='flex ms-5 my-3'>
@@ -40,7 +40,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
         </div>
             <motion.div 
                 className='absolute w-48 md:w-80 lg:w-[400px] h-full top-48 md:top-5 left-5 md:left-auto md:-right-10'
-                variants={fadeIn('left', 'tween', 0.4, 0.7)}
+                variants={fadeIn('left', 'tween', 0.4, 0.5)}
                 initial="hidden"
                 whileInView="show"
             >

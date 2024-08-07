@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <section className='w-full flex flex-col md:flex-row bg-zinc-700 text-stone-300 text-sm' id='footer'>
+    <section className='w-full flex flex-col md:flex-row justify-start items-start bg-zinc-700 text-stone-400 text-sm' id='footer'>
 
         <div className='w-full md:w-1/3 p-7'>
         <Image src="/img/app-logo/Logo_mono.svg" width={130} height={15} alt="logo" />
@@ -34,12 +34,12 @@ const Footer = () => {
           <h3>Aplikacje mobilne</h3>
           <p>Audioprzewodniki mobilne</p>
           <p>Przewodniki turystyczne</p>
-          <p>Digital experience</p>
+          <p className='mb-5'>Digital experience</p>
 
           <h3>Audioprzewodniki</h3>
           <p>Zwiedzanie automatyczne</p>
           <p>Ekspozycja z numerkami</p>
-          <p>DSynchronizacja z multimediami</p>
+          <p>Synchronizacja z multimediami</p>
          
         </div>
         <div className='w-full md:w-1/3 flex flex-col justify-evenly my-5 ps-7 gap-1'>
@@ -48,11 +48,11 @@ const Footer = () => {
           <p>Nagrania i udźwiękowienie</p>
           <p>Redakcja tekstu</p>
           <p>Tłumaczenia</p>
-          <p>Audiodeskrypcja i język migowy</p>
+          <p className='mb-5'>Audiodeskrypcja i język migowy</p>
 
           <h3>Realizacje</h3>
           <p>Mapa realizacji</p>
-          <p>Pobierz nasze aplikacje</p>
+          <p className='mb-5'>Pobierz nasze aplikacje</p>
 
           <h3>Rozwiązania Tour Guide</h3>
           <h3>Kontakt</h3>
