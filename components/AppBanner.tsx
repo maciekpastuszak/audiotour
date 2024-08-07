@@ -11,11 +11,11 @@ type AppBannerProps = {
     headerTitle: string, 
     subtitle1: string,
     subtitle2Color: string
-     subtitle2: string,
-     bannerBgSrc: string,
-     mobileImg: string,
-     text1: string,
-     text2: string
+    subtitle2: string,
+    bannerBgSrc: string,
+    mobileImg: string,
+    text1: string,
+    text2: string
 }
 
 const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, text1, text2  }: AppBannerProps) => {
@@ -26,7 +26,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
     initial="hidden"
     whileInView="show">
         <div className='flex ms-5 my-3'>
-            <Image src={`/img/app-icons/${headerIcon}`} width={55} height={55} alt="Ikona - Audioprzewodniki" />
+            <Image src={`/img/app-icons/${headerIcon}`} width={55} height={55} alt="Ikona karty" />
             <div className='font-articulat leading-3'>
                 <h3 className='text-lg font-bold'>{headerTitle}</h3>
                 <p className='text-sm md:text-noraml'>{subtitle1} <span className={subtitle2Color}>{subtitle2}</span></p>
@@ -44,7 +44,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
                 initial="hidden"
                 whileInView="show"
             >
-                <img src={`/img/app-phone-mockups/${mobileImg}`} alt='Smartphone - Audioprzewodniki' />
+                <img src={`/img/app-phone-mockups/${mobileImg}`} alt='Smartphone' />
             </motion.div>
         <div className='md:w-3/5 m-8 pt-4 text-justify md:text-left'>
             <p className='pb-4'>{text1}</p>
