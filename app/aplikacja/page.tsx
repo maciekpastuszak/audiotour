@@ -1,9 +1,7 @@
 "use client"
 
 import AppFunctionCard from '@/components/AppFunctionCard'
-import AppBannerBlue from '@/components/AppBannerBlue'
-import AppBannerGreen from '@/components/AppBannerGreen'
-import AppBannerOrange from '@/components/AppBannerOrange'
+import AppBanner from '@/components/AppBanner'
 import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
 import { Button } from '@/components/ui/button'
@@ -43,7 +41,17 @@ const Aplikacja = () => {
             </div>
           </div>
 
-        <AppBannerBlue />
+        <AppBanner  
+          headerIcon='Icon_Audioprzewodniki.svg'
+          headerTitle='Audioprzewodniki'
+          subtitle1='Prosta obsługa,'
+          subtitle2Color='text-blue-500'
+          subtitle2='szybka realizacja'
+          bannerBgSrc='Banner_Audioprzewodniki_Wide.png'
+          mobileImg='Banner_Audioprzewodniki_Tel.png'
+          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
+          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+        />
         
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
@@ -100,7 +108,17 @@ const Aplikacja = () => {
           
         </div>
 
-        <AppBannerGreen />
+        <AppBanner  
+          headerIcon='Icon_Przewodniki.svg'
+          headerTitle='Przewodniki turystyczne'
+          subtitle1='Zawsze aktualny,'
+          subtitle2Color='text-green-500'
+          subtitle2='wiele możliwości'
+          bannerBgSrc='Banner_Przewodniki_Wide.png'
+          mobileImg='Banner_Przewodniki_Tel.png'
+          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
+          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+        />
 
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
@@ -156,8 +174,18 @@ const Aplikacja = () => {
           }
           
         </div>
-        
-        <AppBannerOrange />
+
+        <AppBanner  
+          headerIcon='Icon_Bespoke.svg'
+          headerTitle='Rozwiązania skrojone na wymiar'
+          subtitle1=''
+          subtitle2Color=''
+          subtitle2=''
+          bannerBgSrc='Banner_Bespoke_Wide.png'
+          mobileImg='Banner_Bespoke_Tel_Alt.png'
+          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
+          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+        />
 
       </section>
 
