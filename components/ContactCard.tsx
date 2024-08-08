@@ -9,7 +9,7 @@ type ContactCardProps = {
 
 const ContactCard = ({ fullName, mail, phone }: ContactCardProps) => {
   return (
-    <div>
+    <div className=''>
         <p>{fullName}</p>
         <p>{mail}</p>
         <p>{phone}</p>

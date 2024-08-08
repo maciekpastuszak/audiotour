@@ -2,7 +2,6 @@ import ContactCard from '@/components/ContactCard'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import { Button } from '@/components/ui/button'
 import { contactCard } from '@/constants'
 import React from 'react'
 
@@ -39,13 +38,15 @@ const Kontakt = () => {
           
         </div>
       </div>
-      {/* <div className='flex flex-col md:flex-row'>
-        <h4>Nasz zespół</h4>
-          {contactCard.map((i) => (
-            <ContactCard key={i.id} fullName={i.fullName} mail={i.mail} phone={i.phone} />
-          ))}
-      </div> */}
 
+      <div>
+        <h2>Nasz zespół</h2>
+        <div className='flex flex-row'>
+        {contactCard.map((i) => (
+          <ContactCard key={i.id} fullName={i.fullName} mail={i.mail} phone={i.phone} />
+        ))}
+        </div>
+      </div>
     </section>
 
     <Footer />
