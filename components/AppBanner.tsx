@@ -41,8 +41,9 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
                         Idealne rozwiązanie dla muzeów oraz w przestrzeni miejskiej
                     </h2>
                 </div>
-                {/* Adjusted button styling to remove potential issues */}
-                <HoverButtton btnText='Więcej' />
+                <div className='w-1/2 ms-auto mt-20 md:mt-1 me-7 md:mx-7'>
+                    <HoverButtton btnText='Więcej' />
+                </div>
             </div>
     
             <motion.div 
