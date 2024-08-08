@@ -1,13 +1,17 @@
 import ContactCard from '@/components/ContactCard'
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import { contactCard } from '@/constants'
 import React from 'react'
 
 const Kontakt = () => {
   return (
-    <div className='w-full flex bg-gray-800 text-white'>
+    <>
+    <Navbar />
+    <section id='kontakt' className='w-full flex flex-col justify-center items-center bg-gray-200'>
       <div className='flex flex-col md:flex-row'>
-        <div className='w-1/3 flex justify-end'>
+        <div className='w-1/3 border border-teal-600'>
           <h3>Wyślij zapytanie</h3>
           <input type="text" placeholder='Imię Nazwisko' />
           <input type="text" placeholder='mail' />
@@ -42,7 +46,11 @@ const Kontakt = () => {
             <ContactCard key={i.id} fullName={i.fullName} mail={i.mail} phone={i.phone} />
           ))}
       </div>
-    </div>
+
+    </section>
+
+    <Footer />
+    </>
   )
 }
 
