@@ -13,40 +13,33 @@ const ContactForm = () => {
       </div>
       <div className="space-y-4">
         <div className="space-y-2">
-          <Label className="text-gray-600 dark:text-gray-400 required" htmlFor="name">
-            Imię Nazwisko
-          </Label>
           <Input
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             id="name"
+            placeholder="Imię Nazwisko"
             required
           />
         </div>
         <div className="space-y-2">
-          <Label className="text-gray-600 dark:text-gray-400 required" htmlFor="mail">
-            E-mail
-          </Label>
           <Input
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             id="mail"
+            placeholder="E-mail"
             required
           />
         </div>
         <div className="space-y-2">
-          <Label className="text-gray-600 dark:text-gray-400 required" htmlFor="message">
-            Wiadomość
-          </Label>
           <textarea
             className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-500 w-full p-2"
-            defaultValue="Wiadomość"
             id="message"
-            placeholder="Napisz do nas"
+            placeholder="Twoja wiadomość"
             required
             rows={4}
           />
         </div>
-       
-        <HoverButtton btnText='Wyślij' type='submit' />
+       <div className="flex justify-end max-w-[213px] ms-auto">
+          <HoverButtton btnText='Wyślij' type='submit' />
+       </div>
       </div>
     </div>
   )
