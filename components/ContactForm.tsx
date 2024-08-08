@@ -37,8 +37,8 @@ const ContactForm = () => {
             Wiadomość
           </Label>
           <textarea
-            className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 w-full p-2"
-            defaultValue="I would like to receive more information"
+            className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-500 w-full p-2"
+            defaultValue="Wiadomość"
             id="message"
             placeholder="Napisz do nas"
             required
@@ -46,7 +46,7 @@ const ContactForm = () => {
           />
         </div>
        
-        <HoverButtton btnText='Wyślij' />
+        <HoverButtton btnText='Wyślij' type='submit' />
       </div>
     </div>
   )

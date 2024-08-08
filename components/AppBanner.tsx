@@ -42,7 +42,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
                     </h2>
                 </div>
                 <div className='w-1/2 ms-auto mt-20 md:mt-1 me-7 md:mx-7'>
-                    <HoverButtton btnText='Więcej' />
+                    <HoverButtton btnText='Więcej' type='button'/>
                 </div>
             </div>
     
