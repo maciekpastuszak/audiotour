@@ -1,10 +1,54 @@
+// export const navLinks = [
+//     { href: '/audioprzewodniki', key: 'audioguide', text: 'Aplikacje mobilne' },
+//     { href: '/#audioguide', key: 'audioguide', text: 'Audioguide' },
+//     { href: '/#przewodnik-turystyczny', key: 'przewodnik', text: 'Content' },
+//     { href: '/#oferta', key: 'oferta', text: 'Oferta' },
+//     { href: '/#portfolio', key: 'porfolio', text: 'Porfolio' },
+//     { href: '/#kontakt', key: 'kontakt', text: 'Kontakt' },
+//   ];
+
 export const navLinks = [
-    { href: '/#audioguide', key: 'audioguide', text: 'Audioguide' },
-    { href: '/#przewodnik-turystyczny', key: 'przewodnik', text: 'Przewodnik turystyczny' },
-    { href: '/#oferta', key: 'oferta', text: 'Oferta' },
-    { href: '/#portfolio', key: 'porfolio', text: 'Porfolio' },
-    { href: '/#kontakt', key: 'kontakt', text: 'Kontakt' },
-  ];
+  {
+    section: 'Sekcja Aplikacje mobilne',
+    links: [
+      { href: '/audioprzewodniki', text: 'Audioprzewodniki' },
+      { href: '/#przewodniki-turystyczne', text: 'Przewodniki turystyczne' },
+      { href: '/#aplikacje-skrojone-na-wymiar', text: 'Rozwiązania Tailor Made' },
+    ],
+  },
+  {
+    section: 'Sekcja Audioguide',
+    links: [
+      { href: '/technologia#hengda', text: 'Zwiedzanie automatyczne' },
+      { href: '/technologia#mgkeypad', text: 'Ekspozycja z numerkami' },
+      { href: '/technologia#technology-02', text: 'Synchonizacja multimediów' },
+    ],
+  },
+  {
+    section: 'Sekcja Content creation',
+    links: [
+      { href: '/bankglosow', text: 'Bank głosów' },
+      { href: '/nagrania', text: 'Nagrania i udźwiękowienie' },
+      { href: '/redakcja', text: 'Redakcja tekstu' },
+      { href: '/tlumaczenia', text: 'Tłumaczenia' },
+    ],
+  },
+  {
+    section: 'Sekcja Realizacje',
+    links: [
+      { href: '/realizacje', text: 'Mapa realizacji' },
+      { href: '/realizacje#aplikacjamobilna', text: 'Aplikacje mobilne' },
+    ],
+  },
+  {
+    section: 'Big links',
+    links: [
+      { href: '/zwiedzaniegrupowe', text: 'Rozwiązania Tour Guide', isBigLink: true },
+      { href: '/next/kontakt', text: 'Kontakt', isBigLink: true },
+    ],
+  },
+];
+
 
   export const appCarouselIcons = [
     {id: '01', alt: "Brama Poznania" },

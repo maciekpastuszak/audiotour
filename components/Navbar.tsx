@@ -36,15 +36,18 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md w-full">
+      {/* Desktop */}
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 py-3 flex justify-between items-center">
-        <Image src="/img/logo.png" width={130} height={15} alt="logo" />
+        <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
         <div className="hidden md:flex space-x-8 md:space-x-8 lg:space-x-16 font-halyard">
-            <Link href='/audioguide'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
+            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
             <Link href='/przewodnik'><p className="text-stone-900 hover:text-gray-500">Przewodnik</p></Link>
-            <Link href='/oferta'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
-            <Link href='/portfolio'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
+            <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
+            <Link href='/realizacje.html'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
+
+        {/* Mobile */}
         <div className="md:hidden">
           <motion.div
             initial={false}
@@ -53,8 +56,8 @@ const Navbar = () => {
             ref={containerRef}
           >
             <motion.div className="mobileNavBg absolute top-0 right-0 w-full h-full bg-white z-40" variants={sidebar} />
-            <Navigation />
             <MenuToggle toggle={() => toggleOpen()} />
+            <Navigation />
           </motion.div>
         </div>
 
