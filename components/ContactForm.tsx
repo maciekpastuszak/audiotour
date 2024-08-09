@@ -7,7 +7,8 @@ const ContactForm = () => {
   return (
     <div key="1" className="border-2 border-gray-300 dark:border-gray-700 p-4 rounded-md shadow-md space-y-8">
       <div className="space-y-2">
-        <p className="text-gray-500 dark:text-gray-400 text-xl">
+      <h3 className='text-xl bold font-bold'>Wyślij zapytanie</h3>
+        <p className="text-gray-500 dark:text-gray-400 text-l">
           Jeśli chciałbyś/ chciałabyś skontaktować się znami, wypełnij poniższy formularz
         </p>
       </div>
