@@ -1,15 +1,25 @@
 import * as React from "react";
-import { motion } from "framer-motion";
+import { Variants, motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
 import { navLinks } from "@/constants";
 
-const variants = {
+const variants: Variants = {
   open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
+    opacity: 1, // Make items fully visible
+    pointerEvents: "auto", // Allow interaction
+    transition: {
+      staggerChildren: 0.07,
+      delayChildren: 0.2,
+    },
   },
   closed: {
-    transition: { staggerChildren: 0.05, staggerDirection: -1 }
-  }
+    opacity: 0, // Fade out items
+    pointerEvents: "none", // Disable interaction
+    transition: {
+      staggerChildren: 0.05,
+      staggerDirection: -1,
+    },
+  },
 };
 
 export const Navigation = () => (
