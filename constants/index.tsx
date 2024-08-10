@@ -9,7 +9,7 @@
 
 export const navLinks = [
   {
-    section: 'Sekcja Aplikacje mobilne',
+    section: 'Aplikacje mobilne',
     links: [
       { href: '/audioprzewodniki', text: 'Audioprzewodniki' },
       { href: '/#przewodniki-turystyczne', text: 'Przewodniki turystyczne' },
@@ -17,7 +17,7 @@ export const navLinks = [
     ],
   },
   {
-    section: 'Sekcja Audioguide',
+    section: 'Audioguide',
     links: [
       { href: '/technologia#hengda', text: 'Zwiedzanie automatyczne' },
       { href: '/technologia#mgkeypad', text: 'Ekspozycja z numerkami' },
@@ -25,7 +25,7 @@ export const navLinks = [
     ],
   },
   {
-    section: 'Sekcja Content creation',
+    section: 'Content creation',
     links: [
       { href: '/bankglosow', text: 'Bank głosów' },
       { href: '/nagrania', text: 'Nagrania i udźwiękowienie' },
@@ -34,7 +34,7 @@ export const navLinks = [
     ],
   },
   {
-    section: 'Sekcja Realizacje',
+    section: 'Realizacje',
     links: [
       { href: '/realizacje', text: 'Mapa realizacji' },
       { href: '/realizacje#aplikacjamobilna', text: 'Aplikacje mobilne' },

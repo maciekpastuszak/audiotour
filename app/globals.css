@@ -74,15 +74,6 @@ body {
   margin: 0;
 }
 
-.mobileNavBg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 230px;
-  background: #fff;
-}
-
 #hamburgerBtn {
   outline: none;
   border: none;
@@ -101,16 +92,7 @@ body {
   padding-left: 2px;
 }
 
-.navbarUl {
-  margin: 0;
-  padding: 0;
-  /* border: 5px solid green; */
-  padding: 25px;
-  position: absolute;
-  top: 40px;
-  right: 0;
-  width: 230px;
-}
+
 
 .navbarItem {
   margin: 0;
@@ -122,20 +104,20 @@ body {
   cursor: pointer;
 }
 
-.icon-placeholder {
+/* .icon-placeholder {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   flex: 40px 0;
   margin-right: 20px;
-}
-
+} */
+/* 
 .text-placeholder {
   border-radius: 5px;
   width: 200px;
   height: 20px;
   flex: 1;
-}
+} */
 
 .refresh {
   padding: 10px;
@@ -188,6 +170,7 @@ body {
   font-weight: bold;
   margin-bottom: 6px;
 }
+
 
 
 

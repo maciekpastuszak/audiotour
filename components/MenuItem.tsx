@@ -19,21 +19,17 @@ const variants = {
   }
 };
 
-const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
-
 export const MenuItem = ({ index, link }: any) => {
-  const style = { color: `${colors[index]}` };
 
   return (
     <motion.li
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className='navbarItem'
+      className=''
     >
-      <a href={link.href} style={style}>
-        <div className="icon-placeholder" />
-        <div className="text-placeholder text-2xl">{link.text}</div>
+      <a href={link.href}>
+        <div className="text-l">{link.text}</div>
       </a>
     </motion.li>
   );
