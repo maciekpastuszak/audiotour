@@ -41,9 +41,14 @@ export const navLinks = [
     ],
   },
   {
-    section: 'Big links',
+    section: 'Rozwiązania Tour Guide',
     links: [
       { href: '/zwiedzaniegrupowe', text: 'Rozwiązania Tour Guide', isBigLink: true },
+    ],
+  },
+  {
+    section: 'Kontakt',
+    links: [
       { href: '/next/kontakt', text: 'Kontakt', isBigLink: true },
     ],
   },

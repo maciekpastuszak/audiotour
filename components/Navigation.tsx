@@ -31,12 +31,12 @@ const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
 
 export const Navigation = () => (
 
-  <motion.div variants={variants} className="absolute top-10 right-10 m-0 p-0 z-50">
+  <motion.div variants={variants} className="absolute top-10 right-20 m-0 p-0 z-50">
     {navLinks.map((section, sectionIndex) => (
       <div key={sectionIndex}>
-        <div className="flex">
-          <Image src='' width={40} height={40} alt='Menu icon' />
-          <h2 className="text-2xl font-bold ps-3">{section.section}</h2>
+        <div className="flex items-center">
+          <Image src='/img/app-icons/Feature_Icon_Map.svg' width={40} height={40} alt='Menu icon' className="bg-sky-400 rounded-full"/>
+          <h2 className="text-2xl font-bold ps-2">{section.section}</h2>
         </div>
         
         <motion.ul>

@@ -55,7 +55,7 @@ const Navbar = () => {
             custom={height}
             ref={containerRef}
           >
-            <motion.div className="absolute top-0 right-0 bottom-0 w-3/4 h-full bg-white z-40" variants={sidebar} />
+            <motion.div className="absolute top-0 right-0 bottom-0 w-3/4 h-full bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40" variants={sidebar} />
             <MenuToggle toggle={() => toggleOpen()} />
             <Navigation />
           </motion.div>
