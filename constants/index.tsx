@@ -10,14 +10,16 @@
 export const navLinks = [
   {
     section: 'Aplikacje mobilne',
+    icon: 'Navbar_iPhone_Icon.svg',
     links: [
-      { href: '/audioprzewodniki', text: 'Audioprzewodniki' },
+      { href: '/aplikacja', text: 'Audioprzewodniki' },
       { href: '/#przewodniki-turystyczne', text: 'Przewodniki turystyczne' },
       { href: '/#aplikacje-skrojone-na-wymiar', text: 'Rozwiązania Tailor Made' },
     ],
   },
   {
     section: 'Audioguide',
+    icon: 'Icon_Audioprzewodniki.svg',
     links: [
       { href: '/technologia#hengda', text: 'Zwiedzanie automatyczne' },
       { href: '/technologia#mgkeypad', text: 'Ekspozycja z numerkami' },
@@ -26,6 +28,7 @@ export const navLinks = [
   },
   {
     section: 'Content creation',
+    icon: 'Icon_Audioprzewodniki.svg',
     links: [
       { href: '/bankglosow', text: 'Bank głosów' },
       { href: '/nagrania', text: 'Nagrania i udźwiękowienie' },
@@ -35,6 +38,7 @@ export const navLinks = [
   },
   {
     section: 'Realizacje',
+    icon: 'Navbar_Location_Icon.svg',
     links: [
       { href: '/realizacje', text: 'Mapa realizacji' },
       { href: '/realizacje#aplikacjamobilna', text: 'Aplikacje mobilne' },
@@ -42,12 +46,14 @@ export const navLinks = [
   },
   {
     section: 'Rozwiązania Tour Guide',
+    icon: '',
     links: [
       { href: '/zwiedzaniegrupowe', text: 'Rozwiązania Tour Guide', isBigLink: true },
     ],
   },
   {
     section: 'Kontakt',
+    icon: '',
     links: [
       { href: '/next/kontakt', text: 'Kontakt', isBigLink: true },
     ],

@@ -35,7 +35,7 @@ export const Navigation = () => (
     {navLinks.map((section, sectionIndex) => (
       <div key={sectionIndex}>
         <div className="flex items-center">
-          <Image src='/img/app-icons/Feature_Icon_Map.svg' width={40} height={40} alt='Menu icon' className="bg-sky-400 rounded-full"/>
+          <Image src={`/img/app-icons/${section.icon}`} width={40} height={40} alt='Menu icon' className="rounded-full border border-teal-950 h-auto"/>
           <h2 className="text-2xl font-bold ps-2">{section.section}</h2>
         </div>
         
