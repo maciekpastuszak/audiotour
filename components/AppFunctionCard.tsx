@@ -17,7 +17,7 @@ const AppFunctionCard = ({ cardBg, iconSrc, iconAlt, title, content, isBig }: ap
     whileHover={{ scale: 1.02 }}
     whileTap={{ scale: 0.9 }}
     >
-        <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
+        <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover bg-center rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
             <img src={`/img/app-icons/${iconSrc}`} className='w-28 md:w-14 h-28 md:h-14' alt={iconAlt} />
         </div>
         <div className={`${isBig ? 'p-5 h-72' : 'p-3'}  rounded-b-lg`}>

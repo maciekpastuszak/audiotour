@@ -55,7 +55,7 @@ const Navbar = () => {
           custom={height}
           ref={containerRef}
         >
-          <motion.div className="absolute top-0 -right-10 bottom-0 w-3/4 md:w-1/2 max-w-[450px] h-full bg-gray-300 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40 shadow-md" variants={sidebar}>
+          <motion.div className="absolute top-0 right-0 bottom-0 w-3/4 md:w-1/2 max-w-[450px] h-full bg-gray-300 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40 shadow-md" variants={sidebar}>
             <div className='relative'>
               <Navigation />
             </div>

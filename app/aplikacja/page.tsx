@@ -5,7 +5,7 @@ import AppBanner from '@/components/AppBanner'
 import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
 import { Button } from '@/components/ui/button'
-import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2 } from '@/constants'
+import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2, processCards } from '@/constants'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Navbar from '@/components/Navbar'
@@ -186,6 +186,41 @@ const Aplikacja = () => {
           text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
           text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
         />
+
+        <h2 className='text-lg font-bold'>Nasz proces:</h2>
+        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
+        
+          {/* large screens */}
+          <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 mb-6">
+          <div className="w-full h-full md:w-1/2">
+            <AppFunctionCard 
+              isBig={true} 
+              cardBg="Feature_Process_1.jpg"
+              iconSrc='Feature_Icon_Lead.svg' 
+              iconAlt='Ikona rozmowy' 
+              title='1. Rozmowa' 
+              content='' 
+            />
+          </div>
+          <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
+            {processCards.map((i) => (
+              <AppFunctionCard
+              key={i.id} 
+              cardBg={i.cardBg}
+              isBig={i.isBig}
+              iconSrc={i.iconSrc}
+              iconAlt={i.iconAlt}
+              title={i.title}
+              content={i.content}
+              />
+            ))}
+          </div>
+        </div>
+            
+        {/* mobile */}
+        <div className='md:hidden flex justify-center align-middle mb-6'>
+            <CardCarousel color="process" />
+        </div>
 
       </section>
 

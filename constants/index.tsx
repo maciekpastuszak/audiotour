@@ -93,6 +93,13 @@ export const navLinks = [
     {id: '04', cardBg: 'Feature_Przewodniki_4.png', iconSrc:'Feature_Icon_Modules.svg', iconAlt: 'Ikona puzzle', title: 'Dodatkowe moduły', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
   ]
 
+  export const processCards = [
+    {id: '01', cardBg: 'Feature_Process_1.jpg', iconSrc:'Feature_Icon_Lead.svg', iconAlt: 'Ikona rozmowy', title: '1. Rozmowa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
+    {id: '02', cardBg: 'Feature_Process_2.jpeg', iconSrc:'Feature_Icon_Quote.svg', iconAlt: 'Ikona wyceny', title: '2. Wycena', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', isBig: false},
+    {id: '03', cardBg: 'Feature_Process_3.jpeg', iconSrc:'Feature_Icon_Project.svg', iconAlt: 'Ikona projektu', title: '3. Projekt', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
+    {id: '04', cardBg: 'app-icon-grid.png', iconSrc:'Feature_Icon_App.svg', iconAlt: 'Ikona wdrożenia', title: '4. Wdrożenie', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
+  ]
+
   export const favouriteAppsCard1 = [
     {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6'},
     {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8'}

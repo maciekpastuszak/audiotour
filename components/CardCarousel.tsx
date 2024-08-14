@@ -1,5 +1,5 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious,} from "@/components/ui/carousel"
-import { featureCardsBlue,  featureCardsGreen} from "@/constants"
+import { featureCardsBlue,  featureCardsGreen, processCards} from "@/constants"
 import AppFunctionCard from "./AppFunctionCard"
 
 type CardCarouselProps = {
@@ -35,6 +35,25 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
            {color === "green"  && (
             <CarouselContent>
                 {featureCardsGreen.map((i) => (
+                                <div className="flex-shrink-0 w-full pl-4" key={i.id}>
+                                    <AppFunctionCard 
+                                        cardBg={i.cardBg}
+                                        iconSrc={i.iconSrc} 
+                                        iconAlt={i.iconAlt} 
+                                        title={i.title} 
+                                        content={i.content} 
+                                        isBig={false} 
+                                        />
+                                </div>
+                            ))}
+            </CarouselContent>
+            )}
+            <CarouselPrevious className='hidden' />
+            <CarouselNext className='hidden' />
+
+            {color === "process"  && (
+            <CarouselContent>
+                {processCards.map((i) => (
                                 <div className="flex-shrink-0 w-full pl-4" key={i.id}>
                                     <AppFunctionCard 
                                         cardBg={i.cardBg}
