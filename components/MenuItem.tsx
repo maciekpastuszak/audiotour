@@ -26,7 +26,7 @@ export const MenuItem = ({ index, link }: any) => {
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className='ms-12 my-2'
+      className='ms-6 my-2'
     >
       <a href={link.href}>
         <div className="text-sm">{link.text}</div>

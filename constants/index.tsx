@@ -11,6 +11,7 @@ export const navLinks = [
   {
     section: 'Aplikacje mobilne',
     icon: 'Navbar_iPhone_Icon.svg',
+    color: 'bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent',
     links: [
       { href: '/aplikacja', text: 'Audioprzewodniki' },
       { href: '/#przewodniki-turystyczne', text: 'Przewodniki turystyczne' },
@@ -19,7 +20,8 @@ export const navLinks = [
   },
   {
     section: 'Audioguide',
-    icon: 'Icon_Audioprzewodniki.svg',
+    icon: 'Porownanie_Audioprzewodniki.svg',
+    color: 'bg-gradient-to-r from-emerald-500 to-lime-600 bg-clip-text text-transparent',
     links: [
       { href: '/technologia#hengda', text: 'Zwiedzanie automatyczne' },
       { href: '/technologia#mgkeypad', text: 'Ekspozycja z numerkami' },
@@ -28,7 +30,8 @@ export const navLinks = [
   },
   {
     section: 'Content creation',
-    icon: 'Icon_Audioprzewodniki.svg',
+    icon: 'Porownanie_Audioprzewodniki.svg',
+    color: 'bg-gradient-to-r from-emerald-500 to-lime-600 bg-clip-text text-transparent',
     links: [
       { href: '/bankglosow', text: 'Bank głosów' },
       { href: '/nagrania', text: 'Nagrania i udźwiękowienie' },
@@ -39,6 +42,7 @@ export const navLinks = [
   {
     section: 'Realizacje',
     icon: 'Navbar_Location_Icon.svg',
+    color: 'bg-gradient-to-r from-pink-500 to-yellow-500',
     links: [
       { href: '/realizacje', text: 'Mapa realizacji' },
       { href: '/realizacje#aplikacjamobilna', text: 'Aplikacje mobilne' },
@@ -47,6 +51,7 @@ export const navLinks = [
   {
     section: 'Rozwiązania Tour Guide',
     icon: '',
+    color: 'bg-gradient-to-r from-pink-500 to-yellow-500',
     links: [
       { href: '/zwiedzaniegrupowe', text: 'Rozwiązania Tour Guide', isBigLink: true },
     ],
@@ -54,6 +59,7 @@ export const navLinks = [
   {
     section: 'Kontakt',
     icon: '',
+    color: 'bg-gradient-to-r from-pink-500 to-yellow-500',
     links: [
       { href: '/next/kontakt', text: 'Kontakt', isBigLink: true },
     ],

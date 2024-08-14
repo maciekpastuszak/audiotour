@@ -48,18 +48,21 @@ const Navbar = () => {
         </div>
 
         {/* Mobile */}
-        <div className="">
-          <motion.div
-            initial={false}
-            animate={isOpen ? "open" : "closed"}
-            custom={height}
-            ref={containerRef}
-          >
-            <motion.div className="absolute top-0 -right-10 bottom-0 w-3/4 h-full bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40" variants={sidebar} />
-            <MenuToggle toggle={() => toggleOpen()} />
-            <Navigation />
+
+        <motion.div
+          initial={false}
+          animate={isOpen ? "open" : "closed"}
+          custom={height}
+          ref={containerRef}
+        >
+          <motion.div className="absolute top-0 -right-10 bottom-0 w-3/4 h-full bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40" variants={sidebar}>
+            <div className='relative'>
+              <Navigation />
+            </div>
           </motion.div>
-        </div>
+          <MenuToggle toggle={() => toggleOpen()} />
+
+        </motion.div>
 
       </div>
     </nav>
