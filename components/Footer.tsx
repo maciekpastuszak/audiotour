@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <section className='w-full flex flex-col md:flex-row justify-start items-start bg-zinc-700 text-stone-400 text-sm' id='footer'>
+    <section className='w-full flex flex-col md:flex-row justify-start items-start text-center md:text-left bg-zinc-700 text-stone-400 text-sm p-6' id='footer'>
 
-        <div className='w-full md:w-1/3 p-7'>
-        <Image src="/img/app-logo/Logo_mono.svg" width={130} height={15} alt="logo" />
-        <h4 className='mt-5'>Siedziba:</h4>
+        <div className='w-full md:w-1/3 p-3'>
+          <Image src="/img/app-logo/Logo_mono.svg" width={130} height={15} alt="logo" className='mx-auto md:ms-0'/>
+          <h4 className='mt-5'>Siedziba:</h4>
           <p>Plac Jana Kilińskiego 2</p>
           <p>35-005 Rzeszów</p>
 
@@ -26,11 +26,10 @@ const Footer = () => {
               <h4 className='mt-3'>Sprzedaż:</h4>
               <p>+48 800800800</p>
             </div>
-          
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 flex flex-col justify-evenly my-5 ps-7 gap-1'>
+        <div className='w-full md:w-1/3 p-3'>
           <h3>Aplikacje mobilne</h3>
           <p>Audioprzewodniki mobilne</p>
           <p>Przewodniki turystyczne</p>
@@ -42,7 +41,7 @@ const Footer = () => {
           <p>Synchronizacja z multimediami</p>
          
         </div>
-        <div className='w-full md:w-1/3 flex flex-col justify-evenly my-5 ps-7 gap-1'>
+        <div className='w-full md:w-1/3 p-3 gap-1'>
        
           <h3>Content creation</h3>
           <p>Nagrania i udźwiękowienie</p>
