@@ -31,13 +31,14 @@ const colors = [
   "bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent", 
   "bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent", 
   "bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent", 
-  "bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent", 
-  "bg-gradient-to-r from-teal-500 to-lime-500 bg-clip-text text-transparent"
+  "text-black", 
+  "text-black",
+  "text-black",
 ];
 
 export const Navigation = () => (
 
-  <motion.div variants={variants} className="absolute top-10 left-10 m-0 p-0 z-50">
+  <motion.div variants={variants} className="absolute top-10 left-12 m-0 p-0 z-50">
     {navLinks.map((section, sectionIndex) => (
       <div key={sectionIndex}>
         <div className="flex items-center">
@@ -46,7 +47,7 @@ export const Navigation = () => (
             text-2xl 
             font-bold 
             ps-2 
-            // {colors[sectionIndex % colors.length]}
+            ${colors[sectionIndex % colors.length]}
             `}>{section.section}</h2>
         </div>
         
