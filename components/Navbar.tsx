@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
             <Link href='/przewodnik'><p className="text-stone-900 hover:text-gray-500">Przewodnik</p></Link>
             <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
-            <Link href='/realizacje.html'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
+            <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
 
