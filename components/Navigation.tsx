@@ -53,7 +53,7 @@ export const Navigation = () => (
         
         <motion.ul className="ms-2 border-l border-gray-400">
           {section.links.map((link, index) => (
-            <div>
+            <div key={link.href}>
               <MenuItem key={index} link={link} />
             </div>
           ))}

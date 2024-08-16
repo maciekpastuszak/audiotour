@@ -118,3 +118,8 @@ export const navLinks = [
     {id: '05', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
     {id: '06', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
   ]
+
+  export const markers = [
+    { lat: 52.237049, lng: 21.017532, name: 'Warsaw', link: '/warsaw' },
+    { lat: 50.06465, lng: 19.94498, name: 'Kraków', link: '/krakow' },
+  ];
