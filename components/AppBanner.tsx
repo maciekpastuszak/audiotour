@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../utils/motion'
+import { fadeIn } from '../lib/motion'
 import HoverButtton from './ui/HoverButtton'
 
 type AppBannerProps = {
