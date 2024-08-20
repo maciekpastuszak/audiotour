@@ -9,6 +9,44 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
   url      = env("DATABASE_URL")
+}
+
+model Portfolio {
+  uid               Int     @id @default(autoincrement())
+  name              String? @db.VarChar(86)
+  page_title        String? @db.VarChar(80)
+  rental_name       String? @db.VarChar(55)
+  address           String? @db.VarChar(35)
+  city              String? @db.VarChar(23)
+  postal_code       String? @db.VarChar(6)
+  region            String? @db.VarChar(20)
+  lead              String? @db.VarChar(114)
+  description       String? @db.VarChar(1773)
+  display_on_map    Int?    @db.SmallInt
+  display           Int     @default(0) @db.SmallInt
+  display_priority  Int     @default(1) @db.SmallInt
+  in_progress       Int?    @db.SmallInt
+  map_latitude      Decimal? @db.Decimal(8, 6)
+  map_longitude     Decimal? @db.Decimal(8, 6)
+  real_latitude     Decimal? @db.Decimal(8, 6)
+  real_longitude    Decimal? @db.Decimal(8, 6)
+  category          String? @db.VarChar(21)
+  download_link     String? @db.VarChar(96)
+  link              String? @db.VarChar(79)
+  soundcloud_embed  String? @db.VarChar(292)
+  device_primary    String? @db.VarChar(13)
+  device_secondary  String? @db.VarChar(12)
+  device_tertiary   String? @db.VarChar(10)
+  languages         String? @db.VarChar(39)
+  children          Int?    @db.SmallInt
+  audiodescription  Int?    @db.SmallInt
+  sign_language     Int?    @db.SmallInt
+  numeric           Int?    @db.SmallInt
+  rf                Int?    @db.SmallInt
+  ir                Int?    @db.SmallInt
+  rfid              Int?    @db.SmallInt
+  gps               Int?    @db.SmallInt
+  sync              Int?    @db.SmallInt
 }
