@@ -2,7 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 
-const PortfolioCard = ({ bgImg, bgImgAlt, tourIcon, tourIconAlt, title, subtitle1, subtitle2, desc }) => {
+type PortfolioCardProps = {
+    bgImg : string,
+    bgImgAlt : string,
+    tourIcon : string,
+    tourIconAlt : string,
+    title : string,
+    subtitle1 : string,
+    subtitle2 : string,
+    desc : string,  
+}
+
+const PortfolioCard = ({ bgImg, bgImgAlt, tourIcon, tourIconAlt, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
   return (
     <div className='relative w-[300px] h-[350px] flex flex-col shadow-xl rounded-xl bg-white'>
         <div className="relative">

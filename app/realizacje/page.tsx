@@ -16,6 +16,28 @@ const prisma = new PrismaClient();
 
 export default async function Realizacje() {
 
+  const portfolioItemsCards = await prisma.portfolio.findMany({
+    where: {
+      display: 1,  // Assuming 'display' indicates whether the portfolio item should be shown
+    },
+    select: {
+      name: true,
+      description: true,
+      // Add any other fields that might be needed for bgImg, tourIcon, etc.
+    },
+  });
+
+  const cards = portfolioItemsCards.map((item) => ({
+    bgImg: '', // You might want to add logic to map images based on the item data
+    bgImgAlt: item.name || '',
+    tourIcon: '', // Logic to determine the tourIcon can be added here
+    tourIconAlt: '',
+    title: item.name || '',
+    subtitle1: '', // Add logic to populate these if needed
+    subtitle2: '',
+    desc: item.description ? item.description.slice(0, 200) : '',
+  }));
+
   const portfolioItems = await prisma.portfolio.findMany({
     where: {
       display_on_map: 1,
@@ -66,7 +88,7 @@ export default async function Realizacje() {
         <h2 className='text-lg font-bold mt-4'>Ostatnie realizacje</h2>
         <p className='text-sm text-slate-600 mb-5'>Projekty które zrealizowaliśmy w ostanim czasie</p>
 
-        <PortfolioCard 
+        {/* <PortfolioCard 
           bgImg='/img/portfolio/heroes/10a.jpg' 
           bgImgAlt='zamek'
           tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
@@ -75,7 +97,23 @@ export default async function Realizacje() {
           subtitle1='Kamieniec Ząbkowski'
           subtitle2='Styczeń 2023'
           desc='Audioprzewodnik umożliwiający zwiedzanie gmin Kamieniec Ząbkowski i innych w formie audioprzewodnika multimedialnego.'
-        />
+        /> */}
+
+<div className='flex flex-wrap justify-center gap-4'>
+          {cards.map((card, index) => (
+            <PortfolioCard
+              key={index}
+              bgImg='/img/portfolio/heroes/10a.jpg'
+              bgImgAlt={card.bgImgAlt}
+              tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
+              tourIconAlt={card.tourIconAlt}
+              title={card.title}
+              subtitle1={card.subtitle1}
+              subtitle2={card.subtitle2}
+              desc={card.desc}
+            />
+          ))}
+        </div>
         
       </section>
     </>
