@@ -1,6 +1,8 @@
 
+import IconCarousel from '@/components/IconCarousel';
 import MapComponent from '@/components/MapComponent'
 import Navbar from '@/components/Navbar'
+import PortfolioCard from '@/components/PortfolioCard';
 import { PrismaClient } from '@prisma/client';
 import React from 'react'
 
@@ -38,7 +40,7 @@ export default async function Realizacje() {
     <>
       <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
-        <div className='flex justify-center bg-[url("/img/promo2.jpg")]'>
+        {/* <div className='flex justify-center bg-[url("/img/promo2.jpg")]'>
           <div className='flex flex-col md:flex-row md:w-4/5 my-5'>
             <div className='flex flex-col justify-center pb-2 md:my-20 ps-3 bg-white shadow-lg rounded-l-md'>
               <h1 className='text-2xl font-bold p-2'>Realizacje</h1>
@@ -50,7 +52,22 @@ export default async function Realizacje() {
                 <MapComponent markers={markers} />
             </div>
           </div>
+        </div> */}
+
+        <h2 className='text-lg font-bold mt-4'>Zaufali nam:</h2>
+        <p className='text-sm text-slate-600 mb-5 text-center'>Współpracowaliśmy z ponad 200 instytucjami z Polski i Europy</p>
+
+        <div className='flex w-full mx-auto justify-center bg-white'>
+          <div className='w-4/5'>
+          <IconCarousel />
+          </div>
         </div>
+
+        <h2 className='text-lg font-bold mt-4'>Ostatnie realizacje</h2>
+        <p className='text-sm text-slate-600 mb-5'>Projekty które zrealizowaliśmy w ostanim czasie</p>
+
+        <PortfolioCard />
+        
       </section>
     </>
   );
