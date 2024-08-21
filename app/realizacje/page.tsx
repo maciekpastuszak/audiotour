@@ -5,6 +5,7 @@ import MapComponent from '@/components/MapComponent'
 import Navbar from '@/components/Navbar'
 import PortfolioCard from '@/components/PortfolioCard';
 import { PrismaClient } from '@prisma/client';
+import PortfolioGrid from '@/components/PortfolioGrid';
 
 interface MarkerData {
   lat: number;
@@ -99,21 +100,7 @@ export default async function Realizacje() {
           desc='Audioprzewodnik umożliwiający zwiedzanie gmin Kamieniec Ząbkowski i innych w formie audioprzewodnika multimedialnego.'
         /> */}
 
-<div className='flex flex-wrap justify-center gap-4'>
-          {cards.map((card, index) => (
-            <PortfolioCard
-              key={index}
-              bgImg='/img/portfolio/heroes/10a.jpg'
-              bgImgAlt={card.bgImgAlt}
-              tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
-              tourIconAlt={card.tourIconAlt}
-              title={card.title}
-              subtitle1={card.subtitle1}
-              subtitle2={card.subtitle2}
-              desc={card.desc}
-            />
-          ))}
-        </div>
+<PortfolioGrid cards={cards} />
         
       </section>
     </>
