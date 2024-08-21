@@ -29,7 +29,7 @@ const customIcon = new L.Icon({
 
 const MapComponent: React.FC<MapComponentProps> = ({ markers }) => {
   return (
-    <MapContainer center={[52.112795, 19.211946]} zoom={6} className='w-full md:w-[450px] lg:w-[500px] h-[300px] md:h-[450px] lg:h-[500px]'>
+    <MapContainer center={[52.112795, 19.211946]} zoom={6} className='w-full md:w-[450px] lg:w-[500px] h-[400px] md:h-[450px] lg:h-[500px]'>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

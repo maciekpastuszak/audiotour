@@ -32,20 +32,23 @@ export default async function Realizacje() {
     name: item.name || 'Unknown',
     link: item.link || '#',
   }));
+
  
   return (
     <>
       <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
-        <div className='flex flex-col md:flex-row md:w-4/5 my-5'>
-          <div className='flex flex-col justify-center md:my-20 bg-white'>
-            <h1 className='text-2xl font-bold p-2'>Realizacje</h1>
-            <p className='p-2'>
-              Na mapie poniżej znajdziesz wszystkie nasze dotychczasowe realizacje. Kliknij niebieską ikonę lokalizacji aby wyszukać obiekty/wycieczki w swojej okolicy.
-            </p>
-          </div>
-          <div className='shadow-lg'>
-              <MapComponent markers={markers} />
+        <div className='flex justify-center bg-[url("/img/promo2.jpg")]'>
+          <div className='flex flex-col md:flex-row md:w-4/5 my-5'>
+            <div className='flex flex-col justify-center pb-2 md:my-20 ps-3 bg-white shadow-lg rounded-l-md'>
+              <h1 className='text-2xl font-bold p-2'>Realizacje</h1>
+              <p className='p-2'>
+                Na mapie poniżej znajdziesz wszystkie nasze dotychczasowe realizacje. Kliknij niebieską ikonę lokalizacji aby wyszukać obiekty/wycieczki w swojej okolicy.
+              </p>
+            </div>
+            <div className='shadow-lg'>
+                <MapComponent markers={markers} />
+            </div>
           </div>
         </div>
       </section>
