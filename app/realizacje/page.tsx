@@ -32,8 +32,6 @@ export default async function Realizacje() {
     name: item.name || 'Unknown',
     link: item.link || '#',
   }));
-
-  console.log("Markery: ", markers)
  
   return (
     <>
