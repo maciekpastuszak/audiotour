@@ -1,10 +1,10 @@
 
+import React from 'react'
 import IconCarousel from '@/components/IconCarousel';
 import MapComponent from '@/components/MapComponent'
 import Navbar from '@/components/Navbar'
 import PortfolioCard from '@/components/PortfolioCard';
 import { PrismaClient } from '@prisma/client';
-import React from 'react'
 
 interface MarkerData {
   lat: number;

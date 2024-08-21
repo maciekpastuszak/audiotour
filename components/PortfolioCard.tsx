@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
+import parse from 'html-react-parser';
 
 type PortfolioCardProps = {
     bgImg : string,
@@ -42,7 +43,7 @@ const PortfolioCard = ({ bgImg, bgImgAlt, tourIcon, tourIconAlt, title, subtitle
             <h1 className='font-bold text-sm'>{title}</h1>
             <p className='text-[0.6rem] text-gray-500'>{subtitle1}</p>
             <p className='text-[0.6rem] text-gray-500'>{subtitle2}</p>
-            <h2 className='text-xs mt-2'>{desc}</h2>
+            <h2 className='text-xs mt-2'>{parse(desc)}</h2>
         </div>
     </div>
   )
