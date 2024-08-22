@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -27,11 +28,11 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
       </head>
         <body className="font-articulat">
-          {/* <Navbar /> */}
+          <Navbar />
           <main>
               {children}
           </main>
-          {/* <Footer /> */}
+          <Footer />
           </body>
     </html>
   );

@@ -60,8 +60,6 @@ export default async function Realizacje() {
 
  
   return (
-    <>
-      <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
         <div className='flex justify-center bg-[url("/img/promo2.jpg")]'>
           <div className='flex flex-col md:flex-row md:w-4/5 my-5'>
@@ -100,9 +98,8 @@ export default async function Realizacje() {
           desc='Audioprzewodnik umożliwiający zwiedzanie gmin Kamieniec Ząbkowski i innych w formie audioprzewodnika multimedialnego.'
         /> */}
 
-<PortfolioGrid cards={cards} />
+      <PortfolioGrid cards={cards} />
         
       </section>
-    </>
   );
 }

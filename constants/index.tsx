@@ -14,8 +14,8 @@ export const navLinks = [
     color: 'bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent',
     links: [
       { href: '/aplikacja', text: 'Audioprzewodniki' },
-      { href: '/#przewodniki-turystyczne', text: 'Przewodniki turystyczne' },
-      { href: '/#aplikacje-skrojone-na-wymiar', text: 'Rozwiązania Tailor Made' },
+      { href: '/index.html', text: 'Przewodniki turystyczne' },
+      { href: '/aplikacja.html', text: 'Rozwiązania Tailor Made' },
     ],
   },
   {

@@ -7,8 +7,6 @@ import React from 'react'
 
 const Kontakt = () => {
   return (
-    <>
-    <Navbar />
     <section id='kontakt' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-5'>
     <div className='flex flex-col md:flex-row my-10 md:mx-3 gap-5 items-center md:items-stretch'>
       <div className='w-5/6 md:w-1/3 bg-zinc-300'>
@@ -46,9 +44,6 @@ const Kontakt = () => {
         </div>
       </div>
     </section>
-
-    <Footer />
-    </>
   )
 }
 

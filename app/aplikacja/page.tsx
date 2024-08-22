@@ -16,8 +16,6 @@ import { motion } from 'framer-motion'
 
 const Aplikacja = () => {
   return (
-    <>
-      <Navbar />
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
           <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
             <motion.div 
@@ -223,10 +221,6 @@ const Aplikacja = () => {
         </div>
 
       </section>
-
-      <Footer />
-    </>
-     
   )
 }
 
