@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 p-3'>
+        <div className='w-full md:w-1/3 p-3 leading-6'>
           <h3>Aplikacje mobilne</h3>
           <p>Audioprzewodniki mobilne</p>
           <p>Przewodniki turystyczne</p>
@@ -41,7 +41,7 @@ const Footer = () => {
           <p>Synchronizacja z multimediami</p>
          
         </div>
-        <div className='w-full md:w-1/3 p-3 gap-1'>
+        <div className='w-full md:w-1/3 p-3 gap-1 leading-6'>
        
           <h3>Content creation</h3>
           <p>Nagrania i udźwiękowienie</p>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import PortfolioCard from '@/components/PortfolioCard'; // Adjust the import path accordingly
+import { Button } from './ui/button';
 
 const PortfolioGrid = ({ cards }) => {
   // State to control how many cards are visible
@@ -13,7 +14,7 @@ const PortfolioGrid = ({ cards }) => {
   };
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center mb-5'>
       {/* Render visible cards */}
       <div className='flex flex-wrap justify-center gap-4'>
         {cards.slice(0, visibleCount).map((card, index) => (
@@ -33,12 +34,12 @@ const PortfolioGrid = ({ cards }) => {
 
       {/* Show "See more" button if there are more cards to display */}
       {visibleCount < cards.length && (
-        <button
+        <Button
           className='mt-4 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600'
           onClick={showMoreCards}
         >
-          See more
-        </button>
+          Zobacz więcej
+        </Button>
       )}
     </div>
   );

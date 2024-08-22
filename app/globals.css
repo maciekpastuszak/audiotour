@@ -163,12 +163,15 @@ body {
 
 #footer h4 {
   font-weight: bold;
+  margin-bottom: 4px;;
 }
 
 #footer h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 6px;
+  color: whitesmoke;
+  
 }
 
 
