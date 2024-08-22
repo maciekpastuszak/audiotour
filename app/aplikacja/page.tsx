@@ -186,7 +186,7 @@ const Aplikacja = () => {
         />
 
         <h2 className='text-lg font-bold'>Nasz proces:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
+        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
         
           {/* large screens */}
           <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 mb-6">
