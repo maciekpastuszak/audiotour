@@ -4,8 +4,9 @@ import IconCarousel from '@/components/IconCarousel'
 import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar'
 import PortfolioCard from '@/components/PortfolioCard';
-import { Prisma, PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import PortfolioGrid from '@/components/PortfolioGrid';
+import { Decimal } from '@prisma/client/runtime/library';
 
 interface MarkerData {
   lat: number;
@@ -20,8 +21,8 @@ interface PortfolioItemCard {
 }
 
 type PortfolioItem = {
-  real_latitude: Prisma.Decimal | null;
-  real_longitude: Prisma.Decimal | null;
+  real_latitude: Decimal | null;
+  real_longitude: Decimal | null;
   name: string | null;
   link: string | null;
 };
