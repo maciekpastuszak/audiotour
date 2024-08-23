@@ -1,14 +1,25 @@
 "use client"
 
 import React, { useState } from 'react';
-import PortfolioCard from '@/components/PortfolioCard'; // Adjust the import path accordingly
+import PortfolioCard from '@/components/PortfolioCard';
 import { Button } from './ui/button';
 
-const PortfolioGrid = ({ cards }) => {
-  // State to control how many cards are visible
+interface Card {
+  bgImgAlt: string;
+  tourIconAlt: string;
+  title: string;
+  subtitle1: string;
+  subtitle2: string;
+  desc: string;
+}
+
+interface PortfolioGridProps {
+  cards: Card[];
+}
+
+const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
   const [visibleCount, setVisibleCount] = useState(6);
 
-  // Function to handle "See more" button click
   const showMoreCards = () => {
     setVisibleCount((prevCount) => prevCount + 6); // Show 6 more cards each time
   };
@@ -17,7 +28,7 @@ const PortfolioGrid = ({ cards }) => {
     <div className='flex flex-col items-center mb-5'>
       {/* Render visible cards */}
       <div className='flex flex-wrap justify-center gap-4'>
-        {cards.slice(0, visibleCount).map((card, index) => (
+        {cards.slice(0, visibleCount).map((card: Card, index: number) => (
           <PortfolioCard
             key={index}
             bgImg='/img/portfolio/heroes/10a.jpg'
