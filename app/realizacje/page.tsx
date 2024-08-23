@@ -1,7 +1,7 @@
 
 import React from 'react'
-import IconCarousel from '@/components/IconCarousel';
-import MapComponent from '@/components/MapComponent'
+import IconCarousel from '@/components/IconCarousel'
+import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar'
 import PortfolioCard from '@/components/PortfolioCard';
 import { PrismaClient } from '@prisma/client';
@@ -13,7 +13,17 @@ interface MarkerData {
   name: string;
   link: string;
 }
+
+interface PortfolioItemCard {
+  name: string | null;
+  description: string | null;
+}
+
 const prisma = new PrismaClient();
+
+const MapComponent = dynamic(() => import('@/components/MapComponent'), {
+  ssr: false,
+});
 
 export default async function Realizacje() {
 
@@ -28,13 +38,13 @@ export default async function Realizacje() {
     },
   });
 
-  const cards = portfolioItemsCards.map((item) => ({
-    bgImg: '', // You might want to add logic to map images based on the item data
+  const cards = portfolioItemsCards.map((item: PortfolioItemCard) => ({
+    bgImg: '', 
     bgImgAlt: item.name || '',
-    tourIcon: '', // Logic to determine the tourIcon can be added here
+    tourIcon: '',
     tourIconAlt: '',
     title: item.name || '',
-    subtitle1: '', // Add logic to populate these if needed
+    subtitle1: '', 
     subtitle2: '',
     desc: item.description ? item.description.slice(0, 200) : '',
   }));
