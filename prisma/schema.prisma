@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Portfolio {
+model portfolio {
   uid               Int     @id @default(autoincrement())
   name              String? @db.VarChar(86)
   page_title        String? @db.VarChar(80)
