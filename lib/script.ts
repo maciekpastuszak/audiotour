@@ -1,5 +1,14 @@
 import { PrismaClient } from '@prisma/client'
+import { Decimal } from '@prisma/client/runtime/library';
 import { GetServerSideProps } from 'next';
+
+
+type PortfolioItem = {
+  real_latitude: Decimal | null;
+  real_longitude: Decimal | null;
+  name: string | null;
+  link: string | null;
+};
 
 export const getServerSideProps: GetServerSideProps = async () => {
     const prisma = new PrismaClient();
@@ -19,7 +28,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   
       console.log("Portfolio items fetched from database:", portfolioItems);
   
-      const markers = portfolioItems.map((item) => ({
+      const markers = portfolioItems.map((item: PortfolioItem) => ({
         lat: item.real_latitude?.toNumber() || 0, // Ensure these are numbers
         lng: item.real_longitude?.toNumber() || 0,
         name: item.name || 'Unknown',
