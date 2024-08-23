@@ -4,7 +4,7 @@ import IconCarousel from '@/components/IconCarousel'
 import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar'
 import PortfolioCard from '@/components/PortfolioCard';
-import { PrismaClient } from '@prisma/client';
+import { Prisma, PrismaClient } from '@prisma/client';
 import PortfolioGrid from '@/components/PortfolioGrid';
 
 interface MarkerData {
@@ -18,6 +18,13 @@ interface PortfolioItemCard {
   name: string | null;
   description: string | null;
 }
+
+type PortfolioItem = {
+  real_latitude: Prisma.Decimal | null;
+  real_longitude: Prisma.Decimal | null;
+  name: string | null;
+  link: string | null;
+};
 
 const prisma = new PrismaClient();
 
@@ -61,7 +68,7 @@ export default async function Realizacje() {
     },
   });
 
-  const markers = portfolioItems.map((item) => ({
+  const markers = portfolioItems.map((item: PortfolioItem) => ({
     lat: item.real_latitude?.toNumber() || 0, // Ensure these are numbers
     lng: item.real_longitude?.toNumber() || 0,
     name: item.name || 'Unknown',
