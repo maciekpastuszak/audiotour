@@ -1,4 +1,4 @@
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious,} from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselNext, CarouselPrevious,} from "@/components/ui/carousel"
 import { featureCardsBlue,  featureCardsGreen, processCards} from "@/constants"
 import AppFunctionCard from "./AppFunctionCard"
 

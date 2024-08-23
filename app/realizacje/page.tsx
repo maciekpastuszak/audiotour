@@ -2,18 +2,9 @@
 import React from 'react'
 import IconCarousel from '@/components/IconCarousel'
 import dynamic from 'next/dynamic';
-import Navbar from '@/components/Navbar'
-import PortfolioCard from '@/components/PortfolioCard';
 import { PrismaClient } from '@prisma/client';
 import PortfolioGrid from '@/components/PortfolioGrid';
 import { Decimal } from '@prisma/client/runtime/library';
-
-interface MarkerData {
-  lat: number;
-  lng: number;
-  name: string;
-  link: string;
-}
 
 interface PortfolioItemCard {
   name: string | null;

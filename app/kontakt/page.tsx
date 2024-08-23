@@ -1,7 +1,5 @@
 import ContactCard from '@/components/ContactCard'
 import ContactForm from '@/components/ContactForm'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
 import { contactCard } from '@/constants'
 import React from 'react'
 

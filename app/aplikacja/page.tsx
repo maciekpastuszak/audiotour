@@ -8,8 +8,6 @@ import { Button } from '@/components/ui/button'
 import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2, processCards } from '@/constants'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
