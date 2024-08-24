@@ -15,7 +15,7 @@ const FavouriteAppCard = ({fileName, alt, rating}: FavouriteAppsCardProps) => {
       <div className="w-1/2 ms-2 flex flex-col gap-1">
         <h5 className='text-xs font-bold'>{alt}</h5>
         <div className="flex items-center gap-2">
-          <img src="/img/star.png" className='w-4 h-4' alt="rating" />
+          <Image src="/img/star.png" width={15} height={15} alt="rating" />
           <p className="text-sm font-bold text-amber-400">{rating}</p>
         </div>
       </div>

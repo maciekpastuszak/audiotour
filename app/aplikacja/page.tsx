@@ -10,6 +10,7 @@ import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import ReviewCard from '@/components/ReviewCard'
 
 
 const Aplikacja = () => {
@@ -120,7 +121,7 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         
           {/* large screens */}
-          <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -186,8 +187,8 @@ const Aplikacja = () => {
         <h2 className='text-lg font-bold'>Nasz proces:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
         
-          {/* large screens */}
-          <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 mb-6">
+        {/* large screens */}
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 mb-6">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -216,6 +217,13 @@ const Aplikacja = () => {
         {/* mobile */}
         <div className='md:hidden flex justify-center align-middle mb-6'>
             <CardCarousel color="process" />
+        </div>
+
+        <h2 className='text-lg font-bold'>Opinie klientów i turystów:</h2>
+        <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
+
+        <div>
+          <ReviewCard />
         </div>
 
       </section>
