@@ -15,7 +15,7 @@ import ReviewCard from '@/components/ReviewCard'
 
 const Aplikacja = () => {
   return (
-      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
+      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3'>
           <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
             <motion.div 
               className='relative h-1/2 w-full pt-[50%]'
@@ -221,9 +221,35 @@ const Aplikacja = () => {
 
         <h2 className='text-lg font-bold'>Opinie klientów i turystów:</h2>
         <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
-
-        <div>
-          <ReviewCard />
+        
+        <div className='w-1/2'>
+          <div className='flex justify-start'>
+            <ReviewCard 
+            name='Jan Przewodnicki'
+            isImgLeft={true}
+            profilePic='/img/man_smiling.jpg' 
+            place='Wrocław pamięta - App Store' 
+            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            rating='5' />
+          </div>
+          <div className='flex justify-end'>
+            <ReviewCard 
+            name='Zofia Wycieczkowska'
+            isImgLeft={false}
+            profilePic='/img/woman_smiling.png' 
+            place='ICHOT - Brama Poznania' 
+            desc='Poruszająca wycieczka po Ostrowie Tumskim'
+            rating='4.9' />
+          </div>
+          <div>
+            <ReviewCard 
+            name='Jan Przewodnicki'
+            isImgLeft={true}
+            profilePic='/img/man_smiling.jpg' 
+            place='Wrocław pamięta - App Store' 
+            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            rating='5' />
+          </div>
         </div>
 
       </section>
