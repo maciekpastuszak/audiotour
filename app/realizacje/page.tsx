@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { PrismaClient } from '@prisma/client';
 import PortfolioGrid from '@/components/PortfolioGrid';
 import { Decimal } from '@prisma/client/runtime/library';
+import ReviewCard from '@/components/ReviewCard';
 
 interface PortfolioItemCard {
   name: string | null;
@@ -69,7 +70,7 @@ export default async function Realizacje() {
 
  
   return (
-      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200'>
+      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3'>
         <div className='flex justify-center bg-[url("/img/promo2.jpg")]'>
           <div className='flex flex-col md:flex-row md:w-4/5 my-5'>
             <div className='flex flex-col justify-center pb-2 md:my-20 ps-3 bg-white shadow-lg rounded-l-md'>
@@ -108,6 +109,42 @@ export default async function Realizacje() {
         /> */}
 
       <PortfolioGrid cards={cards} />
+
+      <div className='flex flex-col justify-center w-5/6'>
+        <h2 className='text-lg font-bold text-center'>Opinie klientów i turystów:</h2>
+        <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Państwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
+      </div>
+        
+
+      <div className='w-1/2'>
+          <div className='flex justify-start'>
+            <ReviewCard 
+            name='Jan Przewodnicki'
+            isImgLeft={true}
+            profilePic='/img/man_smiling.jpg' 
+            place='Wrocław pamięta - App Store' 
+            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            rating='5' />
+          </div>
+          <div className='flex justify-end'>
+            <ReviewCard 
+            name='Zofia Wycieczkowska'
+            isImgLeft={false}
+            profilePic='/img/woman_smiling.png' 
+            place='ICHOT - Brama Poznania' 
+            desc='Poruszająca wycieczka po Ostrowie Tumskim'
+            rating='4.9' />
+          </div>
+          <div>
+            <ReviewCard 
+            name='Jan Przewodnicki'
+            isImgLeft={true}
+            profilePic='/img/man_smiling.jpg' 
+            place='Wrocław pamięta - App Store' 
+            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            rating='5' />
+          </div>
+        </div>
         
       </section>
   );
