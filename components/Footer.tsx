@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -29,29 +30,29 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full md:w-1/3 p-3 leading-6'>
+        <div className='flex flex-col w-full md:w-1/3 p-3 leading-6'>
           <h3>Aplikacje mobilne</h3>
-          <p>Audioprzewodniki mobilne</p>
-          <p>Przewodniki turystyczne</p>
-          <p className='mb-5'>Digital experience</p>
+          <Link href='#'>Audioprzewodniki mobilne</Link>
+          <Link href='#'>Przewodniki turystyczne</Link>
+          <Link href='#' className='mb-5'>Digital experience</Link>
 
           <h3>Audioprzewodniki</h3>
-          <p>Zwiedzanie automatyczne</p>
-          <p>Ekspozycja z numerkami</p>
-          <p>Synchronizacja z multimediami</p>
+          <Link href='#'>Zwiedzanie automatyczne</Link>
+          <Link href='#'>Ekspozycja z numerkami</Link>
+          <Link href='#'>Synchronizacja z multimediami</Link>
          
         </div>
         <div className='w-full md:w-1/3 p-3 gap-1 leading-6'>
        
           <h3>Content creation</h3>
-          <p>Nagrania i udźwiękowienie</p>
-          <p>Redakcja tekstu</p>
-          <p>Tłumaczenia</p>
-          <p className='mb-5'>Audiodeskrypcja i język migowy</p>
+          <Link href='#'>Nagrania i udźwiękowienie</Link>
+          <Link href='#'>Redakcja tekstu</Link>
+          <Link href='#'>Tłumaczenia</Link>
+          <Link href='#' className='mb-5'>Audiodeskrypcja i język migowy</Link>
 
           <h3>Realizacje</h3>
-          <p>Mapa realizacji</p>
-          <p className='mb-5'>Pobierz nasze aplikacje</p>
+          <Link href='#'>Mapa realizacji</Link>
+          <Link href='#' className='mb-5'>Pobierz nasze aplikacje</Link>
 
           <h3>Rozwiązania Tour Guide</h3>
           <h3>Kontakt</h3>
