@@ -119,7 +119,7 @@ export default async function Realizacje() {
       </div>
         
 
-      <div className='w-1/2'>
+      <div className='w-[350px]'>
           <div className='flex justify-start'>
             <ReviewCard 
             name='Jan Przewodnicki'
