@@ -17,6 +17,7 @@ type PortfolioItem = {
   real_longitude: Decimal | null;
   name: string | null;
   link: string | null;
+  lead: string | null;
 };
 
 const prisma = new PrismaClient();
@@ -58,14 +59,16 @@ export default async function Realizacje() {
       real_longitude: true,
       name: true,
       link: true,
+      lead: true,
     },
   });
 
   const markers = portfolioItems.map((item: PortfolioItem) => ({
     lat: item.real_latitude?.toNumber() || 0, // Ensure these are numbers
     lng: item.real_longitude?.toNumber() || 0,
-    name: item.name || 'Unknown',
+    name: item.name || 'Nieznany',
     link: item.link || '#',
+    lead: item.lead || 'Nieznany'
   }));
 
  
