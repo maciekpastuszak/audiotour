@@ -231,29 +231,29 @@ const Aplikacja = () => {
         <div className='w-1/2'>
           <div className='flex justify-start'>
             <ReviewCard 
-            name='Jan Przewodnicki'
+            name='Błażej'
             isImgLeft={true}
             profilePic='/img/man_smiling.jpg' 
-            place='Wrocław pamięta - App Store' 
-            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            place='Muzeum Wojska Polskiego' 
+            desc='Wspaniała aplikacja, która oprowadzi po najciekawszych zabytkach. Super przyjemny głos lektora, tempo idealne, a wiadomości ciekawe. Nawigacja prowadzi jak po sznurku - nie jest się w stanie zbłądzić. Polecam zdecydowanie!'
             rating='5' />
           </div>
           <div className='flex justify-end'>
             <ReviewCard 
-            name='Zofia Wycieczkowska'
+            name='R S'
             isImgLeft={false}
             profilePic='/img/woman_smiling.png' 
-            place='ICHOT - Brama Poznania' 
-            desc='Poruszająca wycieczka po Ostrowie Tumskim'
-            rating='4.9' />
+            place='Muzeum Dom Jana Pawła II w Wadowicach' 
+            desc='Coś wspaniałego! Bardzo profesjonalna apka, głos lektora i długość opowieści w poszczególnych segmentach wystawy świetnie dobrane. Ma się poczucie jakby przewodnik stał przy nas. Wprowadza bardzo fajny klimat; wszystko świetnie współgra.'
+            rating='5' />
           </div>
           <div>
             <ReviewCard 
-            name='Jan Przewodnicki'
+            name='Monika Cz'
             isImgLeft={true}
             profilePic='/img/man_smiling.jpg' 
-            place='Wrocław pamięta - App Store' 
-            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            place='Zamość Stare Miasto' 
+            desc='Jako rodowita Zamościanka nie wiedziałam o istnieniu tej aplikacji. No bo i niby po co 😂, przecież znam Zamość, jak nikt inny, mieszkam tu od 45 lat...A tu niespodzianka, świetne narzędzie, będę polecać 🖤 Ba nawet przy najbliższej okazji wypróbuję na sobie!'
             rating='5' />
           </div>
         </div>
