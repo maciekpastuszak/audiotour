@@ -69,8 +69,13 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        'articulat': ["articulat-cf", 'sans-serif'],
         'halyard': ['halyard-display', 'sans-serif'],
-        'articulat': ["articulat-cf", 'sans-serif']
+      },
+      fontSize: {
+        DEFAULT: '16px',
+        font5xl: '47px',
+        font3xl: '31px',
       },
       keyframes: {
         "accordion-down": {

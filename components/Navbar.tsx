@@ -35,11 +35,11 @@ const Navbar = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <nav className="bg-white shadow-md w-full">
+    <nav className="bg-white shadow-md w-full py-7 font-articulat">
       {/* Desktop */}
-      <div className="container md:w-4/5 mx-auto px-5 md:px-0 py-3 flex justify-between items-center">
+      <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
-        <div className="hidden md:flex space-x-8 md:space-x-8 lg:space-x-16 font-halyard">
+        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold">
             <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
             <Link href='/aplikacja.html'><p className="text-stone-900 hover:text-gray-500">Przewodnik</p></Link>
             <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>

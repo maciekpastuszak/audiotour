@@ -16,24 +16,24 @@ import ReviewCard from '@/components/ReviewCard'
 const Aplikacja = () => {
   return (
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3'>
-          <div className='w-3/4 md:w-1/2 mx-auto my-8 md:mt-12 text-center'>
+          <div className='flex flex-col justify-center items-center mx-auto my-8 md:mt-12 text-center'>
             <motion.div 
-              className='relative h-1/2 w-full pt-[50%]'
+              className=''
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7 }}
               >
-              <Image src='/img/app-icon-grid.png' alt='Siatka ikon' fill />
+              <Image src='/img/app-icon-grid.png' alt='Siatka ikon' width={739} height={368} />
             </motion.div>
-            <div className='my-6 text-center text-2xl md:text-3xl lg:text-4xl font-bold font-articulat'>
+            <div className='my-6 text-left text-3xl md:fontSize-font5xl text-nowrap font-bold font-articulat'>
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
-              <h2>200 <span className='text-xl font-normal'>wdrożeń w całej Polsce</span></h2>
+              <h2>200 <span className='text-xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
             </div>
             <Button className='bg-blue-500 rounded-full px-10'>Nasze realizacje</Button>
           </div>
           
           <div className='flex w-full mx-auto justify-center bg-white'>
-            <div className='w-4/5'>
+            <div className='w-3/5 py-2'>
             <IconCarousel />
             </div>
           </div>
