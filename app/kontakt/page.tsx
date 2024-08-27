@@ -36,9 +36,9 @@ const Kontakt = () => {
 
       <div className='w-full md:w-5/6 flex flex-col items-center'>
         <h2 className='font-bold py-3 text-xl mt-3'>Nasz zespół</h2>
-        <div className='flex flex-col md:flex-row gap-5 my-5 flex-wrap justify-center items-center'>
+        <div className='flex flex-col md:flex-row gap-5 my-5 flex-wrap justify-center items-stretch'>
         {contactCard.map((i) => (
-          <ContactCard key={i.id} fullName={i.fullName} mail={i.mail} phone={i.phone} />
+          <ContactCard key={i.id} fullName={i.fullName} mail={i.mail} title={i.title} phone={i.phone} />
         ))}
         </div>
       </div>
