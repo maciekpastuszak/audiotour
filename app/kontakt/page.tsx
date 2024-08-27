@@ -24,13 +24,12 @@ const Kontakt = () => {
         <div className='flex flex-col w-5/6 md:w-1/3 items-center md:items-start border-2 border-gray-200 dark:border-gray-700 p-4 rounded-md shadow-md min-h-full bg-slate-200'>
           <h3 className='text-xl bold font-bold'>Kontakt</h3>
           <h4 className='font-bold pt-2'>Biuro:</h4>
-          <p>+48 800 800 800</p>
-          <p>+48 800 800 800</p>
-          <p>+48 800 800 800</p>
-
+          <p><a href="tel:+48510069421">+48 510 069 421</a></p>
+          <p><a href="tel:+48697736863">+48 697 736 863</a></p>
+          <p><a href="tel:+48884737039">+48 884 737 039</a></p>
+          <p><a href="mailto:biuro@audiotour.pl">biuro@audiotour.pl</a></p>
           <h4 className='font-bold pt-2'>Sprzedaż:</h4>
-          <p>+48 800 800 800</p>
-          <p>+48 800 800 800</p>
+          <p><a href="tel:+488605074637">+48 605 074 637</a></p>
         </div>
       </div>
       </div>
