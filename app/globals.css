@@ -69,10 +69,11 @@
 }
 
 body {
-  /* overflow: hidden; */
   padding: 0;
   margin: 0;
 }
+
+/* navbar */
 
 #hamburgerBtn {
   outline: none;
@@ -92,8 +93,6 @@ body {
   padding-left: 2px;
 }
 
-
-
 .navbarItem {
   margin: 0;
   padding: 0;
@@ -104,44 +103,16 @@ body {
   cursor: pointer;
 }
 
-/* .icon-placeholder {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  flex: 40px 0;
-  margin-right: 20px;
-} */
-/* 
-.text-placeholder {
-  border-radius: 5px;
-  width: 200px;
-  height: 20px;
-  flex: 1;
-} */
+/* carousel */
 
-.refresh {
-  padding: 10px;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-  width: 20px;
-  height: 20px;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.carousel-container {
+.carouselContainer {
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.carousel-container::before,
-.carousel-container::after {
+.carouselContainer::before,
+.carouselContainer::after {
   content: '';
   position: absolute;
   top: 0;
@@ -151,28 +122,16 @@ body {
   z-index: 10;
 }
 
-.carousel-container::before {
+.carouselContainer::before {
   left: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
-.carousel-container::after {
+.carouselContainer::after {
   right: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
-#footer h4 {
-  font-weight: bold;
-  margin-bottom: 4px;;
-}
-
-#footer h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 6px;
-  color: whitesmoke;
-  
-}
 
 .track {
   animation: scroll 20s linear infinite;
@@ -195,6 +154,21 @@ body {
   .logoItem img {
     max-width: 150px;
   }
+}
+
+/* footer */
+
+#footer h4 {
+  font-weight: bold;
+  margin-bottom: 4px;;
+}
+
+#footer h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: whitesmoke;
+  
 }
 
 
