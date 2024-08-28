@@ -18,14 +18,14 @@ const Footer = () => {
           <div className='flex flex-col md:flex-row justify-start'>
             <div>
               <h4 className='mt-3'>Biuro:</h4>
-              <p>+48 800800800</p>
-              <p>+48 800800800</p>
-              <p>+48 800800800</p>
+              <p><a href="tel:+48510069421">+48 510 069 421</a></p>
+              <p><a href="tel:+48697736863">+48 697 736 863</a></p>
+              <p><a href="tel:+48884737039">+48 884 737 039</a></p>
             </div>
             
             <div className='ms-0 md:ms-3'>
               <h4 className='mt-3'>Sprzedaż:</h4>
-              <p>+48 800800800</p>
+              <p><a href="tel:+488605074637">+48 605 074 637</a></p>
             </div>
           </div>
         </div>
