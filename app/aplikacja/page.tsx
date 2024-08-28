@@ -46,8 +46,10 @@ const Aplikacja = () => {
           subtitle2='szybka realizacja'
           bannerBgSrc='Banner_Audioprzewodniki_Wide.png'
           mobileImg='Banner_Audioprzewodniki_Tel.png'
-          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
-          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+          lead='Idealne Rozwiązanie dla Muzeów i Miejskich Przestrzeni'
+          ctaText='Zobacz więcej'
+          text1='Audioprzewodnik w formie aplikacji mobilnej to rozwiązanie, które umożliwia zwiedzającym odkrywanie miast i muzeów za pomocą swojego urządzenia z systemem Android lub iOS.'
+          text2='Prosta w użyciu, dostępna dla każdego, aplikacja w multimedialny sposób oprowadzi zwiedzającego po danym terenie. Jest doskonałą alternatywą dla tradycyjnego urządzenia dzięki możliwości dostosowania jej do potrzeb użytkowników. Obsługuje ustawienia dostępności, audiodeskrypcję oraz język migowy dzięki czemu każdy może się nią w pełni cieszyć. Z naszą aplikacją zwiedzanie staje się łatwiejsze i przyjemniejsze  niż kiedykolwiek wcześniej.'
         />
         
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
@@ -113,8 +115,10 @@ const Aplikacja = () => {
           subtitle2='wiele możliwości'
           bannerBgSrc='Banner_Przewodniki_Wide.png'
           mobileImg='Banner_Przewodniki_Tel.png'
-          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
-          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+          lead='Na szlaku, na szczycie? Zawsze z Tobą.'
+          ctaText='Zobacz więcej'
+          text1='Przewodnik turystyczny oferuje możliwość eksplorowania różnorodnych szlaków i tras w najpiękniejszych miejscach, wszystko dostępne z łatwością na urządzeniu mobilnym.'
+          text2='Aplikacja wyróżnia się szeroką gamą funkcji, w tym możliwością dodawania różnych rodzajów tras - pieszych, rowerowych czy nawet narciarskich. Z łatwością znajdziesz najlepsze szlaki po górach, malowniczych parkach oraz innych fascynujących terenach, gotowych do odkrycia i eksploracji. Przewodnik można rozszerzyć o dodatkowe moduły, które zapewnią jeszcze więcej przyjemności z podróży. Czy chciałbyś wzbogacić swoje doświadczenie o fascynującą grę terenową, czy być na bieżąco z planami na kolejne dni dzięki kalendarzowi? - dzięki aplikacji wszystko to jest możliwe!'
         />
 
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
@@ -180,8 +184,10 @@ const Aplikacja = () => {
           subtitle2=''
           bannerBgSrc='Banner_Bespoke_Wide.png'
           mobileImg='Banner_Bespoke_Tel_Alt.png'
-          text1='Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.'
-          text2='Doskonały do multimedialnego zwiedzania audioprzewodnika w formie audioprzewodnika za pomocą aplikacji multimedialnej. Nie czekaj ani chwili dłużej, zamów audioprzewodnik w formie audioprzewonika już dziś!'
+          lead='Kiedy potrzebujesz więcej kontroli'
+          ctaText='Zobacz więcej'
+          text1='Możliwości personalizacji sprawiają, że aplikacja staje się Twoim idealnym partnerem w realizacji pomysłów. Bez względu na to, czy chcesz stworzyć interaktywny przewodnik, mobilną grę edukacyjną czy narzędzie do zarządzania, nasza aplikacja pozwoli Ci na to.'
+          text2='Z nami Twoje kreatywne wizje stają się rzeczywistością! Niezależnie od tego, czy jesteś turystą, przedsiębiorcą czy pasjonatem technologii, nasza aplikacja dostarczy Ci niezapomnianych doświadczeń i rozwiązań dostosowanych do Twoich potrzeb.'
         />
 
         <h2 className='text-lg font-bold'>Nasz proces:</h2>
@@ -225,29 +231,29 @@ const Aplikacja = () => {
         <div className='w-1/2'>
           <div className='flex justify-start'>
             <ReviewCard 
-            name='Jan Przewodnicki'
+            name='Błażej'
             isImgLeft={true}
             profilePic='/img/man_smiling.jpg' 
-            place='Wrocław pamięta - App Store' 
-            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            place='Muzeum Wojska Polskiego' 
+            desc='Wspaniała aplikacja, która oprowadzi po najciekawszych zabytkach. Super przyjemny głos lektora, tempo idealne, a wiadomości ciekawe. Nawigacja prowadzi jak po sznurku - nie jest się w stanie zbłądzić. Polecam zdecydowanie!'
             rating='5' />
           </div>
           <div className='flex justify-end'>
             <ReviewCard 
-            name='Zofia Wycieczkowska'
+            name='R S'
             isImgLeft={false}
             profilePic='/img/woman_smiling.png' 
-            place='ICHOT - Brama Poznania' 
-            desc='Poruszająca wycieczka po Ostrowie Tumskim'
-            rating='4.9' />
+            place='Muzeum Dom Jana Pawła II w Wadowicach' 
+            desc='Coś wspaniałego! Bardzo profesjonalna apka, głos lektora i długość opowieści w poszczególnych segmentach wystawy świetnie dobrane. Ma się poczucie jakby przewodnik stał przy nas. Wprowadza bardzo fajny klimat; wszystko świetnie współgra.'
+            rating='5' />
           </div>
           <div>
             <ReviewCard 
-            name='Jan Przewodnicki'
+            name='Monika Cz'
             isImgLeft={true}
             profilePic='/img/man_smiling.jpg' 
-            place='Wrocław pamięta - App Store' 
-            desc='Piękna aplikacja z bardzo ładnymi kolorami. Super ułatwieniedla osoób niepełnosprawnych!'
+            place='Zamość Stare Miasto' 
+            desc='Jako rodowita Zamościanka nie wiedziałam o istnieniu tej aplikacji. No bo i niby po co 😂, przecież znam Zamość, jak nikt inny, mieszkam tu od 45 lat...A tu niespodzianka, świetne narzędzie, będę polecać 🖤 Ba nawet przy najbliższej okazji wypróbuję na sobie!'
             rating='5' />
           </div>
         </div>

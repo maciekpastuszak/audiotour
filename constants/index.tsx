@@ -14,7 +14,7 @@ export const navLinks = [
     color: 'bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent',
     links: [
       { href: '/aplikacja', text: 'Audioprzewodniki' },
-      { href: '/index.html', text: 'Przewodniki turystyczne' },
+      { href: '/', text: 'Przewodniki turystyczne' },
       { href: '/aplikacja.html', text: 'Rozwiązania Tailor Made' },
     ],
   },
@@ -111,12 +111,12 @@ export const navLinks = [
   ]
 
   export const contactCard = [
-    {id: '01', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
-    {id: '02', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
-    {id: '03', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
-    {id: '04', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
-    {id: '05', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
-    {id: '06', fullName: 'Michał Krynicki', mail: 'mail@audiotour.pl', phone: '+48 800 800 800' },
+    {id: '01', fullName: 'Michał Krynicki', title: 'Sprzedaż', mail: 'mkrynicki@audiotour.pl', phone: '+48 605 074 637' },
+    {id: '02', fullName: 'Anna Szymczyk', title: 'Koordynator Projektów', mail: 'anna@audiotour.pl' },
+    {id: '03', fullName: 'Michał Sobarnia', title: 'Koordynator Projektów', mail: 'msobarnia@audiotour.pl' },
+    {id: '04', fullName: 'Kamil Ochel', title: 'iOS Developer', mail: 'kamil@audiotour.pl', phone: '+48 518 571 925' },
+    {id: '04', fullName: 'Jakub Nahacz', title: 'Android Developer', mail: 'jakub@audiotour.pl', },
+    {id: '05', fullName: 'Caryl', title: 'Tłumacz', mail: 'caryl@audiotour.pl' },
   ]
 
   export const markers = [

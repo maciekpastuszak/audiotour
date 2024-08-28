@@ -14,11 +14,13 @@ type AppBannerProps = {
     subtitle2: string,
     bannerBgSrc: string,
     mobileImg: string,
+    lead: string,
+    ctaText: string,
     text1: string,
     text2: string
 }
 
-const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, text1, text2  }: AppBannerProps) => {
+const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, lead, ctaText, text1, text2  }: AppBannerProps) => {
     return (
         <motion.div 
           className='relative items-start w-5/6 max-w-[1066px] my-5 bg-white min-w-[375px] drop-shadow-md rounded-md'
@@ -37,11 +39,11 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
             <div className="relative w-full md:w-4/5 bg-cover h-64" style={{ backgroundImage: `url('/img/app-banners/${bannerBgSrc}')` }}>
                 <div className='w-full md:w-2/3 mx-5 px-2 py-5 md:py-8'>
                     <h2 className='text-xl md:text-3xl text-white font-semibold'>
-                        Idealne rozwiązanie dla muzeów oraz w przestrzeni miejskiej
+                        {lead}
                     </h2>
                 </div>
                 <div className='w-1/2 ms-auto mt-20 md:mt-1 me-7 md:mx-7'>
-                    <HoverButtton btnText='Więcej' type='button'/>
+                    <HoverButtton btnText={ctaText} type='button'/>
                 </div>
             </div>
     
