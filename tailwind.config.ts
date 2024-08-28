@@ -74,8 +74,9 @@ const config = {
       },
       fontSize: {
         DEFAULT: '16px',
-        font5xl: '47px',
-        font3xl: '31px',
+        text2xl: '20px',
+        text3xl: '31px',
+        text5xl: '47px',
       },
       keyframes: {
         "accordion-down": {
