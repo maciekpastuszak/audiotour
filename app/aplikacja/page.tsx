@@ -25,9 +25,9 @@ const Aplikacja = () => {
               >
               <Image src='/img/app-icon-grid.png' alt='Siatka ikon' width={739} height={368} />
             </motion.div>
-            <div className='my-6 text-left text-3xl md:fontSize-font5xl text-nowrap font-bold font-articulat'>
+            <div className='my-6 text-left text-5xl text-nowrap font-bold'>
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
-              <h2>200 <span className='text-xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
+              <h2>200 <span className='text-3xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
             </div>
             <Button className='bg-blue-500 rounded-full px-10'>Nasze realizacje</Button>
           </div>
@@ -56,7 +56,7 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         
         {/* large screens */}
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -125,7 +125,7 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         
           {/* large screens */}
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -194,7 +194,7 @@ const Aplikacja = () => {
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
         
         {/* large screens */}
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 mb-6">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 max-w-[1066px] mb-6">
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
@@ -228,36 +228,48 @@ const Aplikacja = () => {
         <h2 className='text-lg font-bold'>Opinie klientów i turystów:</h2>
         <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Pańśtwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
         
-        <div className='w-1/2'>
-          <div className='flex justify-start'>
-            <ReviewCard 
-            name='Błażej'
-            isImgLeft={true}
-            profilePic='/img/man_smiling.jpg' 
-            place='Muzeum Wojska Polskiego' 
-            desc='Wspaniała aplikacja, która oprowadzi po najciekawszych zabytkach. Super przyjemny głos lektora, tempo idealne, a wiadomości ciekawe. Nawigacja prowadzi jak po sznurku - nie jest się w stanie zbłądzić. Polecam zdecydowanie!'
-            rating='5' />
-          </div>
-          <div className='flex justify-end'>
-            <ReviewCard 
-            name='R S'
-            isImgLeft={false}
-            profilePic='/img/woman_smiling.png' 
-            place='Muzeum Dom Jana Pawła II w Wadowicach' 
-            desc='Coś wspaniałego! Bardzo profesjonalna apka, głos lektora i długość opowieści w poszczególnych segmentach wystawy świetnie dobrane. Ma się poczucie jakby przewodnik stał przy nas. Wprowadza bardzo fajny klimat; wszystko świetnie współgra.'
-            rating='5' />
-          </div>
-          <div>
-            <ReviewCard 
-            name='Monika Cz'
-            isImgLeft={true}
-            profilePic='/img/man_smiling.jpg' 
-            place='Zamość Stare Miasto' 
-            desc='Jako rodowita Zamościanka nie wiedziałam o istnieniu tej aplikacji. No bo i niby po co 😂, przecież znam Zamość, jak nikt inny, mieszkam tu od 45 lat...A tu niespodzianka, świetne narzędzie, będę polecać 🖤 Ba nawet przy najbliższej okazji wypróbuję na sobie!'
-            rating='5' />
-          </div>
-        </div>
-
+        <div className='w-[350px] md:w-2/3 max-w-[600px] grid grid-cols-1 md:grid-cols-2 gap-4'>
+  <div className='flex justify-start'>
+    <ReviewCard 
+      name='Błażej'
+      isImgLeft={true}
+      profilePic='/img/man_smiling.jpg' 
+      place='Muzeum Wojska Polskiego' 
+      desc='Wspaniała aplikacja, która oprowadzi po najciekawszych zabytkach. Super przyjemny głos lektora, tempo idealne, a wiadomości ciekawe. Nawigacja prowadzi jak po sznurku - nie jest się w stanie zbłądzić. Polecam zdecydowanie!'
+      rating='5' 
+    />
+  </div>
+  <div className='flex justify-end mt-4 md:mt-0'>
+    <ReviewCard 
+      name='R S'
+      isImgLeft={false}
+      profilePic='/img/woman_smiling.png' 
+      place='Muzeum Dom Jana Pawła II w Wadowicach' 
+      desc='Coś wspaniałego! Bardzo profesjonalna apka, głos lektora i długość opowieści w poszczególnych segmentach wystawy świetnie dobrane. Ma się poczucie jakby przewodnik stał przy nas. Wprowadza bardzo fajny klimat; wszystko świetnie współgra.'
+      rating='5' 
+    />
+  </div>
+  <div className='flex justify-start mt-4 md:mt-0'>
+    <ReviewCard 
+      name='Monika Cz'
+      isImgLeft={true}
+      profilePic='/img/man_smiling.jpg' 
+      place='Zamość Stare Miasto' 
+      desc='Jako rodowita Zamościanka nie wiedziałam o istnieniu tej aplikacji. No bo i niby po co 😂, przecież znam Zamość, jak nikt inny, mieszkam tu od 45 lat...A tu niespodzianka, świetne narzędzie, będę polecać 🖤 Ba nawet przy najbliższej okazji wypróbuję na sobie!'
+      rating='5' 
+    />
+  </div>
+  <div className='flex justify-end mt-4 md:mt-0'>
+    <ReviewCard 
+      name='R S'
+      isImgLeft={false}
+      profilePic='/img/woman_smiling.png' 
+      place='Muzeum Dom Jana Pawła II w Wadowicach' 
+      desc='Coś wspaniałego! Bardzo profesjonalna apka, głos lektora i długość opowieści w poszczególnych segmentach wystawy świetnie dobrane. Ma się poczucie jakby przewodnik stał przy nas. Wprowadza bardzo fajny klimat; wszystko świetnie współgra.'
+      rating='5' 
+    />
+  </div>
+</div>
       </section>
   )
 }
