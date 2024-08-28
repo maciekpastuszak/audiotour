@@ -40,6 +40,7 @@ const Aplikacja = () => {
 
         <AppBanner  
           headerIcon='Icon_Audioprzewodniki.svg'
+          lineColor='bg-blue-500'
           headerTitle='Audioprzewodniki'
           subtitle1='Prosta obsługa,'
           subtitle2Color='text-blue-500'
@@ -62,7 +63,6 @@ const Aplikacja = () => {
               isBig={true} 
               cardBg="Feature_Audioprzewodniki_1.png"
               iconSrc='Feature_Icon_Map.svg' 
-              iconAlt='Ikona mapy' 
               title='Interaktywna mapa' 
               content='' 
             />
@@ -74,7 +74,6 @@ const Aplikacja = () => {
               cardBg={i.cardBg}
               isBig={i.isBig}
               iconSrc={i.iconSrc}
-              iconAlt={i.iconAlt}
               title={i.title}
               content={i.content}
               />
@@ -99,7 +98,7 @@ const Aplikacja = () => {
               <FavouriteAppCard 
                 key={i.id}
                 fileName={i.fileName}
-                alt={i.alt}
+                placeName={i.alt}
                 rating={i.rating}
               />
             ))
@@ -109,6 +108,7 @@ const Aplikacja = () => {
 
         <AppBanner  
           headerIcon='Icon_Przewodniki.svg'
+          lineColor='bg-green-500'
           headerTitle='Przewodniki turystyczne'
           subtitle1='Zawsze aktualny,'
           subtitle2Color='text-green-500'
@@ -131,7 +131,6 @@ const Aplikacja = () => {
               isBig={true} 
               cardBg="Feature_Przewodniki_1.png"
               iconSrc='Feature_Icon_Map.svg' 
-              iconAlt='Ikona mapy' 
               title='Interaktywna mapa' 
               content='' 
             />
@@ -143,7 +142,6 @@ const Aplikacja = () => {
               cardBg={i.cardBg}
               isBig={i.isBig}
               iconSrc={i.iconSrc}
-              iconAlt={i.iconAlt}
               title={i.title}
               content={i.content}
               />
@@ -168,16 +166,15 @@ const Aplikacja = () => {
               <FavouriteAppCard 
                 key={i.id}
                 fileName={i.fileName}
-                alt={i.alt}
+                placeName={i.alt}
                 rating={i.rating}
               />
             ))
           }
-          
         </div>
-
         <AppBanner  
           headerIcon='Icon_Bespoke.svg'
+          lineColor='bg-gray-500'
           headerTitle='Rozwiązania skrojone na wymiar'
           subtitle1=''
           subtitle2Color=''
@@ -200,7 +197,6 @@ const Aplikacja = () => {
               isBig={true} 
               cardBg="Feature_Process_1.jpg"
               iconSrc='Feature_Icon_Lead.svg' 
-              iconAlt='Ikona rozmowy' 
               title='1. Rozmowa' 
               content='' 
             />
@@ -212,7 +208,6 @@ const Aplikacja = () => {
               cardBg={i.cardBg}
               isBig={i.isBig}
               iconSrc={i.iconSrc}
-              iconAlt={i.iconAlt}
               title={i.title}
               content={i.content}
               />

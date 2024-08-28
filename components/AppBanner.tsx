@@ -8,6 +8,7 @@ import HoverButtton from './ui/HoverButtton'
 
 type AppBannerProps = {
     headerIcon: string, 
+    lineColor: string,
     headerTitle: string, 
     subtitle1: string,
     subtitle2Color: string
@@ -20,7 +21,7 @@ type AppBannerProps = {
     text2: string
 }
 
-const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, lead, ctaText, text1, text2  }: AppBannerProps) => {
+const AppBanner = ({ headerIcon, lineColor, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, lead, ctaText, text1, text2  }: AppBannerProps) => {
     return (
         <motion.div 
           className='relative items-start w-5/6 max-w-[1066px] my-5 bg-white min-w-[375px] drop-shadow-md rounded-md'
@@ -30,7 +31,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
           viewport={{ once: true }}
         >
             <div className='flex bg-gray-100'>
-                <div className='w-[8px] bg-blue-500'></div>
+                <div className={`w-[8px] ${lineColor}`}></div>
                 <Image src={`/img/app-icons/${headerIcon}`} width={72} height={72} alt="Ikona karty" className='mx-4 my-3'/>
                 <div className='flex flex-col leading-7 justify-center'>
                     <h3 className='text-text3xl font-bold'>{headerTitle}</h3>

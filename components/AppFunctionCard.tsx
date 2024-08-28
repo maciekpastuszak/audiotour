@@ -5,12 +5,11 @@ import React from 'react'
 type appFunctionPros = {
     cardBg: string
     iconSrc: string,
-    iconAlt: string,
     title: string,
     content: string
     isBig: boolean
 }
-const AppFunctionCard = ({ cardBg, iconSrc, iconAlt, title, content, isBig }: appFunctionPros) => {
+const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig }: appFunctionPros) => {
   return (
     <motion.div 
     className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] text-sm'} bg-white rounded-lg`}
@@ -18,7 +17,7 @@ const AppFunctionCard = ({ cardBg, iconSrc, iconAlt, title, content, isBig }: ap
     whileTap={{ scale: 0.9 }}
     >
         <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover bg-center rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
-            <img src={`/img/app-icons/${iconSrc}`} className='w-28 md:w-14 h-28 md:h-14' alt={iconAlt} />
+            <img src={`/img/app-icons/${iconSrc}`} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
         </div>
         <div className={`${isBig ? 'p-5 h-72' : 'p-3'}  rounded-b-lg`}>
             <h3 className='text-l font-semibold'>{title}</h3>

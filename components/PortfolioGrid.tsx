@@ -32,9 +32,7 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
           <PortfolioCard
             key={index}
             bgImg='/img/portfolio/heroes/10a.jpg'
-            bgImgAlt={card.bgImgAlt}
             tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
-            tourIconAlt={card.tourIconAlt}
             title={card.title}
             subtitle1={card.subtitle1}
             subtitle2={card.subtitle2}

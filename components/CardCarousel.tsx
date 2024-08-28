@@ -22,7 +22,6 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                     <AppFunctionCard 
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
-                                        iconAlt={i.iconAlt} 
                                         title={i.title} 
                                         content={i.content} 
                                         isBig={false} 
@@ -39,7 +38,6 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                     <AppFunctionCard 
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
-                                        iconAlt={i.iconAlt} 
                                         title={i.title} 
                                         content={i.content} 
                                         isBig={false} 
@@ -58,7 +56,6 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                     <AppFunctionCard 
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
-                                        iconAlt={i.iconAlt} 
                                         title={i.title} 
                                         content={i.content} 
                                         isBig={false} 

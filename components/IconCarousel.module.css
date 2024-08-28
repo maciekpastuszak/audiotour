@@ -1,0 +1,50 @@
+/* components/IconCarousel.module.css */
+.carouselContainer {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .logoItem {
+    min-width: 100px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoItem img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .logoItem {
+      min-width: 150px;
+    }
+  
+    .logoItem img {
+      max-width: 150px;
+    }
+  }
+  

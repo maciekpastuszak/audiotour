@@ -5,16 +5,14 @@ import parse from 'html-react-parser';
 
 type PortfolioCardProps = {
     bgImg : string,
-    bgImgAlt : string,
     tourIcon : string,
-    tourIconAlt : string,
     title : string,
     subtitle1 : string,
     subtitle2 : string,
     desc : string,  
 }
 
-const PortfolioCard = ({ bgImg, bgImgAlt, tourIcon, tourIconAlt, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
+const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
   return (
     <div className='relative w-[300px] h-[350px] flex flex-col shadow-xl rounded-xl bg-white'>
         <div className="relative">
@@ -22,14 +20,14 @@ const PortfolioCard = ({ bgImg, bgImgAlt, tourIcon, tourIconAlt, title, subtitle
               src={bgImg} 
               width={300} 
               height={200} 
-              alt={bgImgAlt}
+              alt="Image of the place"
               className='rounded-t-xl'
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white rounded-t-xl z-10"></div>
         </div>
         <div className='absolute top-32 flex flex-row gap-2 me-2 justify-between items-end mx-2 z-20'>
-            <Image src={tourIcon} width={64} height={64} alt={tourIconAlt} className='rounded-xl shadow-md' />
+            <Image src={tourIcon} width={64} height={64} alt='Tour place icon' className='rounded-xl shadow-md' />
             <Button className='bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center shadow-md'>
                 <Image src="/img/app-icons/App_Store_Icon.svg" alt="AppStore Icon" width={15} height={10} />
                 App Store
