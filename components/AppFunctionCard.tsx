@@ -14,7 +14,7 @@ const AppFunctionCard = ({ cardBg, iconSrc, iconAlt, title, content, isBig }: ap
   return (
     <motion.div 
     className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] text-sm'} bg-white rounded-lg`}
-    whileHover={{ scale: 1.02 }}
+    whileHover={{ scale: 1.01 }}
     whileTap={{ scale: 0.9 }}
     >
         <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover bg-center rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
