@@ -27,12 +27,14 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
           variants={fadeIn('right', 'tween', 0.2, 0.5)}
           initial="hidden"
           whileInView="show"
+          viewport={{ once: true }}
         >
-            <div className='flex ms-5 my-3'>
-                <Image src={`/img/app-icons/${headerIcon}`} width={55} height={55} alt="Ikona karty" />
-                <div className='font-articulat leading-3'>
-                    <h3 className='text-lg font-bold'>{headerTitle}</h3>
-                    <p className='text-sm md:text-normal'>{subtitle1} <span className={subtitle2Color}>{subtitle2}</span></p>
+            <div className='flex bg-gray-100'>
+                <div className='w-[8px] bg-blue-500'></div>
+                <Image src={`/img/app-icons/${headerIcon}`} width={72} height={72} alt="Ikona karty" className='mx-4 my-3'/>
+                <div className='flex flex-col leading-7 justify-center'>
+                    <h3 className='text-text3xl font-bold'>{headerTitle}</h3>
+                    <p className='text-xl'>{subtitle1} <span className={`${subtitle2Color} font-bold`}>{subtitle2}</span></p>
                 </div>
             </div>
     
@@ -53,6 +55,7 @@ const AppBanner = ({ headerIcon, headerTitle, subtitle1, subtitle2Color, subtitl
                 initial="hidden"
                 whileInView="show"
                 style={{ transform: 'translateZ(0)' }} // Enforce hardware acceleration for smoother animations
+                viewport={{ once: true }}
             >
                 <img 
                     src={`/img/app-phone-mockups/${mobileImg}`} 
