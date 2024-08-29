@@ -4,13 +4,14 @@ import AppFunctionCard from '@/components/AppFunctionCard'
 import AppBanner from '@/components/AppBanner'
 import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
-import { Button } from '@/components/ui/button'
+import { Button, buttonVariants } from '@/components/ui/button'
 import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2, processCards } from '@/constants'
 import React from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import ReviewCard from '@/components/ReviewCard'
+import Link from 'next/link'
 
 
 const Aplikacja = () => {
@@ -29,7 +30,10 @@ const Aplikacja = () => {
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
               <h2>200 <span className='text-xl md:text-3xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
             </div>
-            <Button className='bg-blue-500 rounded-full px-10'>Nasze realizacje</Button>
+            <Button className='bg-blue-500 rounded-full px-10'>
+              <Link href={'/realizacje'}>Nasze realizacje</Link>
+            </Button>
+            {/* <Link className={`${buttonVariants({ variant: "outline" })} bg-blue-500 rounded-full px-10`} href='/realizacje'>Nasze realizacje</Link> */}
           </div>
           
           <div className='flex w-full mx-auto justify-center bg-white'>
