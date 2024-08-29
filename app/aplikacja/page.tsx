@@ -15,7 +15,7 @@ import ReviewCard from '@/components/ReviewCard'
 
 const Aplikacja = () => {
   return (
-      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3'>
+      <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-5'>
           <div className='flex flex-col justify-center items-center mx-auto my-8 md:mt-12 text-center'>
             <motion.div 
               className=''
@@ -25,9 +25,9 @@ const Aplikacja = () => {
               >
               <Image src='/img/app-icon-grid.png' alt='Siatka ikon' width={739} height={368} />
             </motion.div>
-            <div className='my-6 text-left text-5xl text-nowrap font-bold'>
+            <div className='my-6 text-left text-3xl md:text-5xl text-nowrap font-bold'>
               <h1>Every place an <span className='text-blue-500'>app</span></h1>
-              <h2>200 <span className='text-3xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
+              <h2>200 <span className='text-xl md:text-3xl md:fontSize-font3xl font-normal'>wdrożeń w całej Polsce</span></h2>
             </div>
             <Button className='bg-blue-500 rounded-full px-10'>Nasze realizacje</Button>
           </div>

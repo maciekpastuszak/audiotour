@@ -34,8 +34,8 @@ const AppBanner = ({ headerIcon, lineColor, headerTitle, subtitle1, subtitle2Col
                 <div className={`w-[8px] ${lineColor}`}></div>
                 <Image src={`/img/app-icons/${headerIcon}`} width={72} height={72} alt="Ikona karty" className='mx-4 my-3'/>
                 <div className='flex flex-col leading-7 justify-center'>
-                    <h3 className='text-text3xl font-bold'>{headerTitle}</h3>
-                    <p className='text-xl'>{subtitle1} <span className={`${subtitle2Color} font-bold`}>{subtitle2}</span></p>
+                    <h3 className='text-xl md:text-text3xl font-bold'>{headerTitle}</h3>
+                    <p className='md:text-xl'>{subtitle1} <span className={`${subtitle2Color} font-bold`}>{subtitle2}</span></p>
                 </div>
             </div>
     
