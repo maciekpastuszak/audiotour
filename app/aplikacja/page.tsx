@@ -93,7 +93,7 @@ const Aplikacja = () => {
         <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
         <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
       
-        <div className='flex flex-col md:flex-row gap-2 mb-8'>
+        <div className='flex flex-col lg:flex-row gap-2 mb-8'>
           {favouriteAppsCard1.map((i) => (
               <FavouriteAppCard 
                 key={i.id}
