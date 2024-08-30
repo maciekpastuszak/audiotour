@@ -17,14 +17,14 @@ const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: P
     <div className='relative w-[300px] h-[350px] flex flex-col shadow-xl rounded-xl bg-white'>
         <div className="relative">
             <Image 
-              src={bgImg} 
+              src={bgImg}
               width={300} 
-              height={200} 
+              height={200}
               alt="Image of the place"
               className='rounded-t-xl'
             />
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white rounded-t-xl z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-white from-0% to-25% z-10"></div>
         </div>
         <div className='absolute top-32 flex flex-row gap-2 me-2 justify-between items-end mx-2 z-20'>
             <Image src={tourIcon} width={64} height={64} alt='Tour place icon' className='rounded-xl shadow-md' />

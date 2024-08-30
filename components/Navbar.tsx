@@ -40,8 +40,8 @@ const Navbar = () => {
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
         <div className="hidden md:flex space-x-8 md:space-x-13 font-bold">
-            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
-            <Link href='/aplikacja'><p className="text-stone-900 hover:text-gray-500">Przewodnik</p></Link>
+            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Aplikacja</p></Link>
+            <Link href='/aplikacja'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
             <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
             <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>

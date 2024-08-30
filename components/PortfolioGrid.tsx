@@ -5,6 +5,7 @@ import PortfolioCard from '@/components/PortfolioCard';
 import { Button } from './ui/button';
 
 interface Card {
+  id: number,
   bgImgAlt: string;
   tourIconAlt: string;
   title: string;
@@ -31,7 +32,7 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
         {cards.slice(0, visibleCount).map((card: Card, index: number) => (
           <PortfolioCard
             key={index}
-            bgImg='/img/portfolio/heroes/10a.jpg'
+            bgImg={`/img/portfolio/heroes/${card.id}a.jpg`}
             tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
             title={card.title}
             subtitle1={card.subtitle1}

@@ -10,6 +10,7 @@ import ReviewCard from '@/components/ReviewCard';
 interface PortfolioItemCard {
   name: string | null;
   description: string | null;
+  uid: number;
 }
 
 type PortfolioItem = {
@@ -30,16 +31,17 @@ export default async function Realizacje() {
 
   const portfolioItemsCards = await prisma.portfolio.findMany({
     where: {
-      display: 1,  // Assuming 'display' indicates whether the portfolio item should be shown
+      display: 1, 
     },
     select: {
+      uid: true,
       name: true,
       description: true,
-      // Add any other fields that might be needed for bgImg, tourIcon, etc.
     },
   });
 
   const cards = portfolioItemsCards.map((item: PortfolioItemCard) => ({
+    id: item.uid,
     bgImg: '', 
     bgImgAlt: item.name || '',
     tourIcon: '',
