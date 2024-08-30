@@ -115,10 +115,10 @@ const Aplikacja = () => {
           <AppBanner  
             headerIcon='Icon_Przewodniki.svg'
             lineColor='bg-green-500'
-            headerTitle='Aplikacja turystyczna'
-            subtitle1='Zawsze aktualny,'
+            headerTitle='Aplikacja Turystyczna'
+            subtitle1='Zawsze aktualna,'
             subtitle2Color='text-green-500'
-            subtitle2='wiele możliwości'
+            subtitle2='dająca wiele możliwości'
             bannerBgSrc='Banner_Przewodniki_Wide.png'
             mobileImg='Banner_Przewodniki_Tel.png'
             lead='Na szlaku, na szczycie? Zawsze z Tobą.'

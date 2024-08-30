@@ -48,7 +48,8 @@ const dropdownVariants = {
 const Navbar = () => {
 
   const [isOpen, toggleOpen] = useCycle(false, true);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownOpenAplikacja, setDropdownOpenAplikacja] = useState(false);
+  const [dropdownOpenOferta, setDropdownOpenOferta] = useState(false);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
 
@@ -58,17 +59,16 @@ const Navbar = () => {
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
         <div className="hidden md:flex space-x-8 md:space-x-13 font-bold">
-            {/* Dropdown Link */}
           <div
             className="relative"
-            onMouseEnter={() => setDropdownOpen(true)}
-            onMouseLeave={() => setDropdownOpen(false)}
+            onMouseEnter={() => setDropdownOpenAplikacja(true)}
+            onMouseLeave={() => setDropdownOpenAplikacja(false)}
           >
             <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Aplikacja</p>
             <motion.div
               className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden"
               initial="closed"
-              animate={dropdownOpen ? 'open' : 'closed'}
+              animate={dropdownOpenAplikacja ? 'open' : 'closed'}
               variants={dropdownVariants}
             >
               <Link href="#audioprzewodniki">
@@ -78,13 +78,47 @@ const Navbar = () => {
               </Link>
               <Link href="#aplikacjaTurystyczna">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Aplikacja turystyczna
+                  Aplikacja Turystyczna
                 </p>
               </Link>
             </motion.div>
           </div>
             <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
-            <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link>
+            {/* <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link> */}
+            <div
+            className="relative"
+            onMouseEnter={() => setDropdownOpenOferta(true)}
+            onMouseLeave={() => setDropdownOpenOferta(false)}
+          >
+            <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Oferta</p>
+            <motion.div
+              className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden"
+              initial="closed"
+              animate={dropdownOpenOferta ? 'open' : 'closed'}
+              variants={dropdownVariants}
+            >
+              <Link href="/aplikacja">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Aplikacja
+                </p>
+              </Link>
+              <Link href="/technologia.html">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Sprzęt
+                </p>
+              </Link>
+              <Link href="/redakcja.html">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Usługi redakcyjne
+                </p>
+              </Link>
+              <Link href="/tlumaczenia.html">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Tłumaczenia
+                </p>
+              </Link>
+            </motion.div>
+          </div>
             <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
