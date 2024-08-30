@@ -12,6 +12,7 @@ interface Card {
   subtitle1: string;
   subtitle2: string;
   desc: string;
+  display_priority: number;
 }
 
 interface PortfolioGridProps {
@@ -21,6 +22,8 @@ interface PortfolioGridProps {
 const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
   const [visibleCount, setVisibleCount] = useState(6);
 
+  const sortedCards = cards.sort((a, b) => b.display_priority - a.display_priority);
+
   const showMoreCards = () => {
     setVisibleCount((prevCount) => prevCount + 6); // Show 6 more cards each time
   };
@@ -29,7 +32,7 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
     <div className='flex flex-col items-center mb-5'>
       {/* Render visible cards */}
       <div className='flex flex-wrap justify-center gap-4'>
-        {cards.slice(0, visibleCount).map((card: Card, index: number) => (
+        {sortedCards.slice(0, visibleCount).map((card: Card, index: number) => (
           <PortfolioCard
             key={index}
             bgImg={`/img/portfolio/heroes/${card.id}a.jpg`}

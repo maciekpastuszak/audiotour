@@ -11,6 +11,7 @@ interface PortfolioItemCard {
   name: string | null;
   description: string | null;
   uid: number;
+  display_priority: number;
 }
 
 type PortfolioItem = {
@@ -37,6 +38,7 @@ export default async function Realizacje() {
       uid: true,
       name: true,
       description: true,
+      display_priority: true,
     },
   });
 
@@ -50,6 +52,7 @@ export default async function Realizacje() {
     subtitle1: '', 
     subtitle2: '',
     desc: item.description ? item.description.slice(0, 200) : '',
+    display_priority: item.display_priority,
   }));
 
   const portfolioItems = await prisma.portfolio.findMany({
@@ -101,17 +104,6 @@ export default async function Realizacje() {
 
         <h2 className='text-lg font-bold mt-4'>Ostatnie realizacje</h2>
         <p className='text-sm text-slate-600 mb-5'>Projekty które zrealizowaliśmy w ostanim czasie</p>
-
-        {/* <PortfolioCard 
-          bgImg='/img/portfolio/heroes/10a.jpg' 
-          bgImgAlt='zamek'
-          tourIcon='/img/app-icons/Szlak_Marianny_Oranskiej.png'
-          tourIconAlt='Ikona realizacji'
-          title='Szlak Marianny Orańskiej'
-          subtitle1='Kamieniec Ząbkowski'
-          subtitle2='Styczeń 2023'
-          desc='Audioprzewodnik umożliwiający zwiedzanie gmin Kamieniec Ząbkowski i innych w formie audioprzewodnika multimedialnego.'
-        /> */}
 
       <PortfolioGrid cards={cards} />
 
