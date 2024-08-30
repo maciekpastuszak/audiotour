@@ -120,7 +120,7 @@ Studzienicznej | Audiotour.pl</title><meta name="description" content="Sanktuari
 				</ul>
 			</li>
 			<li><a href="zwiedzaniegrupowe">Tour Guide</a></li>
-			<li><a href="kontakt">Kontakt</a></li>
+			<li><a href="/kontakt">Kontakt</a></li>
 		</ul>
 	</div>
 	<div id="lang" class="desktop">
@@ -144,7 +144,7 @@ Studzienicznej | Audiotour.pl</title><meta name="description" content="Sanktuari
 			<li><a href="redakcja" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Redakcja');">Redakcja</a></li>
 			<li><a href="realizacje" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Realizacje');">Realizacje</a></li>
 			<li><a href="zwiedzaniegrupowe" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Zwiedzanie grupowe');">Tour Guide</a></li>
-			<li><a href="kontakt" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Kontakt');">Kontakt</a></li>
+			<li><a href="/kontakt" onClick="ga('send', 'event', 'Mobile Menu', 'Click', 'Kontakt');">Kontakt</a></li>
 		</ul>
 	</nav>
 	<div id="mobile-menu-dark-bg"></div>
