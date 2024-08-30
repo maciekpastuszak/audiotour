@@ -42,20 +42,21 @@ const Aplikacja = () => {
             </div>
           </div>
 
-        <AppBanner  
-          headerIcon='Icon_Audioprzewodniki.svg'
-          lineColor='bg-blue-500'
-          headerTitle='Audioprzewodniki'
-          subtitle1='Prosta obsługa,'
-          subtitle2Color='text-blue-500'
-          subtitle2='szybka realizacja'
-          bannerBgSrc='Banner_Audioprzewodniki_Wide.png'
-          mobileImg='Banner_Audioprzewodniki_Tel.png'
-          lead='Idealne Rozwiązanie dla Muzeów i Miejskich Przestrzeni'
-          ctaText='Zobacz więcej'
-          text1='Audioprzewodnik w formie aplikacji mobilnej to rozwiązanie, które umożliwia zwiedzającym odkrywanie miast i muzeów za pomocą swojego urządzenia z systemem Android lub iOS.'
-          text2='Prosta w użyciu, dostępna dla każdego, aplikacja w multimedialny sposób oprowadzi zwiedzającego po danym terenie. Jest doskonałą alternatywą dla tradycyjnego urządzenia dzięki możliwości dostosowania jej do potrzeb użytkowników. Obsługuje ustawienia dostępności, audiodeskrypcję oraz język migowy dzięki czemu każdy może się nią w pełni cieszyć. Z naszą aplikacją zwiedzanie staje się łatwiejsze i przyjemniejsze  niż kiedykolwiek wcześniej.'
-        />
+          <div id='audioprzewodniki'></div>
+            <AppBanner  
+            headerIcon='Icon_Audioprzewodniki.svg'
+            lineColor='bg-blue-500'
+            headerTitle='Audioprzewodniki'
+            subtitle1='Prosta obsługa,'
+            subtitle2Color='text-blue-500'
+            subtitle2='szybka realizacja'
+            bannerBgSrc='Banner_Audioprzewodniki_Wide.png'
+            mobileImg='Banner_Audioprzewodniki_Tel.png'
+            lead='Idealne Rozwiązanie dla Muzeów i Miejskich Przestrzeni'
+            ctaText='Zobacz więcej'
+            text1='Audioprzewodnik w formie aplikacji mobilnej to rozwiązanie, które umożliwia zwiedzającym odkrywanie miast i muzeów za pomocą swojego urządzenia z systemem Android lub iOS.'
+            text2='Prosta w użyciu, dostępna dla każdego, aplikacja w multimedialny sposób oprowadzi zwiedzającego po danym terenie. Jest doskonałą alternatywą dla tradycyjnego urządzenia dzięki możliwości dostosowania jej do potrzeb użytkowników. Obsługuje ustawienia dostępności, audiodeskrypcję oraz język migowy dzięki czemu każdy może się nią w pełni cieszyć. Z naszą aplikacją zwiedzanie staje się łatwiejsze i przyjemniejsze  niż kiedykolwiek wcześniej.'
+          />
         
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
@@ -110,21 +111,22 @@ const Aplikacja = () => {
           
         </div>
 
-        <AppBanner  
-          headerIcon='Icon_Przewodniki.svg'
-          lineColor='bg-green-500'
-          headerTitle='Przewodniki turystyczne'
-          subtitle1='Zawsze aktualny,'
-          subtitle2Color='text-green-500'
-          subtitle2='wiele możliwości'
-          bannerBgSrc='Banner_Przewodniki_Wide.png'
-          mobileImg='Banner_Przewodniki_Tel.png'
-          lead='Na szlaku, na szczycie? Zawsze z Tobą.'
-          ctaText='Zobacz więcej'
-          text1='Przewodnik turystyczny oferuje możliwość eksplorowania różnorodnych szlaków i tras w najpiękniejszych miejscach, wszystko dostępne z łatwością na urządzeniu mobilnym.'
-          text2='Aplikacja wyróżnia się szeroką gamą funkcji, w tym możliwością dodawania różnych rodzajów tras - pieszych, rowerowych czy nawet narciarskich. Z łatwością znajdziesz najlepsze szlaki po górach, malowniczych parkach oraz innych fascynujących terenach, gotowych do odkrycia i eksploracji. Przewodnik można rozszerzyć o dodatkowe moduły, które zapewnią jeszcze więcej przyjemności z podróży. Czy chciałbyś wzbogacić swoje doświadczenie o fascynującą grę terenową, czy być na bieżąco z planami na kolejne dni dzięki kalendarzowi? - dzięki aplikacji wszystko to jest możliwe!'
-        />
-
+        <div id='aplikacjaTurystyczna'></div>
+          <AppBanner  
+            headerIcon='Icon_Przewodniki.svg'
+            lineColor='bg-green-500'
+            headerTitle='Aplikacja turystyczna'
+            subtitle1='Zawsze aktualny,'
+            subtitle2Color='text-green-500'
+            subtitle2='wiele możliwości'
+            bannerBgSrc='Banner_Przewodniki_Wide.png'
+            mobileImg='Banner_Przewodniki_Tel.png'
+            lead='Na szlaku, na szczycie? Zawsze z Tobą.'
+            ctaText='Zobacz więcej'
+            text1='Przewodnik turystyczny oferuje możliwość eksplorowania różnorodnych szlaków i tras w najpiękniejszych miejscach, wszystko dostępne z łatwością na urządzeniu mobilnym.'
+            text2='Aplikacja wyróżnia się szeroką gamą funkcji, w tym możliwością dodawania różnych rodzajów tras - pieszych, rowerowych czy nawet narciarskich. Z łatwością znajdziesz najlepsze szlaki po górach, malowniczych parkach oraz innych fascynujących terenach, gotowych do odkrycia i eksploracji. Przewodnik można rozszerzyć o dodatkowe moduły, które zapewnią jeszcze więcej przyjemności z podróży. Czy chciałbyś wzbogacić swoje doświadczenie o fascynującą grę terenową, czy być na bieżąco z planami na kolejne dni dzięki kalendarzowi? - dzięki aplikacji wszystko to jest możliwe!'
+          />
+       
         <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
         <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
         
