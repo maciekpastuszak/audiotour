@@ -15,7 +15,7 @@ export const navLinks = [
     links: [
       { href: '/aplikacja', text: 'Audioprzewodniki' },
       { href: '/', text: 'Przewodniki turystyczne' },
-      { href: '/aplikacja.html', text: 'Rozwiązania Tailor Made' },
+      { href: '/aplikacja', text: 'Rozwiązania Tailor Made' },
     ],
   },
   {
