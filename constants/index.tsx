@@ -115,8 +115,8 @@ export const navLinks = [
     {id: '02', fullName: 'Anna Szymczyk', title: 'Koordynator Projektów', mail: 'anna@audiotour.pl' },
     {id: '03', fullName: 'Michał Sobarnia', title: 'Koordynator Projektów', mail: 'msobarnia@audiotour.pl' },
     {id: '04', fullName: 'Kamil Ochel', title: 'iOS Developer', mail: 'kamil@audiotour.pl', phone: '+48 518 571 925' },
-    {id: '04', fullName: 'Jakub Nahacz', title: 'Android Developer', mail: 'jakub@audiotour.pl', },
-    {id: '05', fullName: 'Caryl', title: 'Tłumacz', mail: 'caryl@audiotour.pl' },
+    {id: '05', fullName: 'Jakub Nahacz', title: 'Android Developer', mail: 'jakub@audiotour.pl', },
+    // {id: '05', fullName: 'Caryl', title: 'Tłumacz', mail: 'caryl@audiotour.pl' },
   ]
 
   export const markers = [
