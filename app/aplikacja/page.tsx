@@ -46,7 +46,7 @@ const Aplikacja = () => {
             <AppBanner  
             headerIcon='Icon_Audioprzewodniki.svg'
             lineColor='bg-blue-500'
-            headerTitle='Audioprzewodniki'
+            headerTitle='Aplikacja Audioguide'
             subtitle1='Prosta obsługa,'
             subtitle2Color='text-blue-500'
             subtitle2='szybka realizacja'
@@ -193,8 +193,8 @@ const Aplikacja = () => {
           text2='Z nami Twoje kreatywne wizje stają się rzeczywistością! Niezależnie od tego, czy jesteś turystą, przedsiębiorcą czy pasjonatem technologii, nasza aplikacja dostarczy Ci niezapomnianych doświadczeń i rozwiązań dostosowanych do Twoich potrzeb.'
         />
 
-        <h2 className='text-lg font-bold'>Nasz proces:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p>
+        <h2 className='text-lg font-bold mb-5'>Nasz proces:</h2>
+        {/* <p className='text-sm text-slate-600 mb-5'>Kliknij w wybrany krok, aby dowiedzieć się więcej</p> */}
         
         {/* large screens */}
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 md:gap-3 max-w-[1066px] mb-6">
