@@ -24,7 +24,7 @@ type AppBannerProps = {
 const AppBanner = ({ headerIcon, lineColor, headerTitle, subtitle1, subtitle2Color, subtitle2, bannerBgSrc, mobileImg, lead, ctaText, text1, text2  }: AppBannerProps) => {
     return (
         <motion.div 
-          className='relative items-start w-5/6 max-w-[1066px] my-5 bg-white min-w-[375px] drop-shadow-md rounded-md'
+          className='relative items-start w-5/6 max-w-[1066px] my-5 bg-white min-w-[375px] shadow-custom rounded-md'
           variants={fadeIn('right', 'tween', 0.2, 0.5)}
           initial="hidden"
           whileInView="show"

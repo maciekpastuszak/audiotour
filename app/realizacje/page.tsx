@@ -88,7 +88,7 @@ export default async function Realizacje() {
                 Na mapie poniżej znajdziesz wszystkie nasze dotychczasowe realizacje. Kliknij niebieską ikonę lokalizacji aby wyszukać obiekty/wycieczki w swojej okolicy.
               </p>
             </div>
-            <div className='shadow-lg'>
+            <div className='shadow-custom'>
                 <MapComponent markers={markers} />
             </div>
           </div>

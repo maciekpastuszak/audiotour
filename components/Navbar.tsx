@@ -54,7 +54,7 @@ const Navbar = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <nav className="bg-white shadow-md w-full py-7 font-articulat">
+    <nav className="bg-white shadow-custom w-full py-7 font-articulat">
       {/* Desktop */}
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Aplikacja</p>
             </Link>
             <motion.div
-              className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden"
+              className="absolute left-0 mt-2 w-48 bg-white shadow-custom rounded-md overflow-hidden"
               initial="closed"
               animate={dropdownOpenAplikacja ? 'open' : 'closed'}
               variants={dropdownVariants}
@@ -94,7 +94,7 @@ const Navbar = () => {
           >
             <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Oferta</p>
             <motion.div
-              className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden"
+              className="absolute left-0 mt-2 w-48 bg-white shadow-custom rounded-md overflow-hidden"
               initial="closed"
               animate={dropdownOpenOferta ? 'open' : 'closed'}
               variants={dropdownVariants}

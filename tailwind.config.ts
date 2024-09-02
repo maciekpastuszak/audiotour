@@ -92,6 +92,9 @@ const config = {
           '100%': { transform: 'translateX(-50%)' }, // -50% since we have duplicated the icons
         },
       },
+      boxShadow: {
+        'custom': '0px 5px 9px rgba(0, 0, 0, 0.1)'
+      },
       maxWidth: {
         'screen-2xl': '1536px',
         'screen-xl': '1280px',

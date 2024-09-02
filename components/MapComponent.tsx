@@ -46,7 +46,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ markers }) => {
       <input
         type="text"
         placeholder="Search..."
-        className="absolute bottom-2 left-2 z-20 p-2 bg-white shadow-md rounded-md "
+        className="absolute bottom-2 left-2 z-20 p-2 bg-white shadow-custom rounded-md "
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

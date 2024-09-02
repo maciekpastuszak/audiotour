@@ -12,7 +12,7 @@ type appFunctionPros = {
 const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig }: appFunctionPros) => {
   return (
     <motion.div 
-    className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] text-sm'} bg-white rounded-lg`}
+    className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] text-sm'} bg-white rounded-lg shadow-custom`}
     whileHover={{ scale: 1.01 }}
     whileTap={{ scale: 0.9 }}
     >

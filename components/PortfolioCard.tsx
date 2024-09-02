@@ -14,7 +14,7 @@ type PortfolioCardProps = {
 
 const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
   return (
-    <div className='relative w-[300px] h-[350px] flex flex-col shadow-xl rounded-xl bg-white'>
+    <div className='relative w-[300px] h-[350px] flex flex-col shadow-custom rounded-xl bg-white'>
         <div className="relative">
             <Image 
               src={bgImg}
@@ -28,7 +28,7 @@ const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: P
         </div>
         <div className='absolute top-32 flex flex-row gap-2 me-2 justify-between items-end mx-2 z-20'>
             {/* <Image src={tourIcon} width={64} height={64} alt='Tour place icon' className='rounded-xl shadow-md' /> */}
-            <Button className='bg-gradient-to-b from-[#25B4F0] to-[#267ADF] rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center shadow-md'>
+            <Button className='bg-gradient-to-b from-[#25B4F0] to-[#267ADF] rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center shadow-custom'>
                 <Image src="/img/app-icons/App_Store_Icon.svg" alt="AppStore Icon" width={15} height={10} />
                 App Store
             </Button>
