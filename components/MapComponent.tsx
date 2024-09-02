@@ -46,13 +46,13 @@ const MapComponent: React.FC<MapComponentProps> = ({ markers }) => {
       <input
         type="text"
         placeholder="Search..."
-        className="absolute bottom-2 left-2 z-[1000] p-2 bg-white shadow-md rounded-md "
+        className="absolute bottom-2 left-2 z-20 p-2 bg-white shadow-md rounded-md "
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       
       {/* Map Container */}
-      <MapContainer center={[52.112795, 19.211946]} zoom={6} className='w-full md:w-[450px] lg:w-[500px] h-[400px] md:h-[450px] lg:h-[500px]'>
+      <MapContainer center={[52.112795, 19.211946]} zoom={6} className='w-full md:w-[450px] lg:w-[500px] h-[400px] md:h-[450px] lg:h-[500px] z-10'>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

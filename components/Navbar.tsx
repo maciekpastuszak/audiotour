@@ -58,7 +58,7 @@ const Navbar = () => {
       {/* Desktop */}
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
-        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold">
+        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold z-50">
           <div
             className="relative"
             onMouseEnter={() => setDropdownOpenAplikacja(true)}
