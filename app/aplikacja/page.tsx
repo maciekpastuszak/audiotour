@@ -12,6 +12,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import ReviewCard from '@/components/ReviewCard'
 import Link from 'next/link'
+import InterTitle from '@/components/InterTitle'
 
 
 const Aplikacja = () => {
@@ -58,9 +59,8 @@ const Aplikacja = () => {
             text2='Prosta w użyciu, dostępna dla każdego, aplikacja w multimedialny sposób oprowadzi zwiedzającego po danym terenie. Jest doskonałą alternatywą dla tradycyjnego urządzenia dzięki możliwości dostosowania jej do potrzeb użytkowników. Obsługuje ustawienia dostępności, audiodeskrypcję oraz język migowy dzięki czemu każdy może się nią w pełni cieszyć. Z naszą aplikacją zwiedzanie staje się łatwiejsze i przyjemniejsze  niż kiedykolwiek wcześniej.'
           />
         
-        <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
-        
+        <InterTitle title='Poznaj funkcje aplikacji:' subTitle='Kliknij w wybraną funkcję, aby poznać jej działanie' />
+
         {/* large screens */}
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3">
           <div className="w-full h-full md:w-1/2">
@@ -95,8 +95,7 @@ const Aplikacja = () => {
           <Button className='bg-blue-500 rounded-full px-10'>Poznaj wszystkie funkcje</Button>
         </div>
 
-        <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
+        <InterTitle title='Popularne:' subTitle='Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach' />
       
         <div className='flex flex-col lg:flex-row gap-2 mb-8'>
           {favouriteAppsCard1.map((i) => (
@@ -120,16 +119,15 @@ const Aplikacja = () => {
             subtitle2Color='text-green-500'
             subtitle2='dająca wiele możliwości'
             bannerBgSrc='Banner_Przewodniki_Wide.png'
-            mobileImg='Banner_Przewodniki_Tel.png'
+            mobileImg='Banner_Przewodniki_Tel_v2.png'
             lead='Na szlaku, na szczycie? Zawsze z Tobą.'
             ctaText='Zobacz więcej'
             text1='Przewodnik turystyczny oferuje możliwość eksplorowania różnorodnych szlaków i tras w najpiękniejszych miejscach, wszystko dostępne z łatwością na urządzeniu mobilnym.'
             text2='Aplikacja wyróżnia się szeroką gamą funkcji, w tym możliwością dodawania różnych rodzajów tras - pieszych, rowerowych czy nawet narciarskich. Z łatwością znajdziesz najlepsze szlaki po górach, malowniczych parkach oraz innych fascynujących terenach, gotowych do odkrycia i eksploracji. Przewodnik można rozszerzyć o dodatkowe moduły, które zapewnią jeszcze więcej przyjemności z podróży. Czy chciałbyś wzbogacić swoje doświadczenie o fascynującą grę terenową, czy być na bieżąco z planami na kolejne dni dzięki kalendarzowi? - dzięki aplikacji wszystko to jest możliwe!'
           />
        
-        <h2 className='text-lg font-bold'>Poznaj funkcje aplikacji:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Kliknij w wybraną funkcję, aby poznać jej działanie</p>
-        
+        <InterTitle title='Poznaj funkcje aplikacji:' subTitle='Kliknij w wybraną funkcję, aby poznać jej działanie' />
+
           {/* large screens */}
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3">
           <div className="w-full h-full md:w-1/2">
@@ -164,9 +162,8 @@ const Aplikacja = () => {
           <Button className='bg-[rgb(69,150,41)] rounded-full px-10 font-bold'>Poznaj wszystkie funkcje</Button>
         </div>
 
-        <h2 className='text-lg lg:text-2xl font-bold'>Wasze ulubione:</h2>
-        <p className='text-sm text-slate-600 mb-5'>Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach</p>
-      
+        <InterTitle title='Popularne:' subTitle='Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach' />
+        
         <div className='flex flex-col lg:flex-row gap-5 mb-8'>
           {favouriteAppsCard2.map((i) => (
               <FavouriteAppCard 

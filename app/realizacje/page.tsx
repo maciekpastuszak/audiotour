@@ -6,6 +6,7 @@ import { PrismaClient } from '@prisma/client';
 import PortfolioGrid from '@/components/PortfolioGrid';
 import { Decimal } from '@prisma/client/runtime/library';
 import ReviewCard from '@/components/ReviewCard';
+import InterTitle from '@/components/InterTitle';
 
 interface PortfolioItemCard {
   name: string | null;
@@ -102,15 +103,14 @@ export default async function Realizacje() {
           </div>
         </div>
 
-        <h2 className='text-lg font-bold mt-4'>Ostatnie realizacje</h2>
-        <p className='text-sm text-slate-600 mb-5'>Projekty które zrealizowaliśmy w ostanim czasie</p>
+        <InterTitle title='Ostatnie realizacje' subTitle='Projekty które zrealizowaliśmy w ostanim czasie'/>
+       
+        <PortfolioGrid cards={cards} />
 
-      <PortfolioGrid cards={cards} />
-
-      <div className='flex flex-col justify-center w-5/6'>
-        <h2 className='text-lg font-bold text-center'>Opinie klientów i turystów:</h2>
-        <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Państwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
-      </div>
+        <div className='flex flex-col justify-center w-5/6'>
+          <h2 className='text-lg font-bold text-center'>Opinie klientów i turystów:</h2>
+          <p className='text-sm text-slate-600 mb-5 mx-5 text-center'>Audioprzewodnik to audioprzewodnik, który oprowadzi Państwa w multimedialny sposób po multimedialnym mieście Kraków.</p>
+        </div>
         
 
       <div className='w-[350px]'>
