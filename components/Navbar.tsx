@@ -58,7 +58,7 @@ const Navbar = () => {
       {/* Desktop */}
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
-        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold z-50">
+        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold z-40">
           <div
             className="relative"
             onMouseEnter={() => setDropdownOpenAplikacja(true)}
@@ -143,7 +143,7 @@ const Navbar = () => {
           custom={height}
           ref={containerRef}
         >
-          <motion.div className="absolute top-0 right-0 bottom-0 w-3/4 md:w-1/2 max-w-[450px] h-full bg-gray-300 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-40 shadow-md" variants={sidebar}>
+          <motion.div className="absolute top-0 right-0 bottom-0 w-3/4 md:w-1/2 max-w-[450px] h-full bg-gray-300 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 z-50 shadow-md" variants={sidebar}>
             <div className='relative'>
               <Navigation />
             </div>
