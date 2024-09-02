@@ -38,7 +38,7 @@ const colors = [
 
 export const Navigation = () => (
 
-  <motion.div variants={variants} className="absolute top-10 left-12 m-0 p-0 z-50">
+  <motion.div variants={variants} className="absolute top-10 left-12 m-0 p-0 z-40">
     {navLinks.map((section, sectionIndex) => (
       <div key={sectionIndex}>
         <div className="flex items-center">
