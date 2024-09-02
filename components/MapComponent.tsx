@@ -63,9 +63,9 @@ const MapComponent: React.FC<MapComponentProps> = ({ markers }) => {
               <div className='relative space-y-1'>
                 <Image src='/img/app-icons/Szlak_Marianny_Oranskiej.png' width={45} height={45} alt='Profile img' className='absolute rounded-full shadow-lg top-0 -left-10'/>
                 <h3 className='ps-3 font-bold'>{marker.name}</h3>
-                <p className='ps-3 italic text-xs'>{marker.lead}</p>
+                <p className='ps-3 italic text-xs'>{marker.lead == 'Nieznany' ? '' : marker.lead}</p>
                 <div className='flex justify-end '>
-                  <Link className='px-3 pt-1 pb-5 h-6 text-xs text-black hover:text-white bg-white hover:bg-zinc-800 border border-stone-400 rounded-xl align-middle' href={marker.link}>Więcej</Link>
+                  {/* <Link className='px-3 pt-1 pb-5 h-6 text-xs text-black hover:text-white bg-white hover:bg-zinc-800 border border-stone-400 rounded-xl align-middle' href={marker.link}>Więcej</Link> */}
                 </div>
               </div>
             </Popup>
