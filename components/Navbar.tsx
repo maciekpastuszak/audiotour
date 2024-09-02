@@ -64,7 +64,9 @@ const Navbar = () => {
             onMouseEnter={() => setDropdownOpenAplikacja(true)}
             onMouseLeave={() => setDropdownOpenAplikacja(false)}
           >
-            <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Aplikacja</p>
+            <Link href='/aplikacja'>
+              <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Aplikacja</p>
+            </Link>
             <motion.div
               className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden"
               initial="closed"
