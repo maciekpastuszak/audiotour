@@ -83,7 +83,7 @@ const Navbar = () => {
               </Link>
             </motion.div>
           </div>
-            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioguide</p></Link>
+            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
             {/* <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link> */}
             <div
             className="relative"
@@ -104,7 +104,17 @@ const Navbar = () => {
               </Link>
               <Link href="/technologia.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Sprzęt
+                  Audioprzewodniki
+                </p>
+              </Link>
+              <Link href="/tlumaczenia.html">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Tłumaczenia
+                </p>
+              </Link>
+              <Link href="/nagrania.html">
+                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                  Nagrania
                 </p>
               </Link>
               <Link href="/redakcja.html">
@@ -112,9 +122,9 @@ const Navbar = () => {
                   Usługi redakcyjne
                 </p>
               </Link>
-              <Link href="/tlumaczenia.html">
+              <Link href="/bankglosow.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Tłumaczenia
+                  Bank głosów
                 </p>
               </Link>
             </motion.div>

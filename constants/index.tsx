@@ -13,9 +13,9 @@ export const navLinks = [
     icon: 'Navbar_iPhone_Icon.svg',
     color: 'bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent',
     links: [
-      { href: '/aplikacja', text: 'Audioprzewodniki' },
+      { href: '/aplikacja#Audioprzewodniki', text: 'Audioprzewodniki' },
       { href: '/', text: 'Przewodniki turystyczne' },
-      { href: '/aplikacja', text: 'Rozwiązania Tailor Made' },
+      { href: '/aplikacja#Rozwiazania', text: 'Rozwiązania Tailor Made' },
     ],
   },
   {
