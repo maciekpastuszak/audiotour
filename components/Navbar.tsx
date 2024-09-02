@@ -71,12 +71,12 @@ const Navbar = () => {
               animate={dropdownOpenAplikacja ? 'open' : 'closed'}
               variants={dropdownVariants}
             >
-              <Link href="#audioprzewodniki">
+              <Link href="/aplikacja#audioprzewodniki">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Aplikacja Audioguide
                 </p>
               </Link>
-              <Link href="#aplikacjaTurystyczna">
+              <Link href="/aplikacja#aplikacjaTurystyczna">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Aplikacja Turystyczna
                 </p>
