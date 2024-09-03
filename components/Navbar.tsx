@@ -104,22 +104,22 @@ const Navbar = () => {
                   Aplikacja
                 </p>
               </Link>
-              <Link href="/technologia">
+              <Link href="/technologia.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Audioprzewodniki
                 </p>
               </Link>
-              <Link href="/tlumaczenia">
+              <Link href="/tlumaczenia.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Tłumaczenia
                 </p>
               </Link>
-              <Link href="/nagrania">
+              <Link href="/nagrania.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Nagrania
                 </p>
               </Link>
-              <Link href="/redakcja">
+              <Link href="/redakcja.html">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Usługi redakcyjne
                 </p>
@@ -127,7 +127,7 @@ const Navbar = () => {
             </motion.div>
           </div>
             <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
-            <Link href="/bankglosow"><p className="text-stone-900 hover:text-gray-500">Bank głosów</p> </Link>
+            <Link href="/bankglosow.html"><p className="text-stone-900 hover:text-gray-500">Bank głosów</p> </Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
 
