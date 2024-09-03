@@ -103,7 +103,7 @@ export default async function Realizacje() {
           </div>
         </div>
 
-        <InterTitle title='Ostatnie realizacje' subTitle='Projekty które zrealizowaliśmy w ostanim czasie'/>
+        <InterTitle title='Nasze realizacje' subTitle='Projekty które zrealizowaliśmy w ostanim czasie'/>
        
         <PortfolioGrid cards={cards} />
 
