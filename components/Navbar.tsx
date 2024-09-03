@@ -73,7 +73,7 @@ const Navbar = () => {
               animate={dropdownOpenAplikacja ? 'open' : 'closed'}
               variants={dropdownVariants}
             >
-              <Link href="/aplikacja#audioprzewodniki">
+              <Link href="/aplikacja#audioprzewodniki" className='scroll-smooth'>
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Aplikacja Audioguide
                 </p>
@@ -85,7 +85,7 @@ const Navbar = () => {
               </Link>
             </motion.div>
           </div>
-            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
+            <Link href='/technologia'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
             {/* <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link> */}
             <div
             className="relative"
@@ -104,34 +104,30 @@ const Navbar = () => {
                   Aplikacja
                 </p>
               </Link>
-              <Link href="/technologia.html">
+              <Link href="/technologia">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Audioprzewodniki
                 </p>
               </Link>
-              <Link href="/tlumaczenia.html">
+              <Link href="/tlumaczenia">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Tłumaczenia
                 </p>
               </Link>
-              <Link href="/nagrania.html">
+              <Link href="/nagrania">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Nagrania
                 </p>
               </Link>
-              <Link href="/redakcja.html">
+              <Link href="/redakcja">
                 <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Usługi redakcyjne
-                </p>
-              </Link>
-              <Link href="/bankglosow.html">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Bank głosów
                 </p>
               </Link>
             </motion.div>
           </div>
             <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
+            <Link href="/bankglosow"><p className="text-stone-900 hover:text-gray-500">Bank głosów</p> </Link>
             <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
         </div>
 
