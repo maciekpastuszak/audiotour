@@ -26,7 +26,7 @@ export default function RootLayout({
      crossOrigin=""></script> */}
         <link rel="stylesheet" href="https://use.typekit.net/mml8gpk.css" />
       </head>
-        <body className="font-articulat">
+        <body className="font-articulat scroll-smooth">
           <Navbar />
           <main>
               {children}
