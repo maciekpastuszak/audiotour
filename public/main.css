@@ -223,16 +223,19 @@ ul.nav-main > li > a {
 
 ul.nav-main > li {
     list-style-type: none;
+    font-weight: 700;
+    font-family: Articulat-CF sans-serif;
 }
 
 ul.nav-main > li > a {
-    font-weight: 300;
+    font-weight: 700;
     display: inline-block;
     color: #605e65;
     text-decoration: none;
     margin: 12px 6px;
     padding: 12px 6px;
     transition: color 0.5s;
+    font-family: Articulat-CF, sans-serif;
 }
 
 @media (max-width:1280px) {
