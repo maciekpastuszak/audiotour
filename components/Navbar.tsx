@@ -54,11 +54,11 @@ const Navbar = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <nav className="bg-white shadow-custom w-full py-7 font-articulat">
+    <nav className="bg-white shadow-custom w-full py-7">
       {/* Desktop */}
       <div className="container md:w-4/5 mx-auto px-5 md:px-0 flex justify-between items-center">
         <Link href='/aplikacja'><Image src="/img/logo.png" width={130} height={15} alt="logo" /></Link>
-        <div className="hidden md:flex space-x-8 md:space-x-13 font-bold z-40">
+        <div className="hidden lg:flex space-x-8 md:space-x-13 font-bold z-40">
           <div
             className="relative"
             onMouseEnter={() => setDropdownOpenAplikacja(true)}
@@ -85,7 +85,7 @@ const Navbar = () => {
               </Link>
             </motion.div>
           </div>
-            <Link href='/technologia'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
+            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
             {/* <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link> */}
             <div
             className="relative"
