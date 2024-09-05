@@ -13,6 +13,8 @@ interface PortfolioItemCard {
   description: string | null;
   uid: number;
   display_priority: number;
+  link_app_store: string | null;
+  link_google_play: string | null;
 }
 
 type PortfolioItem = {
@@ -40,6 +42,8 @@ export default async function Realizacje() {
       name: true,
       description: true,
       display_priority: true,
+      link_app_store: true,
+      link_google_play: true,
     },
   });
 
@@ -54,6 +58,8 @@ export default async function Realizacje() {
     subtitle2: '',
     desc: item.description ? item.description.slice(0, 200) : '',
     display_priority: item.display_priority,
+    linkAppStore: item.link_app_store || '#',
+    linkGooglePlay: item.link_google_play || '#',
   }));
 
   const portfolioItems = await prisma.portfolio.findMany({

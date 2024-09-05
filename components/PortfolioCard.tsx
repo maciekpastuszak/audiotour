@@ -10,6 +10,8 @@ type PortfolioCardProps = {
     subtitle1 : string,
     subtitle2 : string,
     desc : string,  
+    linkAppStore : string,
+    linkGooglePlay: string,
 }
 
 const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
