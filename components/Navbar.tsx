@@ -50,6 +50,7 @@ const Navbar = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const [dropdownOpenAplikacja, setDropdownOpenAplikacja] = useState(false);
   const [dropdownOpenOferta, setDropdownOpenOferta] = useState(false);
+  const [dropdownOpenTechnologia, setDropdownOpenTechnologia] = useState(false);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
 
@@ -64,8 +65,8 @@ const Navbar = () => {
             onMouseEnter={() => setDropdownOpenAplikacja(true)}
             onMouseLeave={() => setDropdownOpenAplikacja(false)}
           >
-            <Link href='/aplikacja'>
-              <p className="text-stone-900 hover:text-gray-500 cursor-pointer">Aplikacja</p>
+            <Link href='/aplikacja' className="text-stone-900 hover:text-gray-500 cursor-pointer">
+              Aplikacja
             </Link>
             <motion.div
               className="absolute left-0 mt-2 w-48 bg-white shadow-custom rounded-md overflow-hidden"
@@ -73,21 +74,44 @@ const Navbar = () => {
               animate={dropdownOpenAplikacja ? 'open' : 'closed'}
               variants={dropdownVariants}
             >
-              <Link href="/aplikacja#audioprzewodniki" className='scroll-smooth'>
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Aplikacja Audioguide
-                </p>
+              <Link href="/aplikacja#audioprzewodniki" className='block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm'>
+                Aplikacja Audioguide
               </Link>
-              <Link href="/aplikacja#aplikacjaTurystyczna">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
-                  Aplikacja Turystyczna
-                </p>
+              <Link href="/aplikacja#aplikacjaTurystyczna" className='block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm'> 
+                Aplikacja Turystyczna
               </Link>
             </motion.div>
           </div>
-            <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link>
-            {/* <Link href='/redakcja.html'><p className="text-stone-900 hover:text-gray-500">Oferta</p></Link> */}
-            <div
+          <div
+            className="relative"
+            onMouseEnter={() => setDropdownOpenTechnologia(true)}
+            onMouseLeave={() => setDropdownOpenTechnologia(false)}
+          >
+            <Link href='/technologia.html' className="text-stone-900 hover:text-gray-500">
+              Audioprzewodniki
+            </Link>
+            <motion.div
+              className="absolute left-0 mt-2 w-48 bg-white shadow-custom rounded-md overflow-hidden"
+              initial="closed"
+              animate={dropdownOpenTechnologia ? 'open' : 'closed'}
+              variants={dropdownVariants}
+            >
+              <Link href="/technologia.html#hengda" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                Audioprzewodnik G7
+              </Link>
+              <Link href="/technologia.html#mgpro" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                Audioprzewodnik AG-600
+              </Link>
+              <Link href="/technologia.html#mgkeypad" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                Audioprzewodnik AG-600c
+              </Link>
+              <Link href="/technologia.html#technology-02" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+                Synchronizator ATV-6
+              </Link>
+            </motion.div>
+          </div>
+            {/* <Link href='/technologia.html'><p className="text-stone-900 hover:text-gray-500">Audioprzewodniki</p></Link> */}
+          <div
             className="relative"
             onMouseEnter={() => setDropdownOpenOferta(true)}
             onMouseLeave={() => setDropdownOpenOferta(false)}
@@ -99,36 +123,32 @@ const Navbar = () => {
               animate={dropdownOpenOferta ? 'open' : 'closed'}
               variants={dropdownVariants}
             >
-              <Link href="/aplikacja">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+              <Link href="/aplikacja" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Aplikacja
-                </p>
               </Link>
-              <Link href="/technologia.html">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+              <Link href="/technologia.html" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Audioprzewodniki
-                </p>
               </Link>
-              <Link href="/tlumaczenia.html">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+              <Link href="/tlumaczenia.html" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Tłumaczenia
-                </p>
               </Link>
-              <Link href="/nagrania.html">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+              <Link href="/nagrania.html" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Nagrania
-                </p>
               </Link>
-              <Link href="/redakcja.html">
-                <p className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
+              <Link href="/redakcja.html" className="block px-4 py-2 text-stone-900 hover:text-gray-500 hover:bg-gray-100 text-sm">
                   Usługi redakcyjne
-                </p>
               </Link>
             </motion.div>
           </div>
-            <Link href='/realizacje'><p className="text-stone-900 hover:text-gray-500">Portfolio</p></Link>
-            <Link href="/bankglosow.html"><p className="text-stone-900 hover:text-gray-500">Bank głosów</p> </Link>
-            <Link href='/kontakt'><p className="text-stone-900 hover:text-gray-500">Kontakt</p></Link>
+            <Link href='/realizacje' className="text-stone-900 hover:text-gray-500">
+              Portfolio
+            </Link>
+            <Link href="/bankglosow.html" className="text-stone-900 hover:text-gray-500">
+              Bank głosów
+            </Link>
+            <Link href='/kontakt' className="text-stone-900 hover:text-gray-500">
+              Kontakt
+            </Link>
         </div>
 
         {/* Mobile */}
