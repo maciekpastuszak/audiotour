@@ -72,6 +72,8 @@ export default async function Realizacje() {
       name: true,
       link: true,
       lead: true,
+      link_app_store: true,
+      link_google_play: true,
     },
   });
 
