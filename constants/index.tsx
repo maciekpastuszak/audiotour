@@ -101,13 +101,13 @@ export const navLinks = [
   ]
 
   export const favouriteAppsCard1 = [
-    {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6'},
-    {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8'}
+    {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6', linkAppStore : 'https://apps.apple.com/pl/app/muzeum-narodowe-w-lublinie/id1597923330', linkGooglePlay : 'https://play.google.com/store/apps/details?id=pl.audiotour.zamek_lubelski&hl=pl'},
+    {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8', linkAppStore : '', linkGooglePlay : ''}
   ]
 
   export const favouriteAppsCard2 = [
-    {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Slaskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9'},
-    {id: '02', fileName: "Szlak_Marianny_Oranskiej.png", alt: 'Be active in Ochotnica & Tylmanowa', rating: '4,8'}
+    {id: '01', fileName: "Park_Krajobrazowy_Beskidu_Slaskiego.png", alt: 'Park Krajobrazowy Beskidu Śląskiego', rating: '4,9', linkAppStore : '', linkGooglePlay : ''},
+    {id: '02', fileName: "Szlak_Marianny_Oranskiej.png", alt: 'Be active in Ochotnica & Tylmanowa', rating: '4,8', linkAppStore : '', linkGooglePlay : ''}
   ]
 
   export const contactCard = [

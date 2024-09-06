@@ -104,6 +104,8 @@ const Aplikacja = () => {
                 fileName={i.fileName}
                 placeName={i.alt}
                 rating={i.rating}
+                linkAppStore={i.linkAppStore}
+                linkGooglePlay={i.linkGooglePlay}
               />
             ))
           }
@@ -171,6 +173,8 @@ const Aplikacja = () => {
                 fileName={i.fileName}
                 placeName={i.alt}
                 rating={i.rating}
+                linkAppStore={i.linkAppStore}
+                linkGooglePlay={i.linkGooglePlay}
               />
             ))
           }
