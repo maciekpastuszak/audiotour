@@ -4,9 +4,9 @@ import AppFunctionCard from '@/components/AppFunctionCard'
 import AppBanner from '@/components/AppBanner'
 import IconCarousel from '@/components/IconCarousel'
 import FavouriteAppCard from '@/components/FavouriteAppCard'
-import { Button, buttonVariants } from '@/components/ui/button'
+import { Button } from '@/components/ui/button'
 import { featureCardsBlue, featureCardsGreen, favouriteAppsCard1, favouriteAppsCard2, processCards } from '@/constants'
-import React from 'react'
+import React, { useState } from 'react'
 import CardCarousel from '@/components/CardCarousel'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -16,6 +16,10 @@ import InterTitle from '@/components/InterTitle'
 
 
 const Aplikacja = () => {
+  const [activeCardBlue, setActiveCardBlue] = useState(featureCardsBlue[0])
+  const [activeCardGreen, setActiveCardGreen] = useState(featureCardsGreen[0])
+  const [activeProcessCard, setActiveProcessCard] = useState(processCards[0])
+
   return (
       <section id='hero' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-5'>
           <div className='flex flex-col justify-center items-center mx-auto my-8 md:mt-12 text-center'>
@@ -66,10 +70,11 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              cardBg="Feature_Audioprzewodniki_1.png"
-              iconSrc='Feature_Icon_Map.svg' 
-              title='Interaktywna mapa' 
-              content='' 
+              cardBg={activeCardBlue.cardBg}
+              iconSrc={activeCardBlue.iconSrc}
+              title={activeCardBlue.title}
+              content={activeCardBlue.content}
+              smartphoneImg='img/app-phone-mockups/Feature_Audioprzewodniki_SS1.png'
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
@@ -81,6 +86,8 @@ const Aplikacja = () => {
               iconSrc={i.iconSrc}
               title={i.title}
               content={i.content}
+              smartphoneImg={i.smartphoneImg}
+              setActiveCard={() => setActiveCardBlue(i)}
               />
             ))}
           </div>
@@ -135,10 +142,11 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              cardBg="Feature_Przewodniki_1.png"
-              iconSrc='Feature_Icon_Map.svg' 
-              title='Interaktywna mapa' 
-              content='' 
+              cardBg={activeCardGreen.cardBg}
+              iconSrc={activeCardGreen.iconSrc}
+              title={activeCardGreen.title}
+              content={activeCardGreen.content}
+              smartphoneImg='img/app-phone-mockups/Feature_Przewodniki_SS1.png'
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
@@ -150,6 +158,8 @@ const Aplikacja = () => {
               iconSrc={i.iconSrc}
               title={i.title}
               content={i.content}
+              smartphoneImg={i.content}
+              setActiveCard={() => setActiveCardGreen(i)}
               />
             ))}
           </div>
@@ -202,10 +212,11 @@ const Aplikacja = () => {
           <div className="w-full h-full md:w-1/2">
             <AppFunctionCard 
               isBig={true} 
-              cardBg="Feature_Process_1.jpg"
-              iconSrc='Feature_Icon_Lead.svg' 
-              title='1. Rozmowa' 
-              content='' 
+              cardBg={activeProcessCard.cardBg}
+              iconSrc={activeProcessCard.iconSrc}
+              title={activeProcessCard.title}
+              content={activeProcessCard.content}
+              smartphoneImg='img/app-phone-mockups/Feature_Bespoke_SS1.png'
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
@@ -217,6 +228,8 @@ const Aplikacja = () => {
               iconSrc={i.iconSrc}
               title={i.title}
               content={i.content}
+              smartphoneImg={i.content}
+              setActiveCard={() => setActiveProcessCard(i)}
               />
             ))}
           </div>

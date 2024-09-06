@@ -6,15 +6,18 @@ type appFunctionPros = {
     cardBg: string
     iconSrc: string,
     title: string,
-    content: string
-    isBig: boolean
+    content: string,
+    smartphoneImg: string,
+    isBig: boolean,
+    setActiveCard?: () => void
 }
-const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig }: appFunctionPros) => {
+const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig, smartphoneImg, setActiveCard }: appFunctionPros) => {
   return (
     <motion.div 
     className={`relative ${isBig ? 'w-full h-[428px]' : 'w-full md:w-[calc(50%-0.4rem)] text-sm'} bg-white rounded-lg shadow-custom`}
     whileHover={{ scale: 1.01 }}
     whileTap={{ scale: 0.9 }}
+    onMouseEnter={setActiveCard}
     >
         <div className={`${isBig ? 'p-5' : 'py-10 md:p-1'} bg-cover bg-center rounded-t-lg flex justify-center md:justify-start`} style={{ backgroundImage: `url('/img/app-features/${cardBg}')` }}>
             <img src={`/img/app-icons/${iconSrc}`} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
@@ -27,7 +30,7 @@ const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig }: appFunction
         </div>
         {isBig && (
             <div className='hidden lg:block md:absolute max-w-40 h-full top-16 right-5'>
-                <img src='/img/app-features/Feature_Audioprzewodniki_SS1.png' alt='Smartphone - Interakltywna mapa' />
+                <img src={smartphoneImg} alt='Smartphone - Interakltywna mapa' />
             </div>
         )}
     </motion.div>

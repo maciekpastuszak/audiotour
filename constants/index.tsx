@@ -80,24 +80,24 @@ export const navLinks = [
   ];
 
   export const featureCardsBlue = [
-    {id: '01', cardBg: 'Feature_Audioprzewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
-    {id: '02', cardBg: 'Feature_Audioprzewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Beacony', content: 'Pozwala automatycznie uruchamiać nagrania na podstawie położenia zwiedzającego', isBig: false},
-    {id: '03', cardBg: 'Feature_Audioprzewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
-    {id: '04', cardBg: 'Feature_Audioprzewodniki_4.png', iconSrc:'Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', isBig: false},
+    {id: '01', cardBg: 'Feature_Audioprzewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', smartphoneImg: 'Feature_Audioprzewodniki_SS1', isBig: false},
+    {id: '03', cardBg: 'Feature_Audioprzewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Beacony', content: 'Pozwala automatycznie uruchamiać nagrania na podstawie położenia zwiedzającego', smartphoneImg: '', isBig: false},
+    {id: '04', cardBg: 'Feature_Audioprzewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', smartphoneImg: '', isBig: false},
+    {id: '05', cardBg: 'Feature_Audioprzewodniki_4.png', iconSrc:'Feature_Icon_Quiz.svg', iconAlt: 'Ikona quizu', title: 'Quiz', content: 'Audioprzewodnik można rozbudować o moduł quizu - turysta zdobywa wiedzę odpowiadając na zagadki', smartphoneImg: '', isBig: false},
   ]
 
   export const featureCardsGreen = [
-    {id: '01', cardBg: 'Feature_Przewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
-    {id: '02', cardBg: 'Feature_Przewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Nawigacja', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', isBig: false},
-    {id: '03', cardBg: 'Feature_Przewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
-    {id: '04', cardBg: 'Feature_Przewodniki_4.png', iconSrc:'Feature_Icon_Modules.svg', iconAlt: 'Ikona puzzle', title: 'Dodatkowe moduły', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
+    {id: '01', cardBg: 'Feature_Przewodniki_1.png', iconSrc:'Feature_Icon_Map.svg', iconAlt: 'Ikona mapy', title: 'Interaktywna mapa', content: 'Ułatwia zwiedzającym nawigację w terenie', smartphoneImg: 'Feature_Przewodniki_SS1.png', isBig: false},
+    {id: '03', cardBg: 'Feature_Przewodniki_2.png', iconSrc:'Feature_Icon_GPS.svg', iconAlt: 'Ikona GPS', title: 'GPS + Nawigacja', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', smartphoneImg: '', isBig: false},
+    {id: '04', cardBg: 'Feature_Przewodniki_3.png', iconSrc:'Feature_Icon_Localization.svg', iconAlt: 'Ikona lokalizacji', title: 'Obsługa wielu języków', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', smartphoneImg: '', isBig: false},
+    {id: '05', cardBg: 'Feature_Przewodniki_4.png', iconSrc:'Feature_Icon_Modules.svg', iconAlt: 'Ikona puzzle', title: 'Dodatkowe moduły', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', smartphoneImg: '', isBig: false},
   ]
 
   export const processCards = [
-    {id: '01', cardBg: 'Feature_Process_1.jpg', iconSrc:'Feature_Icon_Lead.svg', iconAlt: 'Ikona rozmowy', title: '1. Rozmowa', content: 'Ułatwia zwiedzającym nawigację w terenie', isBig: false},
-    {id: '02', cardBg: 'Feature_Process_2.jpeg', iconSrc:'Feature_Icon_Quote.svg', iconAlt: 'Ikona wyceny', title: '2. Wycena', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', isBig: false},
-    {id: '03', cardBg: 'Feature_Process_3.jpeg', iconSrc:'Feature_Icon_Project.svg', iconAlt: 'Ikona projektu', title: '3. Projekt', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', isBig: false},
-    {id: '04', cardBg: 'app-icon-grid.png', iconSrc:'Feature_Icon_App.svg', iconAlt: 'Ikona wdrożenia', title: '4. Wdrożenie', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', isBig: false},
+    {id: '01', cardBg: 'Feature_Process_1.jpg', iconSrc:'Feature_Icon_Lead.svg', iconAlt: 'Ikona rozmowy', title: '1. Rozmowa', content: 'Ułatwia zwiedzającym nawigację w terenie', smartphoneImg: 'c', isBig: false},
+    {id: '02', cardBg: 'Feature_Process_2.jpeg', iconSrc:'Feature_Icon_Quote.svg', iconAlt: 'Ikona wyceny', title: '2. Wycena', content: 'Wyświetla Twoją aktualną pozycję na mapie i umożliwa nawigację do kolejnej atrakcji', smartphoneImg: '', isBig: false},
+    {id: '03', cardBg: 'Feature_Process_3.jpeg', iconSrc:'Feature_Icon_Project.svg', iconAlt: 'Ikona projektu', title: '3. Projekt', content: 'Aplikacja może zawierać w sobie treści w wielu językach. Obsługuje również język migowy', smartphoneImg: '', isBig: false},
+    {id: '04', cardBg: 'app-icon-grid.png', iconSrc:'Feature_Icon_App.svg', iconAlt: 'Ikona wdrożenia', title: '4. Wdrożenie', content: 'Dopasuj aplikację do swoich potrzeb. Kreator tras rowerowych, gra terenowa, kalendarz, audioprzewodnik? Mamy to.', smartphoneImg: '', isBig: false},
   ]
 
   export const favouriteAppsCard1 = [
