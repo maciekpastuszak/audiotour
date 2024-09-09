@@ -102,7 +102,7 @@ export const navLinks = [
 
   export const favouriteAppsCard1 = [
     {id: '01', fileName: "Muzeum_Narodowe_w_Lublinie.png", alt: 'Muzeum Narodowe w Lublinie', rating: '4,6', linkAppStore : 'https://apps.apple.com/pl/app/muzeum-narodowe-w-lublinie/id1597923330', linkGooglePlay : 'https://play.google.com/store/apps/details?id=pl.audiotour.zamek_lubelski&hl=pl'},
-    {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8', linkAppStore : '', linkGooglePlay : ''}
+    {id: '02', fileName: "Wystawa_Wilhelma_Hammershoia.png", alt: 'Wystawa Wilhelma Hammershoia', rating: '4,8', linkAppStore : 'https://apps.apple.com/pl/app/wystawa-vilhelma-hammersh%C3%B8ia/id1591226573', linkGooglePlay : 'https://play.google.com/store/apps/details?id=pl.audiotour.muzeum_narodowe_w_poznaniu'}
   ]
 
   export const favouriteAppsCard2 = [
