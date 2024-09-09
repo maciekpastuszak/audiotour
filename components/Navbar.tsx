@@ -87,7 +87,7 @@ const Navbar = () => {
             onMouseEnter={() => setDropdownOpenTechnologia(true)}
             onMouseLeave={() => setDropdownOpenTechnologia(false)}
           >
-            <Link href='/technologia.html' className="text-stone-900 hover:text-gray-500">
+            <Link href='/audioprzewodniki' className="text-stone-900 hover:text-gray-500">
               Audioprzewodniki
             </Link>
             <motion.div
