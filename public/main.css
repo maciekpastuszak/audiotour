@@ -94,7 +94,7 @@ p > a {
 nav#main {
     position: fixed;
     background: white;
-    width: 100%;
+    width: 90%;
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -223,16 +223,21 @@ ul.nav-main > li > a {
 
 ul.nav-main > li {
     list-style-type: none;
+    font-weight: 700;
+    font-family: Articulat-CF sans-serif;
 }
 
 ul.nav-main > li > a {
-    font-weight: 300;
+    font-weight: 700;
     display: inline-block;
     color: #605e65;
     text-decoration: none;
     margin: 12px 6px;
     padding: 12px 6px;
     transition: color 0.5s;
+    font-family: Articulat-CF, sans-serif;
+    padding: 20px;
+
 }
 
 @media (max-width:1280px) {
@@ -2201,4 +2206,12 @@ a.google-play-link {
     #3B3B3B 0%,
     #000000 100%
   );
+}
+
+.has-children > a::after {
+    content: none !important;
+}
+
+.has-children > a {
+    background: none !important;
 }

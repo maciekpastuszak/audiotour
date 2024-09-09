@@ -4,7 +4,7 @@ import HoverButtton from "./ui/HoverButtton"
 
 const ContactForm = () => {
   return (
-    <div key="1" className="border-2 border-gray-300 dark:border-gray-700 p-4 rounded-md shadow-md space-y-8">
+    <div key="1" className="border-2 border-gray-300 dark:border-gray-700 p-4 rounded-md shadow-custom space-y-8">
       <div className="space-y-2">
       <h3 className='text-xl bold font-bold'>Wyślij zapytanie</h3>
         <p className="text-gray-500 dark:text-gray-400 text-l">

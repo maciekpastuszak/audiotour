@@ -23,7 +23,8 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                         cardBg={i.cardBg}
                                         iconSrc={i.iconSrc} 
                                         title={i.title} 
-                                        content={i.content} 
+                                        content={i.content}
+                                        smartphoneImg={i.smartphoneImg} 
                                         isBig={false} 
                                         />
                                 </div>
@@ -40,6 +41,7 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                         iconSrc={i.iconSrc} 
                                         title={i.title} 
                                         content={i.content} 
+                                        smartphoneImg={i.smartphoneImg} 
                                         isBig={false} 
                                         />
                                 </div>
@@ -58,6 +60,7 @@ const CardCarousel = ({ color }: CardCarouselProps) => {
                                         iconSrc={i.iconSrc} 
                                         title={i.title} 
                                         content={i.content} 
+                                        smartphoneImg={i.smartphoneImg} 
                                         isBig={false} 
                                         />
                                 </div>

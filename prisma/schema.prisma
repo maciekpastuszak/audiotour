@@ -27,6 +27,8 @@ model portfolio {
   display_on_map    Int?    @db.SmallInt
   display           Int     @default(0) @db.SmallInt
   display_priority  Int     @default(1) @db.SmallInt
+  link_google_play  String? @db.VarChar(250)
+  link_app_store    String? @db.VarChar(250)
   in_progress       Int?    @db.SmallInt
   map_latitude      Decimal? @db.Decimal(8, 6)
   map_longitude     Decimal? @db.Decimal(8, 6)

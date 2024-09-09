@@ -6,8 +6,10 @@ type FavouriteAppsCardProps = {
   fileName: string,
   placeName: string,
   rating: string,
+  linkAppStore: string,
+  linkGooglePlay: string,
 }
-const FavouriteAppCard = ({fileName, placeName, rating}: FavouriteAppsCardProps) => {
+const FavouriteAppCard = ({fileName, placeName, rating, linkAppStore, linkGooglePlay}: FavouriteAppsCardProps) => {
   return (
     <div className='w-[340px] md:w-[500px] md:h-[104px] flex items-center bg-white rounded-2xl drop-shadow-md px-2'>
       <div className="flex w-[60px] h-[60px] ms-3">
@@ -24,8 +26,8 @@ const FavouriteAppCard = ({fileName, placeName, rating}: FavouriteAppsCardProps)
       </div>
       <div className="flex flex-col gap-2 justify-between">
         {/* <Link href='#' className={buttonVariants({ variant: "outline" })}><img src="/img/app-icons/App_Store_Icon.svg" alt="AppStore Icon" /></Link> */}
-        <AppStoreBtn btnColor='bg-gradient-to-b from-[#25B4F0] to-[#267ADF]' iconSrc='App_Store_Icon.svg' storeName='App Store' />
-        <AppStoreBtn btnColor='bg-black' iconSrc='Google_Play_Icon.svg' storeName='Google Play' />
+        <AppStoreBtn btnColor='bg-gradient-to-b from-[#25B4F0] to-[#267ADF]' iconSrc='App_Store_Icon.svg' storeName='App Store' link={linkAppStore} />
+        <AppStoreBtn btnColor='bg-black' iconSrc='Google_Play_Icon.svg' storeName='Google Play' link={linkGooglePlay} />
       </div>
     </div>
   )

@@ -72,15 +72,15 @@
 	<a id="logo" class="desktop" href="\" onClick="ga('send', 'event', 'Menu', 'Click', 'Logo');"><img src="img/logo.png" alt="Audioprzewodniki Audio Tour - logo"></a>
 	<div class="nav-wrapper">
 		<ul class="nav-main">
-			<li><a href="\"><span id="homepage-link">Strona główna</span><span id="homepage-link-mobile"><img src="img/logo.png"></span></a></li>
+			
 			<li class="has-children"><a href="/aplikacja">Aplikacja</a>
 				<ul id="aplikacja" class="desktop-dropdown">
-					<li><a href="/aplikacja"#app-ar-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja muzealna');">&bull; Aplikacja Audioprzewodnik muzealny</a></li>
-					<li><a href="/aplikacja"#app-main" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja miejska');">&bull; Aplikacja Audioprzewodnik miejski</a></li>
+					<li><a href="/aplikacja#audioprzewodniki" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja muzealna');">&bull; Aplikacja Audioguide</a></li>
+					<li><a href="/aplikacja#aplikacjaTurystyczna" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja turystyczna');">&bull; Aplikacja Turystyczna</a></li>
 				</ul>
-			<li id="technology-parent" class="has-children"><a href="technologia.html">Technologia</a>
+			<li id="technology-parent" class="has-children"><a href="technologia.html">Audioprzewodniki</a>
 				<ul id="technology" class="desktop-dropdown">
-					<li><a href="/aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Aplikacja');">&bull; Aplikacja mobilna</a></li>
+<!-- <li><a href="/aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Aplikacja');">&bull; Aplikacja mobilna</a></li> -->
 					<li><a href="technologia.html#hengda" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Hegda');">&bull; Audioprzewodnik G7</a></li>
 					<li><a href="technologia.html#mgpro" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Pro');">&bull; Audioprzewodnik AG-600</a></li>
 					<li><a href="technologia.html#mgkeypad" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia MG Keypad');">&bull; Audioprzewodnik AG-600c</a></li>
@@ -89,10 +89,19 @@
 					<li><a href="zwiedzaniegrupowe.html" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Technologia Tour Guide');">&bull; Tour Guide</a></li>
 				</ul>
 			</li>
-			<li><a href="nagrania.html">Nagrania</a></li>
-			<li><a href="bankglosow.html">Bank głosów</a></li>
-			<li><a href="tlumaczenia.html">Tłumaczenia</a></li>
-			<li id="writing-parent" class="has-children"><a href="redakcja.html">Redakcja</a>
+	<!-- <li><a href="nagrania.html">Nagrania</a></li> -->
+			<!-- <li><a href="bankglosow.html">Bank głosów</a></li> -->
+			<!-- <li><a href="tlumaczenia.html">Tłumaczenia</a></li> -->
+<!-- <li id="writing-parent" class="has-children"><a href="redakcja.html">Redakcja</a> -->
+				<li id="technology-parent" class="has-children"><a href="technologia.html">Oferta</a>
+					<ul id="technology" class="desktop-dropdown">
+						<li><a href="/aplikacja" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Aplikacja');">&bull; Aplikacja</a></li>
+						<li><a href="technologia.html" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Audioprzewodniki');">&bull; Audioprzewodniki</a></li>
+						<li><a href="tlumaczenia.html" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Tłumaczenia');">&bull; Tłumaczenia</a></li>
+						<li><a href="nagrania.html" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Nagrania');">&bull; Nagrania</a></li>
+						<li><a href="redakcja.html" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Usługi redakcyjne');">&bull; Usługi redakcyjne</a></li>
+					</ul>
+				</li>
 				<ul id="writing" class="desktop-dropdown">
 					<li><a href="redakcja.html#basic" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Podstawowe');">&bull; Wycieczki podstawowe</a></li>
 					<li><a href="redakcja.html#extended" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja Rozszerzone');">&bull; Wycieczki dla dociekliwych</a></li>
@@ -103,7 +112,7 @@
 					<li><a href="redakcja.html#blind" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Redakcja dla Niewidomych');">&bull; Wycieczki dla osób niewidomych</a></li>
 				</ul>
 			</li>
-			<li id="portfolio-parent" class="has-children"><a href="realizacje.html">Realizacje</a>
+			<li id="portfolio-parent" class="has-children"><a href="/realizacje">Portfolio</a>
 			<ul id="portfolio" class="desktop-dropdown">
 					<li><a href="realizacje.html#aplikacjamobilna" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Aplikacje');">&bull; Aplikacje mobilne</a></li>
 					<li><a href="realizacje.html#muzea" onClick="ga('send', 'event', 'Sub-Menu', 'Click', 'Realizacje Muzea');">&bull; Muzea i Galerie</a></li>
@@ -119,7 +128,7 @@
 				</ul>
 			</li>
 			<li><a href="zwiedzaniegrupowe.html">Tour Guide</a></li>
-			<li><a href="/kontakt">Kontakt</a></li>
+						<li><a href="bankglosow.html">Bank głosów</a></li><li><a href="/kontakt">Kontakt</a></li>
 		</ul>
 	</div>
 	<div id="lang" class="desktop">

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 import parse from 'html-react-parser';
+import Link from 'next/link';
 
 type PortfolioCardProps = {
     bgImg : string,
@@ -10,11 +11,13 @@ type PortfolioCardProps = {
     subtitle1 : string,
     subtitle2 : string,
     desc : string,  
+    linkAppStore : string,
+    linkGooglePlay: string,
 }
 
-const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: PortfolioCardProps) => {
+const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc,linkAppStore, linkGooglePlay }: PortfolioCardProps) => {
   return (
-    <div className='relative w-[300px] h-[350px] flex flex-col shadow-xl rounded-xl bg-white'>
+    <div className='relative w-[300px] h-[350px] flex flex-col shadow-custom rounded-xl bg-white'>
         <div className="relative">
             <Image 
               src={bgImg}
@@ -28,13 +31,17 @@ const PortfolioCard = ({ bgImg, tourIcon, title, subtitle1, subtitle2, desc }: P
         </div>
         <div className='absolute top-32 flex flex-row gap-2 me-2 justify-between items-end mx-2 z-20'>
             <Image src={tourIcon} width={112} height={112} alt='Tour place icon' className='rounded-xl shadow-md w-16 h-16' quality={85} />
-            <Button className='bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center shadow-md'>
-                <Image src="/img/app-icons/App_Store_Icon.svg" alt="AppStore Icon" width={15} height={10} />
-                App Store
+            <Button className='bg-gradient-to-b from-[#25B4F0] to-[#267ADF] rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center shadow-custom' asChild>
+                <Link href={linkAppStore}>
+                    <Image src="/img/app-icons/App_Store_Icon.svg" alt="AppStore Icon" width={15} height={10} />
+                    App Store
+                </Link>
             </Button>
-            <Button className='bg-black rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center'>
+            <Button className='bg-black rounded-full w-full h-6 text-[0.6rem] gap-1 flex justify-center' asChild>
+                <Link href={linkGooglePlay}>
                 <Image src="/img/app-icons/Google_Play_Icon.svg" alt="Google Play Icon" width={15} height={10} />
                 Google Play
+                </Link>
             </Button>
         </div>
         <div className='mt-7 ms-3 leading-loose z-20'>

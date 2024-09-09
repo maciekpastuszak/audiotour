@@ -13,6 +13,8 @@ interface Card {
   subtitle2: string;
   desc: string;
   display_priority: number;
+  linkAppStore: string;
+  linkGooglePlay: string;
 }
 
 interface PortfolioGridProps {
@@ -41,6 +43,8 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ cards }) => {
             subtitle1={card.subtitle1}
             subtitle2={card.subtitle2}
             desc={card.desc}
+            linkAppStore={card.linkAppStore}
+            linkGooglePlay={card.linkGooglePlay}
           />
         ))}
       </div>
