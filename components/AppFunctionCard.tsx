@@ -25,7 +25,7 @@ const AppFunctionCard = ({ cardBg, iconSrc, title, content, isBig, smartphoneImg
         <div className={`${isBig ? 'p-5 h-72' : 'p-3'}  rounded-b-lg`}>
             <h3 className='text-l font-semibold'>{title}</h3>
             <div className={`${isBig ? 'lg:w-2/3' : 'w-full'} text-xs py-2`}>
-            {isBig ? <div><p className='mb-3'>Ułatwia zwiedzającym nawigację w terenie. </p><p className='mb-3'>Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu.</p><p> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie</p></div> : content}
+            {isBig ? <div><p className='mb-3'>Ułatwia zwiedzającym nawigację w terenie. </p><p className='mb-3'>Mapa wyświetla trasę audioprzewodnika. Umożliwia też uruchamianie nagrań z jej poziomu.</p><p className='mb-3'> Na tym ekranie zwiedzający może też wyświetlić swoją pozycję - dzięki temu łatwiej odnajdzie się w terenie</p><p>Pomoc w przygotowywaniu wniosku na cyfrowy przewodnik / aplikację mobilną w programie HORECA (link: <a href='https://horeca-kpo.pl/nabory'>https://horeca-kpo.pl/nabory</a>)</p></div> : content}
             </div>
         </div>
         {isBig && (
