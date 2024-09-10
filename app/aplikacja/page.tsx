@@ -99,7 +99,9 @@ const Aplikacja = () => {
         </div>
 
         <div className='mt-6 mb-6'>
-          <Button className='bg-blue-500 rounded-full px-10'>Poznaj wszystkie funkcje</Button>
+          <Link href='/realizacje'>
+            <Button className='bg-blue-500 rounded-full px-10'>Portfolio</Button>
+          </Link>
         </div>
 
         <InterTitle title='Popularne:' subTitle='Najlepiej ocenianie przez zwiedzających aplikacje opublikowane w sklepach' />
