@@ -123,3 +123,10 @@ export const navLinks = [
     { lat: 52.237049, lng: 21.017532, name: 'Warsaw', link: '/warsaw' },
     { lat: 50.06465, lng: 19.94498, name: 'Kraków', link: '/krakow' },
   ];
+
+  export const devices = [
+    {title: 'Wyzwalanie radiowe (RF)', desc: 'Audioprzewodnik na podstawie fal radiowych lokalizuje zwiedzającego wewnątrz obiektu i automatycznie uruchamia właściwe nagrania.', featureIcon: ''},
+    {title: 'Lokalizacja GPS', desc: 'Audioprzewodnik używając technologii GPS uruchamia nagrania automatycznie w odpowiednim miejscu.', featureIcon: ''},
+    {title: 'Podczerwień (IR)', desc: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.', featureIcon: ''},
+    {title: 'Wyzwalanie zbliżeniowe (RFID)', desc: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', featureIcon: ''},
+  ];
