@@ -24,32 +24,32 @@ const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc,
     return (
 <>
 {isBig ? (
-    <div className='relative w-full h-[428px] bg-white rounded-lg shadow-custom'>
-        <div className='p-5 h-72 rounded-b-lg'>
-            <h3 className='text-l font-semibold'>{title}</h3>
-            <h4>{subTitle}</h4>
-            <p>{lead}</p>
-            <p><strong>{feature1}</strong>{feat1Desc}</p>
-            <p><strong>{feature2}</strong>{feat2Desc}</p>
-            <p><strong>{feature3}</strong>{feat3Desc}</p>
-            <p>{summary}</p>
+    <div className='relative w-full bg-white rounded-lg shadow-custom'>
+        <div className='flex flex-col gap-4 p-5 rounded-b-lg '>
+            <h3 className='text-3xl font-semibold'>{title}</h3>
+            <h4 className='text-xl font-bold'>{subTitle}</h4>
+            <p className='w-2/3'>{lead}</p>
+            <p className='text-sm'><strong>{feature1}</strong>{feat1Desc}</p>
+            <p className='text-sm'><strong>{feature2}</strong>{feat2Desc}</p>
+            <p className='text-sm'><strong>{feature3}</strong>{feat3Desc}</p>
+            {/* <p className='text-sm'>{summary}</p> */}
         </div>
-        <div className='hidden lg:block md:absolute max-w-40 h-full top-16 right-5'>
+        <div className='hidden lg:block md:absolute max-w-64 h-full top-1 -right-16'>
             <img src={deviceImg1} alt='Urządzenie' />
-        </div>        
+        </div>
     </div>
 ) : (
-    <motion.div 
+    <motion.div
     className='relative w-full md:w-[calc(50%-0.4rem)] text-sm bg-white rounded-lg shadow-custom'
     whileHover={{ scale: 1.01 }}
     whileTap={{ scale: 0.9 }}
     onMouseEnter={setActiveCard}
     >
-        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start'>
-            <img src={`/img/app-icons/${featureIcon}`} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
+        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center'>
+            <img src={`/img/tech-icons/${featureIcon}`} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
+            <h3 className='text-l font-semibold text-start lg:px-5'>{title}</h3>
         </div>
         <div className='p-3 rounded-b-lg'>
-            <h3 className='text-l font-semibold'>{title}</h3>
             <p>{lead}</p>
         </div>
     </motion.div>

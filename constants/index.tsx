@@ -143,23 +143,23 @@ export const navLinks = [
       isBig: false,
       title: 'Wyzwalanie radiowe (RF)', 
       lead: 'Audioprzewodnik na podstawie fal radiowych lokalizuje zwiedzającego wewnątrz obiektu i automatycznie uruchamia właściwe nagrania.', 
-      featureIcon: ''
+      featureIcon: 'rf.png'
     },
     {
       isBig: false,
       title: 'Lokalizacja GPS', 
       lead: 'Audioprzewodnik używając technologii GPS uruchamia nagrania automatycznie w odpowiednim miejscu.', 
-      featureIcon: ''
+      featureIcon: 'gps.png'
     },
     {
       isBig: false,
       title: 'Podczerwień (IR)', 
       lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
-      featureIcon: ''
+      featureIcon: 'ir.png'
     },
     {
       isBig: false,
       title: 'Wyzwalanie zbliżeniowe (RFID)', 
       lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
-      featureIcon: ''},
+      featureIcon: 'rfid.png'},
   ]
