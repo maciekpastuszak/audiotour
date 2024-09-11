@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import React from 'react'
 
 type audioguideTechCard = {
@@ -24,7 +25,7 @@ const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc,
     return (
 <>
 {isBig ? (
-    <div className='relative w-full bg-white rounded-lg shadow-custom'>
+    <div className='relative w-full bg-white rounded-lg shadow-custom p-2'>
         <div className='flex flex-col gap-4 p-5 rounded-b-lg '>
             <h3 className='text-3xl font-semibold'>{title}</h3>
             <h4 className='text-xl font-bold'>{subTitle}</h4>
@@ -34,8 +35,10 @@ const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc,
             <p className='text-sm'><strong>{feature3}</strong>{feat3Desc}</p>
             {/* <p className='text-sm'>{summary}</p> */}
         </div>
-        <div className='hidden lg:block md:absolute max-w-64 h-full top-1 -right-16'>
-            <img src={deviceImg1} alt='Urządzenie' />
+        <div className='hidden lg:block md:absolute max-w-64 h-full top-5 -right-12'>
+            {deviceImg1 && (
+                <Image src={deviceImg1} width={256} height={267} alt='Urządzenie' />
+            )}
         </div>
     </div>
 ) : (
@@ -46,7 +49,7 @@ const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc,
     onMouseEnter={setActiveCard}
     >
         <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center'>
-            <img src={`/img/tech-icons/${featureIcon}`} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
+            <Image src={`/img/tech-icons/${featureIcon}`} width={48} height={48} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
             <h3 className='text-l font-semibold text-start lg:px-5'>{title}</h3>
         </div>
         <div className='p-3 rounded-b-lg'>

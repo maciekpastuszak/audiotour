@@ -124,21 +124,7 @@ export const navLinks = [
     { lat: 50.06465, lng: 19.94498, name: 'Kraków', link: '/krakow' },
   ];
 
-  export const devices = [
-    // {
-    //   isBig: true, 
-    //   title: "Audioprzewodnik G7", 
-    //   subTitle: "z klawiaturą numeryczną", 
-    //   lead: "Audioprzewodnik G7 przeznaczony jest do zwiedzania obiektów zamkniętych oraz przestrzeni otwartych. Może działać w dwóch trybach:", 
-    //   feature1: "- tryb automatyczny",
-    //   feat1Desc: " - urządzenie automatycznie uruchamia nagrania po wejściu do sali",
-    //   feature2: "- klawiatura numeryczna",
-    //   feat2Desc: " - użytkownik samodzielnie uruchamia nagragnia przez wybór odpowiedniego numeru na klawiaturze urządzenia",
-    //   feature3: "- tryb półautomatyczny",
-    //   feat3Desc: "- zwiedzający samodzielnie uruchamia nagrania po skierowaniu urządzenia na interesujący go eksponat zaopatrzony w odpowiedni nadajnik IR, lub etykietę NFC. (nadajniki i etykiety sprzedawane oddzielnie)",
-    //   summary: "Zwiedzający może używać urządzenia podobnie jak pilota do telewizora, wskazując na znacznik z symbolem słuchawek (technologia IR). Znaczniki NFC działają z kolei jak płatność zbliżeniowa kartą - zwiedzający przykłada urządzenie do wyznaczonego miejsca na ekspozycji.",
-    //   deviceImg1: "img/app-devices/hengda.png"
-    // },
+  export const deviceG7 = [
     {
       isBig: false,
       title: 'Wyzwalanie radiowe (RF)', 
@@ -162,4 +148,31 @@ export const navLinks = [
       title: 'Wyzwalanie zbliżeniowe (RFID)', 
       lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
       featureIcon: 'rfid.png'},
+  ]
+
+  export const deviceAG600 = [
+    {
+      isBig: false,
+      title: 'Wyzwalanie radiowe (RF)', 
+      lead: 'Audioprzewodnik na podstawie fal radiowych lokalizuje zwiedzającego wewnątrz obiektu i automatycznie uruchamia właściwe nagrania.', 
+      featureIcon: 'rf.png'
+    },
+    {
+      isBig: false,
+      title: 'Podczerwień (IR)', 
+      lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
+      featureIcon: 'ir.png'
+    },
+    {
+      isBig: false,
+      title: 'Wyzwalanie zbliżeniowe (RFID)', 
+      lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
+      featureIcon: 'rfid.png'
+    },
+    {
+      isBig: false,
+      title: 'Synchronizacja z multimediami', 
+      lead: 'Audioprzewodnik synchronizuje się z multimediami zainstalowanymi na ekspozycji. Dzięki temu zwiedzający zawsze słyszy ścieżkę dźwiękową w odpowiednim języku.', 
+      featureIcon: 'sync.png'
+    }
   ]
