@@ -1,10 +1,13 @@
 import AudioguideCard from '@/components/AudioguideCard'
+import InterTitle from '@/components/InterTitle'
 import { deviceG7, deviceAG600, deviceAG600c } from '@/constants'
 import React from 'react'
 
 const Audioprzewodniki = () => {
   return (
     <section id='audioprzewodniki' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3 py-7'>
+       
+       <InterTitle title='Poznaj funkcje Audioprzewodnika:' subTitle='Kliknij w wybraną funkcję, aby poznać jej działanie' />
        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
           <div className="w-full h-full md:w-1/2">
             <AudioguideCard 
@@ -49,7 +52,7 @@ const Audioprzewodniki = () => {
             <AudioguideCard 
              isBig={true}
              title="Audioprzewodnik AG-600"
-             subTitle="Audioprzewodnik automatyczny z klawiaturą numeryczną"
+             subTitle="automatyczny z klawiaturą numeryczną"
              lead="Audioprzewodnik AG-600 przeznaczony jest do zwiedzania obiektów zamkniętych oraz przestrzeni otwartych. Może działać w dwóch trybach:"
              feature1="- tryb automatyczny"
              feat1Desc="– w tym trybie audioprzewodnik lokalizuje aktualne położenie zwiedzającego i automatycznie rozpoczyna odtwarzanie odpowiedniego nagrania. Nagranie uruchamiane jest za pomocą specjalnego znacznika radiowego. Znaczniki radiowe są zasilane bateryjnie (powszechnie dostępne baterie typu AA) lub prądem (wedle wyboru)."

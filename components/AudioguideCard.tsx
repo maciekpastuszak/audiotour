@@ -25,12 +25,12 @@ const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, fea
     return (
 <>
 {isBig ? (
-    <div className='relative w-full bg-white rounded-lg shadow-custom p-2'>
+    <div className='relative w-full rounded-lg shadow-custom p-2 bg-gradient-to-r from-neutral-200 to-white'>
         <div className='flex flex-col gap-4 p-5 rounded-b-lg '>
             <h3 className='text-3xl font-semibold'>{title}</h3>
-            <h4 className='text-xl font-bold'>{subTitle}</h4>
+            <h4 className='text-xl font-bold w-2/3'>{subTitle}</h4>
             <p className='w-2/3'>{lead}</p>
-            <p className='text-sm'><strong>{feature1}</strong>{feat1Desc}</p>
+            <p className='text-sm w-2/3'><strong>{feature1}</strong>{feat1Desc}</p>
             <p className='text-sm'><strong>{feature2}</strong>{feat2Desc}</p>
             <p className='text-sm'><strong>{feature3}</strong>{feat3Desc}</p>
             {/* <p className='text-sm'>{summary}</p> */}
