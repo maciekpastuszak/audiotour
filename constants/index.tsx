@@ -176,3 +176,12 @@ export const navLinks = [
       featureIcon: 'sync.png'
     }
   ]
+
+  export const deviceAG600c = [
+    {
+      isBig: false,
+      title: 'Podczerwień (IR)', 
+      lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
+      featureIcon: 'ir.png'
+    }
+  ]

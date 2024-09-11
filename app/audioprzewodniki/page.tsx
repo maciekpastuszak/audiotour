@@ -1,5 +1,5 @@
-import AudioguideTechCard from '@/components/AudioguideTechCard'
-import { deviceG7, deviceAG600 } from '@/constants'
+import AudioguideCard from '@/components/AudioguideCard'
+import { deviceG7, deviceAG600, deviceAG600c } from '@/constants'
 import React from 'react'
 
 const Audioprzewodniki = () => {
@@ -7,7 +7,7 @@ const Audioprzewodniki = () => {
     <section id='audioprzewodniki' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3 py-7'>
        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
           <div className="w-full h-full md:w-1/2">
-            <AudioguideTechCard 
+            <AudioguideCard 
              isBig={true}
              title="Audioprzewodnik G7"
              subTitle="z klawiaturą numeryczną"
@@ -24,7 +24,7 @@ const Audioprzewodniki = () => {
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceG7.map((i) => (
-            <AudioguideTechCard 
+            <AudioguideCard 
                 isBig={false}
                 title={i.title}
                 lead={i.lead}
@@ -36,7 +36,7 @@ const Audioprzewodniki = () => {
 
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
           <div className="w-full h-full md:w-1/2">
-            <AudioguideTechCard 
+            <AudioguideCard 
              isBig={true}
              title="Audioprzewodnik AG-600"
              subTitle="Audioprzewodnik automatyczny z klawiaturą numeryczną"
@@ -53,7 +53,7 @@ const Audioprzewodniki = () => {
           </div>
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600.map((i) => (
-            <AudioguideTechCard 
+            <AudioguideCard 
                 isBig={false}
                 title={i.title}
                 lead={i.lead}
@@ -62,6 +62,36 @@ const Audioprzewodniki = () => {
             ))}
           </div>
         </div>
+
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+          <div className="w-full h-full md:w-1/2">
+            <AudioguideCard 
+             isBig={true}
+             title="Audioprzewodnik AG-600c"
+             subTitle="z klawiaturą numeryczną"
+             lead="Audioprzewodnik AG 600c przeznaczony jest do zwiedzania obiektów zamkniętych oraz przestrzeni otwartych. Może działać w dwóch trybach:"
+             feature1="- klawiatura numeryczna"
+             feat1Desc="- użytkownik samodzielnie uruchamia nagragnia przez wybór odpowiedniego numeru na klawiaturze urządzenia."
+             feature2="- tryb podczerwień"
+             feat2Desc=" - zwiedzający samodzielnie uruchamia nagrania po skierowaniu urządzenia na interesujący go eksponat zaopatrzony w odpowiedni nadajnik IR. (sprzedawany oddzielnie)"
+             feature3=""
+             feat3Desc=""
+             summary="Zwiedzający może używać urządzenia podobnie jak pilota do telewizora, wskazując na znacznik z symbolem słuchawek (technologia IR). Dodatkowo urządzenie umożliwia przewijanie wstecz i do przodu."
+             deviceImg1="/img/tech-devices/ag-600c-2.png"
+             />
+          </div>
+          <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
+            {deviceAG600c.map((i) => (
+            <AudioguideCard 
+                isBig={false}
+                title={i.title}
+                lead={i.lead}
+                featureIcon={i.featureIcon}
+            />
+            ))}
+          </div>
+        </div>
+
     </section>
   )
 }

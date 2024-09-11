@@ -21,7 +21,7 @@ type audioguideTechCard = {
     setActiveCard?: () => void
 }
 
-const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, feature2, feat2Desc, feature3, feat3Desc, featureIcon, summary, deviceImg1, setActiveCard }: audioguideTechCard) => {
+const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, feature2, feat2Desc, feature3, feat3Desc, featureIcon, summary, deviceImg1, setActiveCard }: audioguideTechCard) => {
     return (
 <>
 {isBig ? (
@@ -61,4 +61,4 @@ const AudioguideTechCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc,
     )
 }
 
-export default AudioguideTechCard
+export default AudioguideCard
