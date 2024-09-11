@@ -185,3 +185,18 @@ export const navLinks = [
       featureIcon: 'ir.png'
     }
   ]
+
+  export const deviceATV6 = [
+    {
+      isBig: false,
+      title: 'Pilot', 
+      lead: 'Pilot umożliwia obsłudze placówki sterowanie synchronizatorem na odległość. Jest to bardzo użyteczne w sytuacjach, kiedy synchronizator jest umieszczony w trudnodostępnych miejscach, np. na wysokości.',
+      featureIcon: 'ir.png'
+    },
+    {
+      isBig: false,
+      title: 'VGA/ HDMI', 
+      lead: 'Synchronizator jest wyposażony w porty VGA (D-SUB) oraz HDMI.',
+      featureIcon: 'ir.png'
+    }
+  ]

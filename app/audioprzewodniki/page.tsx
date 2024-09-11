@@ -92,6 +92,35 @@ const Audioprzewodniki = () => {
           </div>
         </div>
 
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+          <div className="w-full h-full md:w-1/2">
+            <AudioguideCard 
+             isBig={true}
+             title="Synchronizator ATV-6"
+             subTitle=""
+             lead="Pozwala na synchronizacje ścieżek dźwiękowych nagranych na audioprzewodnikach z urządzeniami multimedialnymi umieszczonymi na ekspozycji (tj. kioski multimedialne, telewizory, projektory itp.). Dzięki niemu zwiedzający zawsze słyszy ścieżkę dźwiękową w odpowiednim języku i odpowiednim miejscu ścieżki dźwiękowej. Typowym zastosowaniem synchronizatora jest udostępnianie ścieżek dźwiękowych prezentacji multimodalnych (np. filmów) zwiedzającym w języku wybranym przez nich na początku wycieczki. Może to się dobywać na dwa sposoby:"
+             feature1="Automatycznie – używając technologii radiowej (RF)"
+             feat1Desc="- po wejściu w zasięg znacznika (np. sala ekspozycyjna) synchronizator uruchomi zwiedzającemu ścieżkę dźwiękową prezentacji multimedialnej (np. filmu) wyświetlanej w tym miejscu. Ścieżka dźwiękowa przewinie się do odpowiedniego miejsca i otworzy w języku wybranym przez zwiedzającego na początku zwiedzania."
+             feature2="Ręcznie – używając technologii podczerwieni (IR)"
+             feat2Desc=" - ścieżka dźwiękowa prezentacji (np. do filmu) nie włączy się automatycznie. Zwiedzający musi najpierw skierować audioprzewodnik na synchronizator (działa podobne do pilota do telewizora). Dopiero wtedy ścieżka dźwiękowa przewinie się do odpowiedniego miejsca i otworzy w języku wybranym przez zwiedzającego na początku zwiedzania."
+             feature3=""
+             feat3Desc=""
+             summary=""
+             deviceImg1="/img/tech-devices/ag-600c-2.png"
+             />
+          </div>
+          <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
+            {deviceAG600c.map((i) => (
+            <AudioguideCard 
+                isBig={false}
+                title={i.title}
+                lead={i.lead}
+                featureIcon={i.featureIcon}
+            />
+            ))}
+          </div>
+        </div>
+
     </section>
   )
 }
