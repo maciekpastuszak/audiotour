@@ -35,6 +35,16 @@ const Audioprzewodniki = () => {
         </div>
 
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+        <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
+            {deviceAG600.map((i) => (
+            <AudioguideCard 
+                isBig={false}
+                title={i.title}
+                lead={i.lead}
+                featureIcon={i.featureIcon}
+            />
+            ))}
+          </div>
           <div className="w-full h-full md:w-1/2">
             <AudioguideCard 
              isBig={true}
@@ -50,16 +60,6 @@ const Audioprzewodniki = () => {
              summary="ryb automatyczny i ręczny można oczywiście połączyć. Wtedy w wybranych miejscach (np. salach) nagrania będą uruchamiać się automatycznie, a po ich wysłuchaniu zwiedzający będzie mógł przejść w tryb ręczny. W każdym momencie zwiedzający może wstrzymać nagranie, lub przewinąć je wstecz lub w przód."
              deviceImg1="/img/tech-devices/ag-600-front.png"
              />
-          </div>
-          <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
-            {deviceAG600.map((i) => (
-            <AudioguideCard 
-                isBig={false}
-                title={i.title}
-                lead={i.lead}
-                featureIcon={i.featureIcon}
-            />
-            ))}
           </div>
         </div>
 

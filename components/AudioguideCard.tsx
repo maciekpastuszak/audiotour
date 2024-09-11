@@ -48,8 +48,8 @@ const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, fea
     whileTap={{ scale: 0.9 }}
     onMouseEnter={setActiveCard}
     >
-        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center'>
-            <Image src={`/img/tech-icons/${featureIcon}`} width={48} height={48} className='w-28 md:w-14 h-28 md:h-14' alt='Ikona karty' />
+        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center bg-gradient-to-r from-neutral-300 to-stone-400'>
+            <Image src={`/img/tech-icons/${featureIcon}`} width={48} height={48} className='w-28 md:w-14 h-28 md:h-14 bg-white p-2 m-1 rounded-2xl' alt='Ikona karty' />
             <h3 className='text-l font-semibold text-start lg:px-5'>{title}</h3>
         </div>
         <div className='p-3 rounded-b-lg'>
