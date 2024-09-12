@@ -6,9 +6,10 @@ type AudioguideSpecProps ={
     size: string,
     screen: string,
     weight: string,
+    battery: string,
 }
 
-const AudioguideSpec = ({ imgSrc, size, screen, weight }: AudioguideSpecProps) => {
+const AudioguideSpec = ({ imgSrc, size, screen, weight, battery }: AudioguideSpecProps) => {
   return (
     <div className='flex flex-row gap-6 bg-white p-12 rounded-lg shadow-custom'>
         <div className='w-80'>

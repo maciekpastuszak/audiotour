@@ -41,7 +41,7 @@ const Audioprzewodniki = () => {
         </div>
 
         <div className='mb-10'>
-          <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g'/>
+          <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g' battery='' />
         </div>
 
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
@@ -75,7 +75,7 @@ const Audioprzewodniki = () => {
         </div>
 
         <div className='mb-10'>
-          <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g'/>
+          <AudioguideSpec imgSrc='/img/tech-devices/ag-600.png' size='110 x 48 x 15 mm' screen='2.9 "cm"' weight='64 g' battery='24 godziny' />
         </div>
 
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
