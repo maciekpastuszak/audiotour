@@ -25,7 +25,7 @@ const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, fea
     return (
 <>
 {isBig ? (
-    <div className='relative w-full rounded-lg shadow-custom p-2 bg-gradient-to-r from-neutral-200 to-white'>
+    <div className='relative w-full rounded-lg shadow-custom p-2 bg-white'>
         <div className='flex flex-col gap-4 p-5 rounded-b-lg '>
             <h3 className='text-3xl font-semibold'>{title}</h3>
             <h4 className='text-xl font-bold w-2/3'>{subTitle}</h4>
@@ -48,8 +48,10 @@ const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, fea
     whileTap={{ scale: 0.9 }}
     onMouseEnter={setActiveCard}
     >
-        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center bg-gradient-to-r from-neutral-300 to-stone-400'>
-            <Image src={`/img/tech-icons/${featureIcon}`} width={48} height={48} className='w-28 md:w-14 h-28 md:h-14 bg-white p-2 m-1 rounded-2xl' alt='Ikona karty' />
+        <div className='py-10 md:p-1 bg-cover bg-center rounded-t-lg flex justify-center md:justify-start items-center bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
+            <div className='relative w-12 h-12 rounded-full p-3 m-1 bg-white'>
+                <Image src={`/img/tech-icons/${featureIcon}`} fill alt='Ikona karty' className='p-2'/>
+            </div>
             <h3 className='text-l font-semibold text-start lg:px-5'>{title}</h3>
         </div>
         <div className='p-3 rounded-b-lg'>

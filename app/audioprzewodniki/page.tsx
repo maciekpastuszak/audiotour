@@ -44,7 +44,7 @@ const Audioprzewodniki = () => {
           <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g' battery='' />
         </div>
 
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-5">
         <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600.map((i) => (
             <AudioguideCard 

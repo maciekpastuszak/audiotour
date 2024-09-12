@@ -11,9 +11,9 @@ type AudioguideSpecProps ={
 
 const AudioguideSpec = ({ imgSrc, size, screen, weight, battery }: AudioguideSpecProps) => {
   return (
-    <div className='flex flex-row gap-6 bg-white p-12 rounded-lg shadow-custom'>
-        <div className='w-80'>
-            <Image src={imgSrc} width={384} height={378} alt="Device image" />
+    <div className='flex flex-row gap-6 bg-white px-12 rounded-lg shadow-custom'>
+        <div className='max-w-80 py-5'>
+            <Image src={imgSrc} width={1} height={1} layout="responsive" alt="Device image" />
         </div>
         <div className='flex flex-col justify-center gap-5 ps-5'>
             <div className='flex'>
