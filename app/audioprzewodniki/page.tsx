@@ -28,10 +28,11 @@ const Audioprzewodniki = () => {
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceG7.map((i) => (
             <AudioguideCard 
-                isBig={false}
-                title={i.title}
-                lead={i.lead}
-                featureIcon={i.featureIcon}
+              key={i.id}
+              isBig={false}
+              title={i.title}
+              lead={i.lead}
+              featureIcon={i.featureIcon}
             />
             ))}
           </div>
@@ -41,10 +42,11 @@ const Audioprzewodniki = () => {
         <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600.map((i) => (
             <AudioguideCard 
-                isBig={false}
-                title={i.title}
-                lead={i.lead}
-                featureIcon={i.featureIcon}
+              key={i.id}
+              isBig={false}
+              title={i.title}
+              lead={i.lead}
+              featureIcon={i.featureIcon}
             />
             ))}
           </div>
@@ -86,10 +88,11 @@ const Audioprzewodniki = () => {
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600c.map((i) => (
             <AudioguideCard 
-                isBig={false}
-                title={i.title}
-                lead={i.lead}
-                featureIcon={i.featureIcon}
+              key={i.id}
+              isBig={false}
+              title={i.title}
+              lead={i.lead}
+              featureIcon={i.featureIcon}
             />
             ))}
           </div>
@@ -115,10 +118,11 @@ const Audioprzewodniki = () => {
           <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600c.map((i) => (
             <AudioguideCard 
-                isBig={false}
-                title={i.title}
-                lead={i.lead}
-                featureIcon={i.featureIcon}
+              key={i.id}
+              isBig={false}
+              title={i.title}
+              lead={i.lead}
+              featureIcon={i.featureIcon}
             />
             ))}
           </div>
