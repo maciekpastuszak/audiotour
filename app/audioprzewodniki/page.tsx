@@ -10,7 +10,7 @@ const Audioprzewodniki = () => {
        
        <InterTitle title='Poznaj funkcje Audioprzewodnika:' subTitle='Kliknij w wybraną funkcję, aby poznać jej działanie' />
        
-       <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
+       <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-5">
           <div className="w-full h-full md:w-1/2">
             <AudioguideCard 
              isBig={true}
@@ -106,6 +106,10 @@ const Audioprzewodniki = () => {
             />
             ))}
           </div>
+        </div>
+
+        <div className='mb-10'>
+          <AudioguideSpec imgSrc='/img/tech-devices/ag600hand.png' size='110 x 48 x 15 mm' screen='2.9 "cm"' weight='64 g' battery='24 godziny' />
         </div>
 
         <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">

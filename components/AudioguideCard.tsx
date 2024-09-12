@@ -35,7 +35,7 @@ const AudioguideCard = ({ isBig, title, subTitle, lead, feature1, feat1Desc, fea
             <p className='text-sm'><strong>{feature3}</strong>{feat3Desc}</p>
             {/* <p className='text-sm'>{summary}</p> */}
         </div>
-        <div className='hidden lg:block md:absolute max-w-64 h-full top-5 -right-12'>
+        <div className='hidden lg:block absolute max-w-52 h-full top-12 -right-10'>
             {deviceImg1 && (
                 <Image src={deviceImg1} width={256} height={267} alt='Urządzenie' />
             )}
