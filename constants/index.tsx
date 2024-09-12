@@ -123,3 +123,99 @@ export const navLinks = [
     { lat: 52.237049, lng: 21.017532, name: 'Warsaw', link: '/warsaw' },
     { lat: 50.06465, lng: 19.94498, name: 'Kraków', link: '/krakow' },
   ];
+
+  export const deviceG7 = [
+    {
+      id: '01',
+      isBig: false,
+      title: 'Wyzwalanie radiowe (RF)', 
+      lead: 'Audioprzewodnik na podstawie fal radiowych lokalizuje zwiedzającego wewnątrz obiektu i automatycznie uruchamia właściwe nagrania.', 
+      featureIcon: 'rf.png'
+    },
+    {
+      id: '02',
+      isBig: false,
+      title: 'Lokalizacja GPS', 
+      lead: 'Audioprzewodnik używając technologii GPS uruchamia nagrania automatycznie w odpowiednim miejscu.', 
+      featureIcon: 'gps.png'
+    },
+    {
+      id: '03',
+      isBig: false,
+      title: 'Podczerwień (IR)', 
+      lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
+      featureIcon: 'ir.png'
+    },
+    {
+      id: '04',
+      isBig: false,
+      title: 'Wyzwalanie zbliżeniowe (RFID)', 
+      lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
+      featureIcon: 'rfid.png'
+    },
+    {
+      id: '05',
+      isBig: false,
+      title: 'Synchronizacja z multimediami', 
+      lead: 'Audioprzewodnik synchronizuje się z multimediami zainstalowanymi na ekspozycji. Dzięki temu zwiedzający zawsze słyszy ścieżkę dźwiękową w odpowiednim języku.', 
+      featureIcon: 'sync.png'
+    },
+  ]
+
+  export const deviceAG600 = [
+    {
+      id: '01',
+      isBig: false,
+      title: 'Wyzwalanie radiowe (RF)', 
+      lead: 'Audioprzewodnik na podstawie fal radiowych lokalizuje zwiedzającego wewnątrz obiektu i automatycznie uruchamia właściwe nagrania.', 
+      featureIcon: 'rf.png'
+    },
+    {
+      id: '02',
+      isBig: false,
+      title: 'Podczerwień (IR)', 
+      lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
+      featureIcon: 'ir.png'
+    },
+    {
+      id: '03',
+      isBig: false,
+      title: 'Wyzwalanie zbliżeniowe (RFID)', 
+      lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
+      featureIcon: 'rfid.png'
+    },
+    {
+      id: '04',
+      isBig: false,
+      title: 'Synchronizacja z multimediami', 
+      lead: 'Audioprzewodnik synchronizuje się z multimediami zainstalowanymi na ekspozycji. Dzięki temu zwiedzający zawsze słyszy ścieżkę dźwiękową w odpowiednim języku.', 
+      featureIcon: 'sync.png'
+    }
+  ]
+
+  export const deviceAG600c = [
+    {
+      id: '01',
+      isBig: false,
+      title: 'Podczerwień (IR)', 
+      lead: 'Dzięki rozmieszczonym na ekspozycji znacznikom, zwiedzający może samodzielnie włączać nagrania bez wpisywania numerków.',
+      featureIcon: 'ir.png'
+    }
+  ]
+
+  export const deviceATV6 = [
+    {
+      id: '01',
+      isBig: false,
+      title: 'Pilot', 
+      lead: 'Pilot umożliwia obsłudze placówki sterowanie synchronizatorem na odległość. Jest to bardzo użyteczne w sytuacjach, kiedy synchronizator jest umieszczony w trudnodostępnych miejscach, np. na wysokości.',
+      featureIcon: 'ir.png'
+    },
+    {
+      id: '02',
+      isBig: false,
+      title: 'VGA/ HDMI', 
+      lead: 'Synchronizator jest wyposażony w porty VGA (D-SUB) oraz HDMI.',
+      featureIcon: 'ir.png'
+    }
+  ]
