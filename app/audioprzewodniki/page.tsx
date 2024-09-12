@@ -1,4 +1,5 @@
 import AudioguideCard from '@/components/AudioguideCard'
+import AudioguideSpec from '@/components/AudioguideSpec'
 import InterTitle from '@/components/InterTitle'
 import { deviceG7, deviceAG600, deviceAG600c } from '@/constants'
 import React from 'react'
@@ -8,7 +9,8 @@ const Audioprzewodniki = () => {
     <section id='audioprzewodniki' className='w-full flex flex-col justify-center items-center bg-gray-200 pb-3 py-7'>
        
        <InterTitle title='Poznaj funkcje Audioprzewodnika:' subTitle='Kliknij w wybraną funkcję, aby poznać jej działanie' />
-       <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+       
+       <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
           <div className="w-full h-full md:w-1/2">
             <AudioguideCard 
              isBig={true}
@@ -38,7 +40,11 @@ const Audioprzewodniki = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+        <div className='mb-10'>
+          <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g'/>
+        </div>
+
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
         <div className="w-full md:w-1/2 flex flex-wrap justify-between gap-3">
             {deviceAG600.map((i) => (
             <AudioguideCard 
@@ -68,7 +74,11 @@ const Audioprzewodniki = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
+        <div className='mb-10'>
+          <AudioguideSpec imgSrc='/img/tech-devices/hengda-02.png' size='162 x 68 x 28 mm' screen='2.8 "cm"' weight='132 g'/>
+        </div>
+
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
           <div className="w-full h-full md:w-1/2">
             <AudioguideCard 
              isBig={true}
@@ -98,8 +108,8 @@ const Audioprzewodniki = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 my-3">
-          <div className="w-full h-full md:w-1/2">
+        <div className="hidden md:flex md:flex-nowrap md:justify-center md:w-5/6 max-w-[1066px] md:gap-3 mb-10">
+          <div className="w-full h-full md:w-1/2"> 
             <AudioguideCard 
              isBig={true}
              title="Synchronizator ATV-6"

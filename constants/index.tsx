@@ -151,7 +151,15 @@ export const navLinks = [
       isBig: false,
       title: 'Wyzwalanie zbliżeniowe (RFID)', 
       lead: 'Umożliwia wyzwalanie nagrań "zbliżeniowo". Po przyłożeniu urządzenia do znacznika w formie karty nagranie uruchamia się automatycznie.', 
-      featureIcon: 'rfid.png'},
+      featureIcon: 'rfid.png'
+    },
+    {
+      id: '05',
+      isBig: false,
+      title: 'Synchronizacja z multimediami', 
+      lead: 'Audioprzewodnik synchronizuje się z multimediami zainstalowanymi na ekspozycji. Dzięki temu zwiedzający zawsze słyszy ścieżkę dźwiękową w odpowiednim języku.', 
+      featureIcon: 'sync.png'
+    },
   ]
 
   export const deviceAG600 = [
